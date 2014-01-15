@@ -74,6 +74,10 @@ Use ``.s-break`` for clearing floats if needed.
     </article>
     <div class="s-break"></div>
 
+**Responsive Classes**
+
+By default, grids will target all screens. To target small, medium, large and extra large, use ``.s-x-y`` where x is ``sm``, ``md``, ``lg``, or ``xl`` and y is the number of columns, 1-12.
+
 ##### .s-wrapper
 
 Creates a simple padded container whose width maxes out at 1200px.
