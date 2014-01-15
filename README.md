@@ -1,4 +1,6 @@
 Start.css
 =========
 
-A minimal, modern alternative to frameworks like Bootstrap and Foundation
+Toying with this idea right now. I don't have anything for you folks to download just yet. *Watch* the repo for updates.
+
+
