@@ -116,6 +116,12 @@ blockquote,
   margin: 12.5px 0;
   line-height: 21px;
 }
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 21px;
+}
 h1 {
   font-size: 41px;
   margin: 25px 0;
@@ -331,6 +337,156 @@ a.s-violet {
     width: 60%;
   }
   .s-sm-4f {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .s-md-12 {
+    width: 100%;
+  }
+  .s-md-11 {
+    width: 91.66666666666666%;
+  }
+  .s-md-10 {
+    width: 83.33333333333334%;
+  }
+  .s-md-9 {
+    width: 75%;
+  }
+  .s-md-8 {
+    width: 66.66666666666666%;
+  }
+  .s-md-7 {
+    width: 58.333333333333336%;
+  }
+  .s-md-6 {
+    width: 50%;
+  }
+  .s-md-5 {
+    width: 41.66666666666667%;
+  }
+  .s-md-4 {
+    width: 33.33333333333333%;
+  }
+  .s-md-3 {
+    width: 25%;
+  }
+  .s-md-2 {
+    width: 16.666666666666664%;
+  }
+  .s-md-1 {
+    width: 8.333333333333332%;
+  }
+  .s-md-1f {
+    width: 20%;
+  }
+  .s-md-2f {
+    width: 40%;
+  }
+  .s-md-3f {
+    width: 60%;
+  }
+  .s-md-4f {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .s-lg-12 {
+    width: 100%;
+  }
+  .s-lg-11 {
+    width: 91.66666666666666%;
+  }
+  .s-lg-10 {
+    width: 83.33333333333334%;
+  }
+  .s-lg-9 {
+    width: 75%;
+  }
+  .s-lg-8 {
+    width: 66.66666666666666%;
+  }
+  .s-lg-7 {
+    width: 58.333333333333336%;
+  }
+  .s-lg-6 {
+    width: 50%;
+  }
+  .s-lg-5 {
+    width: 41.66666666666667%;
+  }
+  .s-lg-4 {
+    width: 33.33333333333333%;
+  }
+  .s-lg-3 {
+    width: 25%;
+  }
+  .s-lg-2 {
+    width: 16.666666666666664%;
+  }
+  .s-lg-1 {
+    width: 8.333333333333332%;
+  }
+  .s-lg-1f {
+    width: 20%;
+  }
+  .s-lg-2f {
+    width: 40%;
+  }
+  .s-lg-3f {
+    width: 60%;
+  }
+  .s-lg-4f {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .s-xl-12 {
+    width: 100%;
+  }
+  .s-xl-11 {
+    width: 91.66666666666666%;
+  }
+  .s-xl-10 {
+    width: 83.33333333333334%;
+  }
+  .s-xl-9 {
+    width: 75%;
+  }
+  .s-xl-8 {
+    width: 66.66666666666666%;
+  }
+  .s-xl-7 {
+    width: 58.333333333333336%;
+  }
+  .s-xl-6 {
+    width: 50%;
+  }
+  .s-xl-5 {
+    width: 41.66666666666667%;
+  }
+  .s-xl-4 {
+    width: 33.33333333333333%;
+  }
+  .s-xl-3 {
+    width: 25%;
+  }
+  .s-xl-2 {
+    width: 16.666666666666664%;
+  }
+  .s-xl-1 {
+    width: 8.333333333333332%;
+  }
+  .s-xl-1f {
+    width: 20%;
+  }
+  .s-xl-2f {
+    width: 40%;
+  }
+  .s-xl-3f {
+    width: 60%;
+  }
+  .s-xl-4f {
     width: 80%;
   }
 }
