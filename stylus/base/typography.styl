@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5
+  font-family: $font-headings
+  font-size: $font-headings-baseSize
+  color: $black
+  margin-bottom: ($space * 0.4)
+p, em, strong, i, b, ul, ol, li table, blockquote
+  font-family: $font-default
+  font-size: $font-baseSize
+  color: $black
+  margin-bottom: $space
+  line-height: $font-baseLineHeight
+
+h1
+  font-size: $font-headings-baseSize + 20
+  margin-bottom: $space
+h2
+  font-size: $font-headings-baseSize + 16
+  margin-bottom: ($space * 0.7)
+h3
+  font-size: $font-headings-baseSize + 10
+  margin-bottom: ($space * 0.65)
+h4
+  font-size: $font-headings-baseSize + 3
+  margin-bottom: ($space * 0.5)
+
+blockquote
+  font-family: $font-serif
+  margin: $space
+  font-style: italic
+  font-size: $font-baseSize + 14
+  line-height: $font-baseSize + 24
+  &:before
+    content: open-quote
+    font-size: 70px
+    margin-left: -30px

@@ -1,0 +1,20 @@
+{
+  "name": "start.css",
+  "version": "0.1.0",
+  "description": "A basic and modern CSS/JS framework",
+  "keywords": [
+  ],
+  "homepage": "http://adamux.com",
+  "bugs": "https://github.com/ajkochanowicz/Start.css/issues",
+  "author": "Adam Kochanowicz",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ajkochanowicz/Start.css.git"
+  },
+  "dependencies": {
+    "nib": "x.x.x"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

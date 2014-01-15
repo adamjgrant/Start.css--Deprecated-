@@ -1,0 +1,227 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 21px;
+  color: #333;
+  margin-bottom: 10px;
+}
+p,
+em,
+strong,
+i,
+b,
+ul,
+ol,
+li table,
+blockquote {
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 25px;
+  line-height: 21px;
+}
+h1 {
+  font-size: 41px;
+  margin-bottom: 25px;
+}
+h2 {
+  font-size: 37px;
+  margin-bottom: 17.5px;
+}
+h3 {
+  font-size: 31px;
+  margin-bottom: 16.25px;
+}
+h4 {
+  font-size: 24px;
+  margin-bottom: 12.5px;
+}
+blockquote {
+  font-family: 'Baskerville', 'Palatino', 'Times New Roma', serif;
+  margin: 25px;
+  font-style: italic;
+  font-size: 30px;
+  line-height: 40px;
+}
+blockquote:before {
+  content: open-quote;
+  font-size: 70px;
+  margin-left: -30px;
+}
+.s-wrapper {
+  padding: 25px;
+  max-width: 1200px;
+  display: block;
+  margin: 0px auto;
+}
+.s-break {
+  clear: both;
+}
+.s-col {
+  padding-right: 25px;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.s-col:last {
+  padding-right: 0;
+}
+.s-20 {
+  width: 100%;
+}
+.s-19 {
+  width: 95%;
+}
+.s-18 {
+  width: 90%;
+}
+.s-17 {
+  width: 85%;
+}
+.s-16 {
+  width: 80%;
+}
+.s-15 {
+  width: 75%;
+}
+.s-14 {
+  width: 70%;
+}
+.s-13 {
+  width: 65%;
+}
+.s-12 {
+  width: 60%;
+}
+.s-11 {
+  width: 55.00000000000001%;
+}
+.s-10 {
+  width: 50%;
+}
+.s-9 {
+  width: 45%;
+}
+.s-8 {
+  width: 40%;
+}
+.s-7 {
+  width: 35%;
+}
+.s-6 {
+  width: 30%;
+}
+.s-5 {
+  width: 25%;
+}
+.s-4 {
+  width: 20%;
+}
+.s-3 {
+  width: 15%;
+}
+.s-2 {
+  width: 10%;
+}
+.s-1 {
+  width: 5%;
+}
+hr {
+  border: 1px solid #d3d3d3;
+  margin: 25px 0;
+}
