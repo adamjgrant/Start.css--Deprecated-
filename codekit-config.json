@@ -214,15 +214,15 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/node_modules\/nib\/lib\/nib\/color-image.styl" : {
+    "\/node_modules\/nib\/lib\/nib\/iconic.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/color-image.styl",
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/iconic.styl",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/css\/color-image.css",
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/css\/iconic.css",
       "fileType" : 8,
       "debugStyle" : 0
     },
@@ -235,17 +235,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/nib\/lib\/nib\/text\/aliases.styl" : {
-      "ignoreWasSetByUser" : 0,
+    "\/jade\/layout.jade" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/text\/aliases.styl",
+      "inputAbbreviatedPath" : "\/jade\/layout.jade",
       "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/css\/aliases.css",
-      "fileType" : 8,
-      "debugStyle" : 0
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/layout.html",
+      "fileType" : 512
     },
     "\/stylus\/base\/grid.styl" : {
       "ignoreWasSetByUser" : 0,
@@ -256,18 +255,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/stylus\/css\/grid.css",
-      "fileType" : 8,
-      "debugStyle" : 0
-    },
-    "\/node_modules\/nib\/lib\/nib\/iconic.styl" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/iconic.styl",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/css\/iconic.css",
       "fileType" : 8,
       "debugStyle" : 0
     },
@@ -283,16 +270,29 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/jade\/layout.jade" : {
-      "ignoreWasSetByUser" : 1,
+    "\/node_modules\/nib\/lib\/nib\/color-image.styl" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/jade\/layout.jade",
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/color-image.styl",
       "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/layout.html",
-      "fileType" : 512
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/css\/color-image.css",
+      "fileType" : 8,
+      "debugStyle" : 0
+    },
+    "\/node_modules\/nib\/lib\/nib\/text\/aliases.styl" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/text\/aliases.styl",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/css\/aliases.css",
+      "fileType" : 8,
+      "debugStyle" : 0
     },
     "\/stylus\/components\/hr.styl" : {
       "ignoreWasSetByUser" : 0,
@@ -324,7 +324,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/start.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/node_modules\/nib\/lib\/nib\/flex.styl" : {
@@ -345,7 +345,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 2048
     },
     "\/stylus\/base\/index.styl" : {
@@ -396,18 +396,6 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/node_modules\/nib\/lib\/nib\/text\/replace-text.styl" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/text\/replace-text.styl",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/css\/replace-text.css",
-      "fileType" : 8,
-      "debugStyle" : 0
-    },
     "\/node_modules\/nib\/lib\/nib\/text\/ellipsis.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -417,6 +405,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/css\/ellipsis.css",
+      "fileType" : 8,
+      "debugStyle" : 0
+    },
+    "\/stylus\/components\/button.styl" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/stylus\/components\/button.styl",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylus\/css\/button.css",
       "fileType" : 8,
       "debugStyle" : 0
     },
@@ -450,6 +450,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/css\/positions.css",
+      "fileType" : 8,
+      "debugStyle" : 0
+    },
+    "\/node_modules\/nib\/lib\/nib\/text\/replace-text.styl" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/text\/replace-text.styl",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/css\/replace-text.css",
       "fileType" : 8,
       "debugStyle" : 0
     },

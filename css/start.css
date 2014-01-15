@@ -106,8 +106,10 @@ i,
 b,
 ul,
 ol,
-li table,
-blockquote {
+li,
+table,
+blockquote,
+.s-btn {
   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
   font-size: 16px;
   color: #333;
@@ -142,6 +144,78 @@ blockquote:before {
   font-size: 70px;
   margin-left: -30px;
 }
+p.s-red,
+em.s-red,
+strong.s-red,
+i.s-red,
+b.s-red,
+ul.s-red,
+ol.s-red,
+li.s-red,
+blockquote.s-red,
+a.s-red {
+  color: #ca3518;
+}
+p.s-orange,
+em.s-orange,
+strong.s-orange,
+i.s-orange,
+b.s-orange,
+ul.s-orange,
+ol.s-orange,
+li.s-orange,
+blockquote.s-orange,
+a.s-orange {
+  color: #ff8c00;
+}
+p.s-yellow,
+em.s-yellow,
+strong.s-yellow,
+i.s-yellow,
+b.s-yellow,
+ul.s-yellow,
+ol.s-yellow,
+li.s-yellow,
+blockquote.s-yellow,
+a.s-yellow {
+  color: #ffd700;
+}
+p.s-green,
+em.s-green,
+strong.s-green,
+i.s-green,
+b.s-green,
+ul.s-green,
+ol.s-green,
+li.s-green,
+blockquote.s-green,
+a.s-green {
+  color: #228b22;
+}
+p.s-blue,
+em.s-blue,
+strong.s-blue,
+i.s-blue,
+b.s-blue,
+ul.s-blue,
+ol.s-blue,
+li.s-blue,
+blockquote.s-blue,
+a.s-blue {
+  color: #6495ed;
+}
+p.s-violet,
+em.s-violet,
+strong.s-violet,
+i.s-violet,
+b.s-violet,
+ul.s-violet,
+ol.s-violet,
+li.s-violet,
+blockquote.s-violet,
+a.s-violet {
+  color: #8b008b;
+}
 .s-wrapper {
   padding: 25px;
   max-width: 1200px;
@@ -158,70 +232,245 @@ blockquote:before {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.s-col:last {
+.s-col:last-child {
   padding-right: 0;
 }
-.s-20 {
+.s-12 {
   width: 100%;
 }
-.s-19 {
-  width: 95%;
-}
-.s-18 {
-  width: 90%;
-}
-.s-17 {
-  width: 85%;
-}
-.s-16 {
-  width: 80%;
-}
-.s-15 {
-  width: 75%;
-}
-.s-14 {
-  width: 70%;
-}
-.s-13 {
-  width: 65%;
-}
-.s-12 {
-  width: 60%;
-}
 .s-11 {
-  width: 55.00000000000001%;
+  width: 91.66666666666666%;
 }
 .s-10 {
-  width: 50%;
+  width: 83.33333333333334%;
 }
 .s-9 {
-  width: 45%;
+  width: 75%;
 }
 .s-8 {
-  width: 40%;
+  width: 66.66666666666666%;
 }
 .s-7 {
-  width: 35%;
+  width: 58.333333333333336%;
 }
 .s-6 {
-  width: 30%;
+  width: 50%;
 }
 .s-5 {
-  width: 25%;
+  width: 41.66666666666667%;
 }
 .s-4 {
-  width: 20%;
+  width: 33.33333333333333%;
 }
 .s-3 {
-  width: 15%;
+  width: 25%;
 }
 .s-2 {
-  width: 10%;
+  width: 16.666666666666664%;
 }
 .s-1 {
-  width: 5%;
+  width: 8.333333333333332%;
+}
+.s-1f {
+  width: 20%;
+}
+.s-2f {
+  width: 40%;
+}
+.s-3f {
+  width: 60%;
+}
+.s-4f {
+  width: 80%;
+}
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-moz-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-o-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-ms-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.s-modal {
+  display: none;
+  width: 500px;
+  left: 50%;
+  top: 50px;
+  margin-left: -250px;
+  min-height: 100px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.4);
+  z-index: 11;
+  padding: 15px;
+  padding-top: 0px;
+  position: fixed;
+  outline: 9999px solid rgba(0,0,0,0.25);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-animation-duration: 0.25s;
+  -moz-animation-duration: 0.25s;
+  -o-animation-duration: 0.25s;
+  -ms-animation-duration: 0.25s;
+  animation-duration: 0.25s;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  -ms-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  -o-animation-timing-function: ease;
+  -ms-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.s-modal[style="display: block;"] {
+  -webkit-animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
+  -o-animation-name: fadeInDown;
+  -ms-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+.s-modal .close {
+  float: right;
+  cursor: pointer;
+}
+.s-modal .btn {
+  float: right;
+  margin-left: 5px;
 }
 hr {
   border: 1px solid #d3d3d3;
   margin: 25px 0;
+}
+.s-btn {
+  padding: 10px 20px;
+  background-color: #d3d3d3;
+  color: #333;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.s-btn:hover {
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(255,255,255,0.3) inset;
+  box-shadow: 2px 2px 2px 1px rgba(255,255,255,0.3) inset;
+}
+.s-btn:active {
+  -webkit-box-shadow: -2px -2px 2px 1px rgba(255,255,255,0.3) inset;
+  box-shadow: -2px -2px 2px 1px rgba(255,255,255,0.3) inset;
+}
+.s-btn.s-red {
+  background-color: #ca3518;
+  color: #fff;
+}
+.s-btn.s-orange {
+  background-color: #ff8c00;
+  color: #fff;
+}
+.s-btn.s-yellow {
+  background-color: #ffd700;
+  color: #333;
+}
+.s-btn.s-green {
+  background-color: #228b22;
+  color: #fff;
+}
+.s-btn.s-blue {
+  background-color: #6495ed;
+  color: #fff;
+}
+.s-btn.s-violet {
+  background-color: #8b008b;
+  color: #fff;
 }

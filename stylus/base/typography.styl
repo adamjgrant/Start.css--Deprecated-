@@ -3,7 +3,17 @@ h1, h2, h3, h4, h5
   font-size: $font-headings-baseSize
   color: $black
   margin-bottom: ($space * 0.4)
-p, em, strong, i, b, ul, ol, li table, blockquote
+p, 
+em, 
+strong, 
+i, 
+b, 
+ul, 
+ol, 
+li, 
+table, 
+blockquote,
+.s-btn
   font-family: $font-default
   font-size: $font-baseSize
   color: $black
@@ -33,3 +43,29 @@ blockquote
     content: open-quote
     font-size: 70px
     margin-left: -30px
+
+// COLORS
+
+p, 
+em, 
+strong, 
+i, 
+b, 
+ul, 
+ol, 
+li,
+blockquote,
+a
+  &.s-
+    &red
+      color: $red
+    &orange
+      color: $orange
+    &yellow
+      color: $yellow
+    &green
+      color: $green
+    &blue
+      color: $blue
+    &violet
+      color: $violet

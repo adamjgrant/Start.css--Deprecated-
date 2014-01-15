@@ -1,4 +1,4 @@
-col(x=20)
+col(x=12)
   width: (100% * (x/$columns))
 
 .s-
@@ -8,24 +8,8 @@ col(x=20)
     padding-right: $space
     float: left
     box-sizing(border-box)
-    &:last
+    &:last-child
       padding-right: 0
-  &20 
-    col(20)
-  &19
-    col(19)
-  &18
-    col(18)
-  &17
-    col(17)
-  &16
-    col(16)
-  &15
-    col(15)
-  &14
-    col(14)
-  &13
-    col(13)
   &12
     col(12)
   &11
@@ -50,3 +34,11 @@ col(x=20)
     col(2)
   &1
     col(1)
+  &1f
+    width: (100% * 1/5)  
+  &2f
+    width: (100% * 2/5)
+  &3f
+    width: (100% * 3/5)
+  &4f
+    width: (100% * 4/5)
