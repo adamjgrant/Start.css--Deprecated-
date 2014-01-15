@@ -9,4 +9,10 @@ html(lang="en")
     main
       block content
     footer
+  script(src="http://code.jquery.com/jquery-2.0.3.min.js")
   script(src="js/start.js")
+  script.
+    $('p, span').s_endconcat()
+    $('#modal').click(function() {
+      $('.s-modal').fadeIn('fast')
+    }) 

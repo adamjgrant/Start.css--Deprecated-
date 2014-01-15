@@ -78,6 +78,30 @@ Use ``.s-break`` for clearing floats if needed.
 
 Creates a simple padded container whose width maxes out at 1200px.
 
+### Other tools
+
+#### .s-endconcat
+
+Used with start.js, this will make sure one word is never alone on the last line. Based on [BuddySystem](http://codepen.io/ajkochanowicz/pen/ezEmp)
+
+Optionally use this class or call ``$(element).s_endconcat()`` where ``element`` is the element(s) to apply to.
+
+This must be done to the child-most element containing text. So
+
+    <div class="s-endconcat">
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+Will not work, but... 
+
+    <div>
+       <p class="s-endconcat">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+...will.
+
 ## File Structure
 
 ### Distributables

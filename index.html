@@ -37,36 +37,47 @@
       </article>
       <article>
         <h1>Buttons</h1>
-        <div class="s-col s-2">
-          <button class="s-btn">Default</button>
-          <p>Default</p>
+        <div class="s-col s-4">
+          <button id="modal" class="s-btn">Default</button>
+          <p>Default, click to launch a modal</p>
         </div>
-        <div class="s-col s-2">
+        <div class="s-col s-4">
           <button class="s-btn s-red">Red</button>
           <p class="s-red">Red</p>
         </div>
-        <div class="s-col s-2">
+        <div class="s-col s-4">
           <button class="s-btn s-orange">Orange</button>
           <p class="s-orange">Orange</p>
         </div>
-        <div class="s-col s-2">
+      </article>
+      <article>
+        <div class="s-col s-4">
           <button class="s-btn s-yellow">Yellow</button>
           <p class="s-yellow">Yellow</p>
         </div>
-        <div class="s-col s-2">
+        <div class="s-col s-4">
           <button class="s-btn s-green">Green</button>
           <p class="s-green">Green</p>
         </div>
-        <div class="s-col s-2">
+        <div class="s-col s-4">
           <button class="s-btn s-blue">Blue</button>
           <p class="s-blue">Blue</p>
         </div>
-        <div class="s-col s-2">
+      </article>
+      <article>
+        <div class="s-col s-4">
           <button class="s-btn s-violet">Violet</button>
           <p class="s-violet">Violet</p>
         </div>
       </article>
       <div class="s-break"></div>
+      <div class="s-modal">
+        <h3>Modal Title<small class="s-close">&times;</small></h3>
+        <p>Modal content</p>
+        <footer>
+          <button class="s-btn s-green">Go</button>
+        </footer>
+      </div>
       <hr>
       <h1>Heading 1</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -82,5 +93,12 @@
     </main>
     <footer></footer>
   </body>
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
   <script src="js/start.js"></script>
+  <script>
+    $('p, span').s_endconcat()
+    $('#modal').click(function() {
+      $('.s-modal').fadeIn('fast')
+    }) 
+  </script>
 </html>

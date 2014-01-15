@@ -97,7 +97,7 @@ h5 {
   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
   font-size: 21px;
   color: #333;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 p,
 em,
@@ -113,24 +113,24 @@ blockquote,
   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
   font-size: 16px;
   color: #333;
-  margin-bottom: 25px;
+  margin: 12.5px 0;
   line-height: 21px;
 }
 h1 {
   font-size: 41px;
-  margin-bottom: 25px;
+  margin: 25px 0;
 }
 h2 {
   font-size: 37px;
-  margin-bottom: 17.5px;
+  margin: 17.5px 0;
 }
 h3 {
   font-size: 31px;
-  margin-bottom: 16.25px;
+  margin: 16.25px 0;
 }
 h4 {
   font-size: 24px;
-  margin-bottom: 12.5px;
+  margin: 12.5px 0;
 }
 blockquote {
   font-family: 'Baskerville', 'Palatino', 'Times New Roma', serif;
@@ -420,11 +420,14 @@ a.s-violet {
   -ms-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
-.s-modal .close {
+.s-modal .s-close {
   float: right;
   cursor: pointer;
+  opacity: 0.3;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
 }
-.s-modal .btn {
+.s-modal .s-btn {
   float: right;
   margin-left: 5px;
 }
