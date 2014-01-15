@@ -231,6 +231,7 @@ a.s-violet {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  width: 100%;
 }
 .s-col:last-child {
   padding-right: 0;
@@ -282,6 +283,56 @@ a.s-violet {
 }
 .s-4f {
   width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .s-sm-12 {
+    width: 100%;
+  }
+  .s-sm-11 {
+    width: 91.66666666666666%;
+  }
+  .s-sm-10 {
+    width: 83.33333333333334%;
+  }
+  .s-sm-9 {
+    width: 75%;
+  }
+  .s-sm-8 {
+    width: 66.66666666666666%;
+  }
+  .s-sm-7 {
+    width: 58.333333333333336%;
+  }
+  .s-sm-6 {
+    width: 50%;
+  }
+  .s-sm-5 {
+    width: 41.66666666666667%;
+  }
+  .s-sm-4 {
+    width: 33.33333333333333%;
+  }
+  .s-sm-3 {
+    width: 25%;
+  }
+  .s-sm-2 {
+    width: 16.666666666666664%;
+  }
+  .s-sm-1 {
+    width: 8.333333333333332%;
+  }
+  .s-sm-1f {
+    width: 20%;
+  }
+  .s-sm-2f {
+    width: 40%;
+  }
+  .s-sm-3f {
+    width: 60%;
+  }
+  .s-sm-4f {
+    width: 80%;
+  }
 }
 @-webkit-keyframes fadeInDown {
   0% {
@@ -463,7 +514,6 @@ hr {
 }
 .s-btn.s-yellow {
   background-color: #ffd700;
-  color: #333;
 }
 .s-btn.s-green {
   background-color: #228b22;
