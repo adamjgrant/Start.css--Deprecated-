@@ -1,16 +1,17 @@
 .s-
   &btn
-    padding: 10px 20px
+    padding: ($space/3) (($space/3) * 2)
     background-color: lightgray
     color: $black
     border: 0px
     outline: none
     cursor: pointer
     border-radius(3px)
+    box-shadow(0px -3px 0px 0px rgba(0, 0, 0, 0.2) inset)
     &:hover
-      box-shadow(2px 2px 2px 1px rgba(255, 255, 255, 0.3) inset)
+      box-shadow(0px 0px 0px 0px transparent inset)
     &:active
-      box-shadow(-2px -2px 2px 1px rgba(255, 255, 255, 0.3) inset)
+      box-shadow(0px 3px 0px 0px rgba(0, 0, 0, 0.2) inset)
     &.s-
       &red
         background-color: $red

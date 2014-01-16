@@ -97,7 +97,9 @@ h5 {
   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
   font-size: 21px;
   color: #333;
+  line-height: normal;
   margin: 10px 0;
+  font-weight: 500;
 }
 p,
 em,
@@ -113,7 +115,7 @@ blockquote,
   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
   font-size: 16px;
   color: #333;
-  margin: 12.5px 0;
+  margin-bottom: 25px;
   line-height: 21px;
 }
 body {
@@ -196,7 +198,7 @@ ol.s-green,
 li.s-green,
 blockquote.s-green,
 a.s-green {
-  color: #228b22;
+  color: #58aa00;
 }
 p.s-blue,
 em.s-blue,
@@ -593,8 +595,7 @@ a.s-violet {
   -webkit-box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.4);
   box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.4);
   z-index: 11;
-  padding: 15px;
-  padding-top: 0px;
+  padding: 0 25px;
   position: fixed;
   outline: 9999px solid rgba(0,0,0,0.25);
   -webkit-border-radius: 5px;
@@ -635,15 +636,30 @@ a.s-violet {
   filter: alpha(opacity=30);
 }
 .s-modal .s-btn {
-  float: right;
   margin-left: 5px;
+}
+.s-modal footer {
+  text-align: right;
+  padding: 0 25px;
+  background-color: #eee;
+  margin: 0 -25px;
+  overflow: hidden;
+  -webkit-border-radius: 0px 0px 5px 5px;
+  border-radius: 0px 0px 5px 5px;
+}
+.s-modal footer * {
+  margin: 12.5px 0;
+}
+.s-modal footer:before {
+  display: table;
+  content: ' ';
 }
 hr {
   border: 1px solid #d3d3d3;
   margin: 25px 0;
 }
 .s-btn {
-  padding: 10px 20px;
+  padding: 8.333333333333334px 16.666666666666668px;
   background-color: #d3d3d3;
   color: #333;
   border: 0px;
@@ -651,14 +667,16 @@ hr {
   cursor: pointer;
   -webkit-border-radius: 3px;
   border-radius: 3px;
+  -webkit-box-shadow: 0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+  box-shadow: 0px -3px 0px 0px rgba(0,0,0,0.2) inset;
 }
 .s-btn:hover {
-  -webkit-box-shadow: 2px 2px 2px 1px rgba(255,255,255,0.3) inset;
-  box-shadow: 2px 2px 2px 1px rgba(255,255,255,0.3) inset;
+  -webkit-box-shadow: 0px 0px 0px 0px transparent inset;
+  box-shadow: 0px 0px 0px 0px transparent inset;
 }
 .s-btn:active {
-  -webkit-box-shadow: -2px -2px 2px 1px rgba(255,255,255,0.3) inset;
-  box-shadow: -2px -2px 2px 1px rgba(255,255,255,0.3) inset;
+  -webkit-box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.2) inset;
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.2) inset;
 }
 .s-btn.s-red {
   background-color: #ca3518;
@@ -672,7 +690,7 @@ hr {
   background-color: #ffd700;
 }
 .s-btn.s-green {
-  background-color: #228b22;
+  background-color: #58aa00;
   color: #fff;
 }
 .s-btn.s-blue {
