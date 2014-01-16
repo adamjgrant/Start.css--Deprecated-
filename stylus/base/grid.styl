@@ -6,15 +6,18 @@ col(x=12)
 .s-
   &break
     clear: both
+  &row
+    margin: 0px (-1 * $space)
+    &:before, &:after
+      display: table
+      content: " "
+    &:after
+      clear: both
   &col
-    padding: 0 ($space/2)
+    padding: 0 $space
     float: left
     box-sizing(border-box)
     width: 100%
-    &:first-child
-      padding-left: 0
-    &:last-child
-      padding-right: 0
   &12
     col(12)
   &11
