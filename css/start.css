@@ -707,11 +707,22 @@ hr {
 }
 .s-bar > ul {
   margin-bottom: 0;
+  display: block;
+  float: left;
 }
 .s-bar > ul > li {
-  float: left;
-  padding: 8.333333333333334px 16.666666666666668px;
+  display: inline-block;
   margin-bottom: 0;
+}
+.s-bar > ul > li > *:not(.s-btn) {
+  margin: 8.333333333333334px 16.666666666666668px;
+  display: block;
+}
+.s-bar > ul > li > .s-btn {
+  display: block;
+}
+.s-bar > ul.s-right {
+  float: right;
 }
 .s-bar a:not(.s-btn) {
   color: #555;
@@ -746,6 +757,7 @@ hr {
 }
 .s-btn.s-yellow {
   background-color: #ffd700;
+  color: #333;
 }
 .s-btn.s-green {
   background-color: #58aa00;

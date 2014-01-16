@@ -11,9 +11,17 @@
       clear: both
     > ul
       margin-bottom: 0
+      display: block
+      float: left
       > li
-        float: left
-        padding: $buttonSpacing
+        display: inline-block 
         margin-bottom: 0
+        > *:not(.s-btn)
+          margin: $buttonSpacing
+          display: block
+        > .s-btn
+          display: block
+      &.s-right
+        float: right
     a:not(.s-btn)
       color: $darkGrey
