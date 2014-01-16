@@ -7,10 +7,12 @@ col(x=12)
   &break
     clear: both
   &col
-    padding-right: $space
+    padding: 0 ($space/2)
     float: left
     box-sizing(border-box)
     width: 100%
+    &:first-child
+      padding-left: 0
     &:last-child
       padding-right: 0
   &12
