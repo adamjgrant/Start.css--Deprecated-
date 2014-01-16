@@ -166,6 +166,10 @@ blockquote:before {
   font-size: 70px;
   margin-left: -30px;
 }
+a.s-btn,
+.s-bar a {
+  text-decoration: none;
+}
 p.s-red,
 em.s-red,
 strong.s-red,
@@ -685,6 +689,32 @@ strong {
 hr {
   border: 1px solid #d3d3d3;
   margin: 25px 0;
+}
+.s-bar {
+  background-color: #eee;
+  padding: 5px 0;
+  margin-bottom: 25px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.s-bar:after,
+.s-bar:before {
+  content: ' ';
+  display: table;
+}
+.s-bar:after {
+  clear: both;
+}
+.s-bar > ul {
+  margin-bottom: 0;
+}
+.s-bar > ul > li {
+  float: left;
+  padding: 8.333333333333334px 16.666666666666668px;
+  margin-bottom: 0;
+}
+.s-bar a:not(.s-btn) {
+  color: #555;
 }
 .s-btn {
   padding: 8.333333333333334px 16.666666666666668px;

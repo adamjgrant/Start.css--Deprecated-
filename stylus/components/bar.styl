@@ -1,0 +1,19 @@
+.s-
+  &bar
+    background-color: $lightGrey
+    padding: ($space/5) 0
+    margin-bottom: $space
+    border-radius(5px)
+    &:after, &:before
+      content: ' '
+      display: table
+    &:after
+      clear: both
+    > ul
+      margin-bottom: 0
+      > li
+        float: left
+        padding: $buttonSpacing
+        margin-bottom: 0
+    a:not(.s-btn)
+      color: $darkGrey
