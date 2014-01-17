@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/start.css">
+  </head>
+  <body style="padding-top: 40px">
+    <header>
+      <nav class="s-bar s-fixed">
+        <div class="s-wrapper">
+          <ul>
+            <li><a href="#" class="s-bar-heading"> <span class="fa fa-book"></span> Acme</a></li>
+            <li><a href="#"> <span class="s-left fa fa-search"></span> Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li class="s-dropdown"><a href="#">Dropdown</a>
+              <ul>
+                <li><a href="index.html">Sandbox</a></li>
+                <li><a href="index2.html">Realistic</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="s-right">
+            <li><a href="#">Item</a></li>
+            <li>
+              <input type="search" placeholder="Name">
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="s-wrapper">
+        <div class="s-row">
+          <div class="s-sm-8 s-col">
+            <h1>Acme Industries</h1>
+          </div>
+          <div class="s-sm-4 s-col">
+            <nav class="s-bar">
+              <ul>
+                <li><a href="#">Get started today</a></li>
+              </ul>
+              <ul class="s-right">
+                <li><a href="#" class="s-btn s-green">Go.</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="js/start.js"></script>
+  <script>
+    $('p, span').s_endconcat()
+    $('#modal').click(function() {
+      $('.s-modal').fadeIn('fast')
+    }) 
+  </script>
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</html>
