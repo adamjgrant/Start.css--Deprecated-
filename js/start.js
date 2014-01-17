@@ -3,7 +3,9 @@
   $(':not(.s-modal)').not('.s-modal *').click(function() {
     return $('.s-modal[style="display: block;"]').fadeOut('fast');
   }).children().click(function(e) {
-    return false;
+    if ($('.s-modal[style="display: block;"]').length > 0) {
+      return false;
+    }
   });
 
   $('.s-modal .s-close').click(function() {

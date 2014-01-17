@@ -3,7 +3,7 @@
 $(':not(.s-modal)').not('.s-modal *').click( ->
   $('.s-modal[style="display: block;"]').fadeOut 'fast'
 ).children().click (e) ->
-  false
+  false if $('.s-modal[style="display: block;"]').length > 0
 $('.s-modal .s-close').click -> $(this).closest('.s-modal').fadeOut()
 
 # End Concatenation

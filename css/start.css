@@ -915,7 +915,7 @@ input[type="week"]:focus {
   background-color: #333;
 }
 .s-dropdown.s-dropdown_clicked > ul {
-  display: block;
+  display: block !important;
   margin-left: -1px;
   position: absolute;
   background-color: #555;
