@@ -726,7 +726,13 @@ hr {
 }
 .s-bar > ul > li > .s-btn,
 .s-bar > ul > li input {
-  margin: 5px;
+  margin: 5px 0;
+}
+.s-bar > ul > li > .s-btn + .s-btn,
+.s-bar > ul > li input + .s-btn,
+.s-bar > ul > li > .s-btn input,
+.s-bar > ul > li input input {
+  margin-left: 5px;
 }
 .s-bar > ul > li > .fa {
   margin-right: 0;
@@ -734,6 +740,14 @@ hr {
 .s-bar > ul > li > ul {
   display: none;
   margin: 0;
+}
+.s-bar > ul:first-child > li:first-child > .s-btn,
+.s-bar > ul:first-child > li:first-child input {
+  margin-left: 5px;
+}
+.s-bar > ul.s-right > li:last-child > .s-btn,
+.s-bar > ul.s-right > li:last-child input {
+  margin-right: 5px;
 }
 .s-bar > ul.s-right {
   float: right;

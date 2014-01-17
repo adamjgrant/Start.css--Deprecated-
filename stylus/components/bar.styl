@@ -24,12 +24,22 @@
           margin 0
           padding: ($buttonSpacingV + ($space/5)) $buttonSpacingH
         > .s-btn, input
-          margin: ($space/5)
+          margin: ($space/5) 0
+          + .s-btn, input
+            margin-left: ($space/5)
         > .fa
           margin-right: 0
         > ul
             display: none
             margin: 0
+      &:first-child
+        > li:first-child
+         > .s-btn, input
+           margin-left: ($space/5)
+      &.s-right
+        > li:last-child
+         > .s-btn, input
+           margin-right: ($space/5)
       &.s-right
         float: right
         > li
