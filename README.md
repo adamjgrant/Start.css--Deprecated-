@@ -18,6 +18,37 @@ For older browser support, download an earlier version of Start.css.
 
 ### Components
 
+#### Bar
+
+Bars can be used for navigation, general UI headings, or tool panes. All Bars should be filled with unordered lists (``ul``)
+
+    <nav class="s-bar">
+      <ul>
+        <li>
+          <a href="#">Item</a>
+        </li>
+        <li>
+          <a class="btn" href="#">Item</a>
+        </li>
+      </ul>
+    </nav>
+
+Use ``.s-right`` on the child ul to align right. ``li.s-bar-heading`` will give you a formatted title.
+
+    <nav class="s-bar">
+      <ul class="s-right">
+        <li class="s-bar-heading">
+           <a href="#">Website</a>
+        </li>
+        <li>
+          <a href="#">Item</a>
+        </li>
+        <li>
+          <a class="btn" href="#">Item</a>
+        </li>
+      </ul>
+    </nav>
+
 #### Typography
 
 Typography relies on standard HTML5 elements.

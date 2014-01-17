@@ -1,0 +1,25 @@
+input
+  &[type="text"],
+  &[type="email"],
+  &[type="search"],
+  &[type="date"],
+  &[type="datetime"],
+  &[type="datetime-local"],
+  &[type="month"],
+  &[type="number"],
+  &[type="password"],
+  &[type="tel"],
+  &[type="time"],
+  &[type="url"],
+  &[type="week"]
+    border: 1px solid $grey
+    background-color: transparent
+    font-size: $font-baseSize
+    padding: $buttonSpacingV
+    border-radius($buttonBorderRadius)
+    &:hover
+      background-color: white
+    &:active, &:focus
+      outline: none
+      background-color: white
+      border-color: $darkGrey

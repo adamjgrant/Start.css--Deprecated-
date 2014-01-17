@@ -692,7 +692,7 @@ hr {
 }
 .s-bar {
   background-color: #eee;
-  padding: 5px 0;
+  padding: 5px;
   margin-bottom: 25px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -705,6 +705,10 @@ hr {
 .s-bar:after {
   clear: both;
 }
+.s-bar-heading {
+  color: #333;
+  font-weight: 500;
+}
 .s-bar > ul {
   margin-bottom: 0;
   display: block;
@@ -714,12 +718,13 @@ hr {
   display: inline-block;
   margin-bottom: 0;
 }
-.s-bar > ul > li > *:not(.s-btn) {
+.s-bar > ul > li > * {
+  display: block;
   margin: 8.333333333333334px 16.666666666666668px;
-  display: block;
 }
-.s-bar > ul > li > .s-btn {
-  display: block;
+.s-bar > ul > li > .s-btn,
+.s-bar > ul > li input {
+  margin: 0;
 }
 .s-bar > ul.s-right {
   float: right;
@@ -734,8 +739,8 @@ hr {
   border: 0px;
   outline: none;
   cursor: pointer;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   -webkit-box-shadow: 0px -3px 0px 0px rgba(0,0,0,0.2) inset;
   box-shadow: 0px -3px 0px 0px rgba(0,0,0,0.2) inset;
 }
@@ -770,4 +775,69 @@ hr {
 .s-btn.s-violet {
   background-color: #8b008b;
   color: #fff;
+}
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  border: 1px solid #aaa;
+  background-color: transparent;
+  font-size: 16px;
+  padding: 8.333333333333334px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="search"]:hover,
+input[type="date"]:hover,
+input[type="datetime"]:hover,
+input[type="datetime-local"]:hover,
+input[type="month"]:hover,
+input[type="number"]:hover,
+input[type="password"]:hover,
+input[type="tel"]:hover,
+input[type="time"]:hover,
+input[type="url"]:hover,
+input[type="week"]:hover {
+  background-color: #fff;
+}
+input[type="text"]:active,
+input[type="email"]:active,
+input[type="search"]:active,
+input[type="date"]:active,
+input[type="datetime"]:active,
+input[type="datetime-local"]:active,
+input[type="month"]:active,
+input[type="number"]:active,
+input[type="password"]:active,
+input[type="tel"]:active,
+input[type="time"]:active,
+input[type="url"]:active,
+input[type="week"]:active,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus {
+  outline: none;
+  background-color: #fff;
+  border-color: #555;
 }

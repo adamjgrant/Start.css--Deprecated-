@@ -58,17 +58,6 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSKeyframesRule.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSKeyframesRule.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSKeyframesRule.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-as-tag-name.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -78,6 +67,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-as-tag-name.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSKeyframesRule.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSKeyframesRule.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSKeyframesRule.min.js",
       "fileType" : 64
     },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/rel.js" : {
@@ -628,17 +628,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/index.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/string.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/string.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/string.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/self-closing-tag.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -648,6 +637,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/self-closing-tag.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/string.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/string.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/string.min.js",
       "fileType" : 64
     },
     "\/node_modules\/nib\/node_modules\/stylus\/lib\/functions\/image.js" : {
@@ -806,17 +806,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/lib\/sax.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/attribute-name.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/attribute-name.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/attribute-name.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/unclosed-root.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -828,15 +817,15 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/unclosed-root.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/mkdirp.js" : {
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/attribute-name.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/mkdirp.js",
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/attribute-name.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/mkdirp.min.js",
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/attribute-name.min.js",
       "fileType" : 64
     },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cdata.js" : {
@@ -848,6 +837,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cdata.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/mkdirp.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/mkdirp.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/mkdirp.min.js",
       "fileType" : 64
     },
     "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/keyframes.js" : {
@@ -917,6 +917,18 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/clobber.min.js",
       "fileType" : 64
     },
+    "\/stylus\/components\/form.styl" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/stylus\/components\/form.styl",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylus\/css\/form.css",
+      "fileType" : 8,
+      "debugStyle" : 0
+    },
     "\/node_modules\/nib\/lib\/nib\/text\/ellipsis.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -974,6 +986,17 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/chmod.min.js",
       "fileType" : 64
     },
+    "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/if.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/if.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/if.min.js",
+      "fileType" : 64
+    },
     "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/unit.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -994,17 +1017,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSMediaRule.min.js",
-      "fileType" : 64
-    },
-    "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/if.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/if.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/if.min.js",
       "fileType" : 64
     },
     "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/charset.js" : {
@@ -1138,15 +1150,15 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-rebinding.js" : {
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/race.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-rebinding.js",
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/race.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-rebinding.min.js",
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/race.min.js",
       "fileType" : 64
     },
     "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/literal.js" : {
@@ -1160,15 +1172,15 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/literal.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/race.js" : {
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-rebinding.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/race.js",
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-rebinding.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/race.min.js",
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-rebinding.min.js",
       "fileType" : 64
     },
     "\/node_modules\/nib\/node_modules\/stylus\/lib\/stack\/index.js" : {
@@ -1180,6 +1192,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/stack\/index.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-xml-default-prefix.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-xml-default-prefix.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-xml-default-prefix.min.js",
       "fileType" : 64
     },
     "\/stylus\/start.styl" : {
@@ -1203,17 +1226,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/expression.min.js",
-      "fileType" : 64
-    },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-xml-default-prefix.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-xml-default-prefix.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-xml-default-prefix.min.js",
       "fileType" : 64
     },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/perm_sync.js" : {
@@ -1296,17 +1308,6 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/self-closing-child-strict.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/self-closing-child-strict.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/self-closing-child-strict.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSStyleRule.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1316,6 +1317,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSStyleRule.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/self-closing-child-strict.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/self-closing-child-strict.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/self-closing-child-strict.min.js",
       "fileType" : 64
     },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cdata-fake-end.js" : {
@@ -1516,17 +1528,6 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/node.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/node.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/node.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/nib\/lib\/nib\/text\/replace-text.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1538,6 +1539,17 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/css\/replace-text.css",
       "fileType" : 8,
       "debugStyle" : 0
+    },
+    "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/node.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/node.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/node.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/mozdocument.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1605,18 +1617,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/examples\/hello-world.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/nib\/lib\/nib\/index.styl" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/index.styl",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/css\/index.css",
-      "fileType" : 8,
-      "debugStyle" : 0
-    },
     "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/each.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1636,6 +1636,18 @@
       "inputAbbreviatedPath" : "\/node_modules\/nib\/iconic\/iconic.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/node_modules\/nib\/lib\/nib\/index.styl" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/index.styl",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/css\/index.css",
+      "fileType" : 8,
+      "debugStyle" : 0
     },
     "\/node_modules\/nib\/node_modules\/stylus\/lib\/functions\/index.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1860,29 +1872,6 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/stylus\/components\/bar.styl" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylus\/components\/bar.styl",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylus\/css\/bar.css",
-      "fileType" : 8,
-      "debugStyle" : 0
-    },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/issue-49.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/issue-49.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/issue-49.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/utf8-split.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1903,6 +1892,29 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/stylus\/css\/variables.css",
+      "fileType" : 8,
+      "debugStyle" : 0
+    },
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/issue-49.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/issue-49.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/issue-49.min.js",
+      "fileType" : 64
+    },
+    "\/stylus\/components\/bar.styl" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/stylus\/components\/bar.styl",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylus\/css\/bar.css",
       "fileType" : 8,
       "debugStyle" : 0
     },
@@ -1928,6 +1940,17 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/issue-35.min.js",
       "fileType" : 64
     },
+    "\/node_modules\/nib\/node_modules\/stylus\/index.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/index.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/index.min.js",
+      "fileType" : 64
+    },
     "\/node_modules\/nib\/lib\/nib\/gradients.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1939,17 +1962,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/css\/gradients.css",
       "fileType" : 8,
       "debugStyle" : 0
-    },
-    "\/node_modules\/nib\/node_modules\/stylus\/index.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/index.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/index.min.js",
-      "fileType" : 64
     },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-xml-default-prefix-attribute.js" : {
       "ignoreWasSetByUser" : 0,

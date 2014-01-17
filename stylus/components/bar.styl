@@ -1,7 +1,7 @@
 .s-
   &bar
     background-color: $lightGrey
-    padding: ($space/5) 0
+    padding: ($space/5)
     margin-bottom: $space
     border-radius(5px)
     &:after, &:before
@@ -9,6 +9,9 @@
       display: table
     &:after
       clear: both
+    &-heading
+      color: $black
+      font-weight: 500
     > ul
       margin-bottom: 0
       display: block
@@ -16,11 +19,11 @@
       > li
         display: inline-block 
         margin-bottom: 0
-        > *:not(.s-btn)
-          margin: $buttonSpacing
+        > *
           display: block
-        > .s-btn
-          display: block
+          margin: $buttonSpacingV $buttonSpacingH
+        > .s-btn, input
+          margin: 0
       &.s-right
         float: right
     a:not(.s-btn)
