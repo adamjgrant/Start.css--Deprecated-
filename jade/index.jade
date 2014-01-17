@@ -1,5 +1,31 @@
 extends layout
 
+block header
+  nav.s-bar.s-fixed
+    .s-wrapper
+      ul
+        li
+          a.s-bar-heading(href="#") Website
+        li
+          
+          a(href="#") 
+            span.s-left.fa.fa-search
+            |  Item
+        li
+          a(href="#") Item
+        li
+          input(type="search" placeholder="Name")
+        li.s-dropdown
+          a(href="#") Dropdown
+          ul
+            li
+              a(href="#") Dropdown Item
+            li
+              a(href="#") Dropdown Item
+      ul.s-right
+        li
+          a(href="#") Item
+
 block content
 
   nav.s-bar

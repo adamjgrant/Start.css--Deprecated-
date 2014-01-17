@@ -11,7 +11,10 @@
     &-heading
       color: $black
       font-weight: 500
-    > ul
+    > .s-wrapper
+      padding-top: 0
+      padding-bottom: 0
+    > ul, > .s-wrapper > ul
       margin-bottom: 0
       display: block
       float: left
@@ -47,3 +50,9 @@
             margin-left: 0
     a:not(.s-btn)
       color: $darkGrey
+    &.s-fixed
+      position: fixed
+      top: 0
+      left: 0
+      right: 0
+      border-radius($buttonBorderRadius buttonBorderRadius 0 0)
