@@ -1,7 +1,5 @@
 .s-
   &dropdown
-    border-left: $borderWidth solid transparent
-    border-right: $borderWidth solid transparent
     > a:after
       content: "\f0d7"
       font-family: 'FontAwesome'
@@ -9,28 +7,24 @@
     > ul
       display: none
     &.s-dropdown_clicked
-      margin-top: (-1 * ($space/5))
-      margin-bottom: (-1 * ($space/5))
-      padding-top: ($space/5)
-      padding-bottom: ($space/5)
-      background-color: rgba(255, 255, 255, 0.9)
-      border-color: $lightBorder
+      background-color: $darkGrey
+      > a
+        color: white
       > ul
         display: block
         margin-left: (-1 * $borderWidth)
         position: absolute
-        background-color: white
+        background-color: $grey
         margin-top: ($buttonSpacingV/2)
-        border: $borderWidth solid $lightBorder
-        border-top: 0px
         margin: 0
         > li
           margin: 0 
           > a
             padding: $buttonSpacingV $buttonSpacingH
             display: block
+            color: white
         > li > a
           &:hover
-            background-color: white
+            background-color: $darkGrey
           &:active
-            background-color: rgba(0, 0, 0, 0.15)
+            background-color: $black

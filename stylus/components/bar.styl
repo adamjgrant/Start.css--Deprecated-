@@ -1,7 +1,6 @@
 .s-
   &bar
     background-color: $lightGrey
-    padding: ($space/5)
     margin-bottom: $space
     border-radius(5px)
     &:after, &:before
@@ -20,12 +19,13 @@
         display: inline-block 
         margin-bottom: 0
         > *
-          display: block
-          margin: $buttonSpacingV $buttonSpacingH
-        > .s-btn, input
-          margin: 0
-        > .fa
           display: inline-block
+        > a:not(.s-btn)
+          margin 0
+          padding: ($buttonSpacingV + ($space/5)) $buttonSpacingH
+        > .s-btn, input
+          margin: ($space/5)
+        > .fa
           margin-right: 0
         > ul
             display: none
