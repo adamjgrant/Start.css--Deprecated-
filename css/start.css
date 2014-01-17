@@ -733,7 +733,6 @@ hr {
 .s-bar > ul > li > ul {
   display: none;
   margin: 0;
-  margin-top: 4.166666666666667px;
 }
 .s-bar > ul.s-right {
   float: right;
@@ -864,19 +863,6 @@ input[type="week"]:focus {
 }
 .s-dropdown > ul {
   display: none;
-  position: absolute;
-  background-color: #fff;
-  margin-top: 4.166666666666667px;
-  border: 1px solid rgba(0,0,0,0.15);
-  border-top: 0px;
-  margin: 0;
-}
-.s-dropdown > ul > li {
-  margin: 0;
-}
-.s-dropdown > ul > li > a {
-  padding: 8.333333333333334px 16.666666666666668px;
-  display: block;
 }
 .s-dropdown.s-dropdown_clicked {
   margin-top: -5px;
@@ -887,6 +873,20 @@ input[type="week"]:focus {
   border-color: rgba(0,0,0,0.15);
 }
 .s-dropdown.s-dropdown_clicked > ul {
+  display: block;
+  margin-left: -1px;
+  position: absolute;
+  background-color: #fff;
+  margin-top: 4.166666666666667px;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-top: 0px;
+  margin: 0;
+}
+.s-dropdown.s-dropdown_clicked > ul > li {
+  margin: 0;
+}
+.s-dropdown.s-dropdown_clicked > ul > li > a {
+  padding: 8.333333333333334px 16.666666666666668px;
   display: block;
 }
 .s-dropdown.s-dropdown_clicked > ul > li > a:hover {
