@@ -24,4 +24,8 @@
 
   $('.s-endconcat').s_endconcat();
 
+  $('.s-dropdown a').click(function() {
+    return $(this).parent().toggleClass('s-dropdown_clicked');
+  });
+
 }).call(this);

@@ -14,3 +14,7 @@ $.fn.s_endconcat = () ->
   catch e
     return false
 $('.s-endconcat').s_endconcat()
+
+# Dropdowns
+
+$('.s-dropdown a').click ->  $(this).parent().toggleClass('s-dropdown_clicked')
