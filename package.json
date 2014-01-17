@@ -12,7 +12,8 @@
     "url": "git://github.com/ajkochanowicz/Start.css.git"
   },
   "dependencies": {
-    "nib": "x.x.x"
+    "nib": "x.x.x",
+    "font-awesome": "4.0.x"
   },
   "engines": {
     "node": ">=0.8.0"

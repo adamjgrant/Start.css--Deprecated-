@@ -726,8 +726,15 @@ hr {
 .s-bar > ul > li input {
   margin: 0;
 }
+.s-bar > ul > li > .fa {
+  display: inline-block;
+  margin-right: 0;
+}
 .s-bar > ul.s-right {
   float: right;
+}
+.s-bar > ul.s-right > li > .fa {
+  margin-left: 0;
 }
 .s-bar a:not(.s-btn) {
   color: #555;
