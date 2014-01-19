@@ -8,8 +8,10 @@
       display: none
     &.s-dropdown_clicked
       background-color: $darkGrey
+      border-radius($buttonBorderRadius $buttonBorderRadius 0 0)
       > a
         color: white
+        border-radius($buttonBorderRadius $buttonBorderRadius 0 0)
         &:hover
           background-color: $black
       > ul
@@ -19,10 +21,13 @@
         background-color: $darkGrey
         margin-top: ($buttonSpacingV/2)
         margin: 0
+        width: 200px
+        border-radius(0 $buttonBorderRadius $buttonBorderRadius $buttonBorderRadius)
         > li
           margin: 0 
           > a
             padding: $buttonSpacingV $buttonSpacingH
+            border-radius(0 $buttonBorderRadius $buttonBorderRadius $buttonBorderRadius)
             display: block
             color: white
         > li > a

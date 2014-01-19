@@ -35,11 +35,31 @@ block content
       .s-sm-8.s-col
         h1 Acme Industries
       .s-sm-4.s-col
-        nav.s-bar
+        nav.s-bar.s-dark
           ul
             li
               a(href="#") Get started today
           ul.s-right
             li
-              a.s-btn.s-green(href="#") Go.
+              a.s-btn.s-green#modal(href="#") Go.
     p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    .s-modal
+      header
+        h5 Get Started Today
+          small.s-close &times;
+      main
+        .s-row
+          .s-col.s-6
+            p Thanks for signing up!
+          .s-col.s-6
+            p 
+              label Email
+              input(type="email")
+      footer.s-bar
+        ul
+          li
+            a.s-btn.s-clear(href="#") Cancel
+        ul.s-right
+          li
+            a.s-btn.s-blue(href="#") Yes.

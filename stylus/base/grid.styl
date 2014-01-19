@@ -7,14 +7,14 @@ col(x=12)
   &break
     clear: both
   &row
-    margin: 0px (-1 * $space)
+    margin: 0px (-1 * ($space/2))
     &:before, &:after
       display: table
       content: " "
     &:after
       clear: both
   &col
-    padding: 0 $space
+    padding: 0 ($space/2)
     float: left
     box-sizing(border-box)
     width: 100%
