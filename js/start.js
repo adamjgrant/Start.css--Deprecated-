@@ -30,4 +30,13 @@
     return $(this).parent().toggleClass('s-dropdown_clicked');
   });
 
+  $(':not(.s-dropdown a)').not('.s-dropdown *').click(function() {
+    console.log('ping');
+    return $('.s-dropdown_clicked').toggleClass('s-dropdown_clicked');
+  }).children().click(function(e) {
+    if ($('.s-dropdown_clicked > ul').length > 0) {
+      return false;
+    }
+  });
+
 }).call(this);

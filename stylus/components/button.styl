@@ -40,6 +40,9 @@
         color: white
       &clear
         background-color: transparent
-        color: $blue
-        text-decoration: underline
         box-shadow(0px -3px 0px 0px rgba(0, 0, 0, 0))
+        link-styles()
+        &:hover
+          color: darken($blue, 25%)
+        &:active
+          color: darken($blue, 50%)

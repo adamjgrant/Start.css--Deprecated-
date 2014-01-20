@@ -138,6 +138,20 @@ body {
   color: #333;
   line-height: 21px;
 }
+a {
+  color: #6495ed;
+}
+a:hover:not(.s-btn) {
+  color: #1a62e2;
+}
+a:active:not(.s-btn) {
+  color: #124197;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+a:visited:not(.s-btn) {
+  color: #8b008b;
+}
 h1 {
   font-size: 41px;
   margin: 25px 0;
@@ -865,10 +879,23 @@ hr {
 }
 .s-btn.s-clear {
   background-color: transparent;
-  color: #6495ed;
-  text-decoration: underline;
   -webkit-box-shadow: 0px -3px 0px 0px rgba(0,0,0,0);
   box-shadow: 0px -3px 0px 0px rgba(0,0,0,0);
+  color: #6495ed;
+}
+.s-btn.s-clear:hover:not(.s-btn) {
+  color: #1a62e2;
+}
+.s-btn.s-clear:active:not(.s-btn) {
+  color: #124197;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+.s-btn.s-clear:hover {
+  color: #1a62e2;
+}
+.s-btn.s-clear:active {
+  color: #124197;
 }
 input[type="text"],
 input[type="email"],

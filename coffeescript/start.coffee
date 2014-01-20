@@ -18,3 +18,9 @@ $('.s-endconcat').s_endconcat()
 # Dropdowns
 
 $('.s-dropdown a').click ->  $(this).parent().toggleClass('s-dropdown_clicked')
+
+$(':not(.s-dropdown a)').not('.s-dropdown *').click( ->
+  console.log 'ping'
+  $('.s-dropdown_clicked').toggleClass 's-dropdown_clicked'
+).children().click (e) ->
+  false if $('.s-dropdown_clicked > ul').length > 0

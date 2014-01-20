@@ -31,6 +31,10 @@ block header
 
 block content
   .s-wrapper
+    .s-col
+      p To learn more, 
+        a(href="#abc") Read this.
+    .s-break
     nav.s-bar
       ul
         li
@@ -245,9 +249,13 @@ block content
           small.s-close &times;
       main
         p Modal content
-      footer
-        span Some text
-        button.s-btn.s-blue Go
+      footer.s-bar
+        ul
+          li
+            a.s-btn.s-clear(href="#") Cancel
+        ul.s-right
+          li
+            a.s-btn.s-blue(href="#") Yes.
 
     hr
 
