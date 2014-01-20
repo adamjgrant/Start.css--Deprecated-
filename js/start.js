@@ -31,12 +31,12 @@
   });
 
   $(':not(.s-dropdown a)').not('.s-dropdown *').click(function() {
-    console.log('ping');
-    return $('.s-dropdown_clicked').toggleClass('s-dropdown_clicked');
-  }).children().click(function(e) {
-    if ($('.s-dropdown_clicked > ul').length > 0) {
-      return false;
-    }
+    $('.s-dropdown_clicked').toggleClass('s-dropdown_clicked');
+    return $(this).children().click(function(e) {
+      if ($('.s-dropdown_clicked > ul').length > 0) {
+        return false;
+      }
+    });
   });
 
 }).call(this);
