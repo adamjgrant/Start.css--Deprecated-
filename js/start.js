@@ -37,22 +37,24 @@
         var defaults, fn, xHtml, _;
         defaults = {
           delay: 0,
-          type: "green",
+          color: "green",
           container: "#s-growls",
           text: "",
-          "class": ""
+          "class": "",
+          icon: ""
         };
         _ = $.extend(defaults, options);
-        _.fTitle = (_.title ? "<strong>" + _.title + "</strong>" : "");
+        _.fIcon = (_.icon ? "<span class='fa fa-" + _.icon + "'></span> " : "");
+        _.fTitle = (_.title ? "<strong>" + _.fIcon + _.title + "</strong>" : "");
         _.fText = (_.text ? "<p>" + _.text + "</p>" : "");
         this.id = Math.floor(Math.random() * 1000);
         this.html = document.createElement("div");
-        this.html.className = "s-growls-growl s-growls-growl" + this.id + " s-box s-" + _.type + " " + _["class"];
+        this.html.className = "s-growls-growl s-growls-growl" + this.id + " s-box s-" + _.color + " " + _["class"];
         xHtml = "<a style=\"pointer-events: auto;\" class=\"s-close\" href=\"#\">&times;</a>";
         $(this.html).html(xHtml + _.fTitle + " " + _.fText);
         $(_.container).prepend(this.html);
         $('.s-growls-growl .s-close').click(function() {
-          return $(this).closest('.s-growls-growl').fadeOut();
+          return $(this).closest('.s-growls-growl').fadeOut('fast');
         });
         if (_.delay > 0) {
           return fn = (function(delay, id) {

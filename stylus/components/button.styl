@@ -6,7 +6,7 @@
   &btn
     padding: $buttonSpacingV $buttonSpacingH
     background-color: lightgray
-    color: $black
+    color: inherit
     border: 0px
     outline: none
     cursor: pointer
@@ -16,36 +16,15 @@
       box-shadow(0px 0px 0px 0px transparent inset)
     &:active
       box-shadow(0px 3px 0px 0px rgba(0, 0, 0, 0.2) inset)
-    &.s-
-      &red
-        background-color: $red
-        color: white
-      &orange
-        background-color: $orange
-        color: white
-      &yellow
-        background-color: $yellow
-        color: $black
-      &green
-        background-color: $green
-        color: white
-      &blue
-        background-color: $blue
-        color: white
-      &violet
-        background-color: $violet
-        color: white
-      &dark
-        background-color: $darkGrey
-        color: white
-      &clear
-        background-color: transparent
-        box-shadow(0px -3px 0px 0px rgba(0, 0, 0, 0))
-        link-styles()
-        &:hover
-          color: darken($blue, 25%)
-        &:active
-          color: darken($blue, 50%)
+    color-backgrounds()
+    &.s-clear
+      background-color: transparent
+      box-shadow(0px -3px 0px 0px rgba(0, 0, 0, 0))
+      link-styles()
+      &:hover
+        color: darken($blue, 25%)
+      &:active
+        color: darken($blue, 50%)
     i
       margin-bottom: 0
       color: inherit

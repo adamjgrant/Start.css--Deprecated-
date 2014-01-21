@@ -23,15 +23,17 @@ growls = "[class^=\"s-growls-growl\"]"
   $.extend sGrowl: (options) ->
     defaults =
       delay: 0
-      type: "green"
+      color: "green"
       container: "#s-growls"
       text: ""
       class: ""
+      icon: ""
 
     _ = $.extend(defaults, options)
     
     # FORMATTING
-    _.fTitle = ((if _.title then "<strong>" + _.title + "</strong>" else ""))
+    _.fIcon = ((if _.icon then "<span class='fa fa-" + _.icon + "'></span> " else ""))
+    _.fTitle = ((if _.title then "<strong>" + _.fIcon + _.title + "</strong>" else ""))
     _.fText = ((if _.text then "<p>" + _.text + "</p>" else ""))
     
     # UNIQUE IDENTIFICATION
@@ -39,7 +41,7 @@ growls = "[class^=\"s-growls-growl\"]"
     
     # CREATE FULL DOM OBJECT
     @html = document.createElement("div")
-    @html.className = "s-growls-growl s-growls-growl" + @id + " s-box s-" + _.type + " " + _.class
+    @html.className = "s-growls-growl s-growls-growl" + @id + " s-box s-" + _.color + " " + _.class
     xHtml = "<a style=\"pointer-events: auto;\" class=\"s-close\" href=\"#\">&times;</a>"
     $(@html).html xHtml + _.fTitle + " " + _.fText
     
@@ -48,7 +50,7 @@ growls = "[class^=\"s-growls-growl\"]"
 
     # CLOSE GROWL
     $('.s-growls-growl .s-close').click -> 
-      $(@).closest('.s-growls-growl').fadeOut()
+      $(@).closest('.s-growls-growl').fadeOut('fast')
     
     # SET DELAYS
     if _.delay > 0

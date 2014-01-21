@@ -17,6 +17,9 @@ ol,
 li, 
 table, 
 blockquote,
+pre,
+table,
+code,
 .s-btn
   font-family: $font-default
   font-size: $font-baseSize
@@ -88,3 +91,13 @@ a
       color: $violet
 strong
   font-weight: 500
+
+code, pre
+  color: darken($blue, 25%)
+  background-color: lighten($blue, 80%)
+  border-radius($buttonBorderRadius)
+  padding: $buttonSpacing
+  font-family: monospace
+code
+  margin-bottom: 0px
+  padding: 0 ($buttonSpacingH/3)

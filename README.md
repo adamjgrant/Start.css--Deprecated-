@@ -49,6 +49,23 @@ Use ``.s-right`` on the child ul to align right. ``li.s-box-heading`` will give 
       </ul>
     </nav>
 
+#### Growls
+
+Extended from [TinyGrowl](https://github.com/ajkochanowicz/tinygrowl)
+
+Launch a growl on the page with the ``$.sGrowl()`` jQuery extended function.
+
+    $.sGrowl({
+      icon: 'save',
+      title: 'Saved',
+      text: 'Your document has been successfully saved.',
+      color: 'green',
+      delay: 1000,
+      container: '#s-growls'
+    })
+
+Every parameter is optional. ``color`` and ``container`` fall back to green and ``#s-growls`` respectively. Growls with no delay specified are permanent.
+
 #### Typography
 
 Typography relies on standard HTML5 elements.

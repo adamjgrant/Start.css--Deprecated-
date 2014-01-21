@@ -1,0 +1,101 @@
+extends layout
+
+block header
+  nav.s-box.s-fixed
+    .s-wrapper
+      ul
+        li
+          a.s-box-heading(href="#") 
+            span.fa.fa-book
+            |  Start.css
+        li.s-dropdown
+          a(href="#") Menu
+          ul
+            li
+              a(href="index.html") Sandbox
+            li
+              a(href="docs.html") Docs
+block content
+  .s-wrapper
+    .s-row
+      .s-sm-8.s-col
+        h1 Start.css
+        p These are the temporary docs for Start.css. Eventually there will be something much better-looking here.
+
+        hr
+
+        h2#growls Growls
+        p Growls are unobtrusive pop up messages called via JavaScript. A basic call might look like this:
+        pre $.sGrowl({
+          |    icon: 'save',
+          |    title: 'Saved',
+          |    text: 'Your document has been saved'  
+          |  })
+        p
+          button.s-btn.s-blue(onclick="$.sGrowl({icon: 'save',title: 'Saved',text: 'Your document has been saved'})") Try it
+
+        h3 Parameters
+        table.s-table
+          thead
+            tr
+              th Parameter
+              th Default
+              th Description
+          tbody
+            tr
+              td
+                code icon
+              td Icon to appear before the heading. Choose from the 
+                a(href="http://fontawesome.io/") Font Awesome 4 library
+                |  without the preceding "fa-"
+            tr
+              td
+                code title
+              td &mdash;
+              td Bold-faced title to appear on the first line.
+            tr
+              td
+                code text
+              td &mdash;
+              td Main text under the title. HTML allowed.
+            tr
+              td
+                code delay
+              td (Infinite)
+              td Delay in miliseconds before dismissing growl. Ignore this parameter to keep growl permanent.
+            tr
+              td
+                code container
+              td 
+                code #s-growls
+              td HTML element where growl should be sent. Write in CSS notation.
+            tr
+              td
+                code color
+              td
+                code green
+              td Color of growl (red/orange/yellow/green/blue/violet).
+
+        h3 Advanced
+        p Here is a growl that will appear in red in the container below and disappear after 3 seconds.
+        .s-box.s-yellow#example-container 
+          p Growl will appear above.
+        pre $.sGrowl({
+          |   color: 'red', 
+          |   icon: 'book',
+          |   title: 'Test',
+          |   text: 'Testing...1, 2, 3', 
+          |   delay: 3000, 
+          |   container: '#example-container'
+          | })
+        p
+          button.s-btn.s-blue(onclick="$.sGrowl({color: 'red', icon: 'book',title: 'Test',text: 'Testing...1, 2, 3', delay: 3000, container: '#example-container'})") Try it
+      .s-sm-4.s-col
+        .s-box.s-box_vertical
+          ul
+            li.s-box-heading
+              p Directory
+            li
+              a(href="#growls") Growls
+            li
+              a(href="#") Something else

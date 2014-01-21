@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/start.css">
+  </head>
+  <body style="padding-top: 40px">
+    <header>
+      <nav class="s-box s-fixed">
+        <div class="s-wrapper">
+          <ul>
+            <li><a href="#" class="s-box-heading"> <span class="fa fa-book"></span> Start.css</a></li>
+            <li class="s-dropdown"><a href="#">Menu</a>
+              <ul>
+                <li><a href="index.html">Sandbox</a></li>
+                <li><a href="docs.html">Docs</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="s-wrapper">
+        <div class="s-row">
+          <div class="s-sm-8 s-col">
+            <h1>Start.css</h1>
+            <p>These are the temporary docs for Start.css. Eventually there will be something much better-looking here.</p>
+            <hr>
+            <h2 id="growls">Growls</h2>
+            <p>Growls are unobtrusive pop up messages called via JavaScript. A basic call might look like this:</p>
+            <pre>$.sGrowl({
+   icon: 'save',
+   title: 'Saved',
+   text: 'Your document has been saved'  
+ })</pre>
+            <p>
+              <button onclick="$.sGrowl({icon: 'save',title: 'Saved',text: 'Your document has been saved'})" class="s-btn s-blue">Try it</button>
+            </p>
+            <h3>Parameters</h3>
+            <table class="s-table">
+              <thead>
+                <tr>
+                  <th>Parameter</th>
+                  <th>Default</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code>icon</code></td>
+                  <td>Icon to appear before the heading. Choose from the <a href="http://fontawesome.io/">Font Awesome 4 library</a> without the preceding "fa-"</td>
+                </tr>
+                <tr>
+                  <td><code>title</code></td>
+                  <td>&mdash;</td>
+                  <td>Bold-faced title to appear on the first line.</td>
+                </tr>
+                <tr>
+                  <td><code>text</code></td>
+                  <td>&mdash;</td>
+                  <td>Main text under the title. HTML allowed.</td>
+                </tr>
+                <tr>
+                  <td><code>delay</code></td>
+                  <td>(Infinite)</td>
+                  <td>Delay in miliseconds before dismissing growl. Ignore this parameter to keep growl permanent.</td>
+                </tr>
+                <tr>
+                  <td><code>container</code></td>
+                  <td> <code>#s-growls</code></td>
+                  <td>HTML element where growl should be sent. Write in CSS notation.</td>
+                </tr>
+                <tr>
+                  <td><code>color</code></td>
+                  <td><code>green</code></td>
+                  <td>Color of growl (red/orange/yellow/green/blue/violet).</td>
+                </tr>
+              </tbody>
+            </table>
+            <h3>Advanced</h3>
+            <p>Here is a growl that will appear in red in the container below and disappear after 3 seconds.</p>
+            <div id="example-container" class="s-box s-yellow"> 
+              <p>Growl will appear above.</p>
+            </div>
+            <pre>$.sGrowl({
+  color: 'red', 
+  icon: 'book',
+  title: 'Test',
+  text: 'Testing...1, 2, 3', 
+  delay: 3000, 
+  container: '#example-container'
+})</pre>
+            <p>
+              <button onclick="$.sGrowl({color: 'red', icon: 'book',title: 'Test',text: 'Testing...1, 2, 3', delay: 3000, container: '#example-container'})" class="s-btn s-blue">Try it</button>
+            </p>
+          </div>
+          <div class="s-sm-4 s-col">
+            <div class="s-box s-box_vertical">
+              <ul>
+                <li class="s-box-heading">
+                  <p>Directory</p>
+                </li>
+                <li><a href="#growls">Growls</a></li>
+                <li><a href="#">Something else</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="js/start.js"></script>
+  <script>
+    $('p, span').s_endconcat()
+    $('#modal').click(function() {
+      $('.s-modal').fadeIn('fast')
+    }) 
+  </script>
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</html>
