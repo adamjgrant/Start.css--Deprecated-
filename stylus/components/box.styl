@@ -1,8 +1,10 @@
 .s-
-  &bar
+  &box
     background-color: $lightGrey
     margin-bottom: $space
     border-radius(5px)
+    p:last-child
+      margin-bottom: 0
     &:after, &:before
       content: ' '
       display: table
@@ -11,6 +13,7 @@
     &-heading
       color: $black
       font-weight: 500
+      padding-left: 0
     > .s-wrapper
       padding-top: 0
       padding-bottom: 0
@@ -48,7 +51,7 @@
         > li
           > .fa
             margin-left: 0
-    a:not(.s-btn)
+    a:not(.s-btn):not(.s-close)
       color: $darkGrey
     &.s-fixed
       position: fixed

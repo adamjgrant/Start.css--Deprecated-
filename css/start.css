@@ -150,7 +150,7 @@ a:active:not(.s-btn) {
   text-decoration: underline;
   text-decoration-style: dashed;
 }
-a:visited:not(.s-btn) {
+a:visited:not(.s-btn):not(.s-close) {
   color: #8b008b;
 }
 h1 {
@@ -182,7 +182,7 @@ blockquote:before {
   margin-left: -30px;
 }
 a.s-btn,
-.s-bar a {
+.s-box a {
   text-decoration: none;
 }
 p.s-red,
@@ -704,97 +704,105 @@ hr {
   border: 1px solid #d3d3d3;
   margin: 25px 0;
 }
-.s-bar {
+.s-close {
+  color: inherit;
+  text-decoration: none;
+}
+.s-box {
   background-color: #eee;
   margin-bottom: 25px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-.s-bar:after,
-.s-bar:before {
+.s-box p:last-child {
+  margin-bottom: 0;
+}
+.s-box:after,
+.s-box:before {
   content: ' ';
   display: table;
 }
-.s-bar:after {
+.s-box:after {
   clear: both;
 }
-.s-bar-heading {
+.s-box-heading {
   color: #333;
   font-weight: 500;
+  padding-left: 0;
 }
-.s-bar > .s-wrapper {
+.s-box > .s-wrapper {
   padding-top: 0;
   padding-bottom: 0;
 }
-.s-bar > ul,
-.s-bar > .s-wrapper > ul {
+.s-box > ul,
+.s-box > .s-wrapper > ul {
   margin-bottom: 0;
   display: block;
   float: left;
 }
-.s-bar > ul > li,
-.s-bar > .s-wrapper > ul > li {
+.s-box > ul > li,
+.s-box > .s-wrapper > ul > li {
   display: inline-block;
   margin-bottom: 0;
 }
-.s-bar > ul > li > *,
-.s-bar > .s-wrapper > ul > li > * {
+.s-box > ul > li > *,
+.s-box > .s-wrapper > ul > li > * {
   display: inline-block;
 }
-.s-bar > ul > li > a:not(.s-btn),
-.s-bar > .s-wrapper > ul > li > a:not(.s-btn) {
+.s-box > ul > li > a:not(.s-btn),
+.s-box > .s-wrapper > ul > li > a:not(.s-btn) {
   margin: 0;
   padding: 13.333333333333334px 16.666666666666668px;
 }
-.s-bar > ul > li > .s-btn,
-.s-bar > .s-wrapper > ul > li > .s-btn,
-.s-bar > ul > li input,
-.s-bar > .s-wrapper > ul > li input {
+.s-box > ul > li > .s-btn,
+.s-box > .s-wrapper > ul > li > .s-btn,
+.s-box > ul > li input,
+.s-box > .s-wrapper > ul > li input {
   margin: 5px 0;
 }
-.s-bar > ul > li > .s-btn + .s-btn,
-.s-bar > .s-wrapper > ul > li > .s-btn + .s-btn,
-.s-bar > ul > li input + .s-btn,
-.s-bar > .s-wrapper > ul > li input + .s-btn,
-.s-bar > ul > li > .s-btn input,
-.s-bar > .s-wrapper > ul > li > .s-btn input,
-.s-bar > ul > li input input,
-.s-bar > .s-wrapper > ul > li input input {
+.s-box > ul > li > .s-btn + .s-btn,
+.s-box > .s-wrapper > ul > li > .s-btn + .s-btn,
+.s-box > ul > li input + .s-btn,
+.s-box > .s-wrapper > ul > li input + .s-btn,
+.s-box > ul > li > .s-btn input,
+.s-box > .s-wrapper > ul > li > .s-btn input,
+.s-box > ul > li input input,
+.s-box > .s-wrapper > ul > li input input {
   margin-left: 5px;
 }
-.s-bar > ul > li > .fa,
-.s-bar > .s-wrapper > ul > li > .fa {
+.s-box > ul > li > .fa,
+.s-box > .s-wrapper > ul > li > .fa {
   margin-right: 0;
 }
-.s-bar > ul > li > ul,
-.s-bar > .s-wrapper > ul > li > ul {
+.s-box > ul > li > ul,
+.s-box > .s-wrapper > ul > li > ul {
   display: none;
   margin: 0;
 }
-.s-bar > ul:first-child > li:first-child > .s-btn,
-.s-bar > .s-wrapper > ul:first-child > li:first-child > .s-btn,
-.s-bar > ul:first-child > li:first-child input,
-.s-bar > .s-wrapper > ul:first-child > li:first-child input {
+.s-box > ul:first-child > li:first-child > .s-btn,
+.s-box > .s-wrapper > ul:first-child > li:first-child > .s-btn,
+.s-box > ul:first-child > li:first-child input,
+.s-box > .s-wrapper > ul:first-child > li:first-child input {
   margin-left: 5px;
 }
-.s-bar > ul.s-right > li:last-child > .s-btn,
-.s-bar > .s-wrapper > ul.s-right > li:last-child > .s-btn,
-.s-bar > ul.s-right > li:last-child input,
-.s-bar > .s-wrapper > ul.s-right > li:last-child input {
+.s-box > ul.s-right > li:last-child > .s-btn,
+.s-box > .s-wrapper > ul.s-right > li:last-child > .s-btn,
+.s-box > ul.s-right > li:last-child input,
+.s-box > .s-wrapper > ul.s-right > li:last-child input {
   margin-right: 5px;
 }
-.s-bar > ul.s-right,
-.s-bar > .s-wrapper > ul.s-right {
+.s-box > ul.s-right,
+.s-box > .s-wrapper > ul.s-right {
   float: right;
 }
-.s-bar > ul.s-right > li > .fa,
-.s-bar > .s-wrapper > ul.s-right > li > .fa {
+.s-box > ul.s-right > li > .fa,
+.s-box > .s-wrapper > ul.s-right > li > .fa {
   margin-left: 0;
 }
-.s-bar a:not(.s-btn) {
+.s-box a:not(.s-btn):not(.s-close) {
   color: #555;
 }
-.s-bar.s-fixed {
+.s-box.s-fixed {
   position: fixed;
   top: 0;
   left: 0;
@@ -802,29 +810,40 @@ hr {
   -webkit-border-radius: 0 0 0 0;
   border-radius: 0 0 0 0;
 }
-.s-bar.s-clear {
+.s-box.s-clear {
   background-color: transparent;
 }
-.s-bar.s-dark {
+.s-box.s-dark {
   background-color: #333;
 }
-.s-bar.s-dark a:not(.s-btn) {
+.s-box.s-dark a:not(.s-btn) {
   color: #fff;
 }
-.s-bar input[type="text"],
-.s-bar input[type="email"],
-.s-bar input[type="search"],
-.s-bar input[type="date"],
-.s-bar input[type="datetime"],
-.s-bar input[type="datetime-local"],
-.s-bar input[type="month"],
-.s-bar input[type="number"],
-.s-bar input[type="password"],
-.s-bar input[type="tel"],
-.s-bar input[type="time"],
-.s-bar input[type="url"],
-.s-bar input[type="week"] {
+.s-box input[type="text"],
+.s-box input[type="email"],
+.s-box input[type="search"],
+.s-box input[type="date"],
+.s-box input[type="datetime"],
+.s-box input[type="datetime-local"],
+.s-box input[type="month"],
+.s-box input[type="number"],
+.s-box input[type="password"],
+.s-box input[type="tel"],
+.s-box input[type="time"],
+.s-box input[type="url"],
+.s-box input[type="week"] {
   width: auto;
+}
+.s-growls-growl {
+  width: 250px;
+  padding: 8.333333333333334px 16.666666666666668px;
+  background-color: #58aa00;
+}
+.s-growls-growl * {
+  color: #fff;
+}
+.s-growls-growl .s-close {
+  float: right;
 }
 .s-dark .s-btn {
   background-color: #555;
@@ -898,6 +917,10 @@ hr {
 }
 .s-btn.s-clear:active {
   color: #124197;
+}
+.s-btn i {
+  margin-bottom: 0;
+  color: inherit;
 }
 input[type="text"],
 input[type="email"],

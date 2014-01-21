@@ -18,11 +18,11 @@ For older browser support, download an earlier version of Start.css.
 
 ### Components
 
-#### Bar
+#### Box
 
-Bars can be used for navigation, general UI headings, or tool panes. All Bars should be filled with unordered lists (``ul``)
+Boxes can be used for navigation, general UI headings, tool panes, or any general purpose "box" you want to put things in. Boxes for horizontal navigation should be filled with unordered lists (``ul``)
 
-    <nav class="s-bar">
+    <nav class="s-box">
       <ul>
         <li>
           <a href="#">Item</a>
@@ -33,11 +33,11 @@ Bars can be used for navigation, general UI headings, or tool panes. All Bars sh
       </ul>
     </nav>
 
-Use ``.s-right`` on the child ul to align right. ``li.s-bar-heading`` will give you a formatted title.
+Use ``.s-right`` on the child ul to align right. ``li.s-box-heading`` will give you a formatted title.
 
-    <nav class="s-bar">
+    <nav class="s-box">
       <ul class="s-right">
-        <li class="s-bar-heading">
+        <li class="s-box-heading">
            <a href="#">Website</a>
         </li>
         <li>

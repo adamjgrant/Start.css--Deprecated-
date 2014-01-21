@@ -15,6 +15,51 @@ $.fn.s_endconcat = () ->
     return false
 $('.s-endconcat').s_endconcat()
 
+# Growls
+
+growls = "[class^=\"s-growls-growl\"]"
+(($) ->
+  $("body").append "<div id=\"s-growls\" style=\"z-index:2000;position:fixed;width:250px;top:20px;right:20px;overflow:auto;pointer-events:none;\"></div>"
+  $.extend sGrowl: (options) ->
+    defaults =
+      delay: 0
+      type: "green"
+      container: "#s-growls"
+      text: ""
+      class: ""
+
+    _ = $.extend(defaults, options)
+    
+    # FORMATTING
+    _.fTitle = ((if _.title then "<strong>" + _.title + "</strong>" else ""))
+    _.fText = ((if _.text then "<p>" + _.text + "</p>" else ""))
+    
+    # UNIQUE IDENTIFICATION
+    @id = Math.floor(Math.random() * 1000)
+    
+    # CREATE FULL DOM OBJECT
+    @html = document.createElement("div")
+    @html.className = "s-growls-growl s-growls-growl" + @id + " s-box s-" + _.type + " " + _.class
+    xHtml = "<a style=\"pointer-events: auto;\" class=\"s-close\" href=\"#\">&times;</a>"
+    $(@html).html xHtml + _.fTitle + " " + _.fText
+    
+    # APPEND ALERT TO CONTAINER
+    $(_.container).prepend @html
+
+    # CLOSE GROWL
+    $('.s-growls-growl .s-close').click -> 
+      $(@).closest('.s-growls-growl').fadeOut()
+    
+    # SET DELAYS
+    if _.delay > 0
+      fn = ((delay, id) ->
+        setTimeout (->
+          $(".s-growls-growl" + id).fadeOut()
+        ), delay
+      )(_.delay, @id)
+
+) jQuery
+
 # Dropdowns
 
 $('.s-dropdown').click ->  $(this).parent().toggleClass('dropdown_open')

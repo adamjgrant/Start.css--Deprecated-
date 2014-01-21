@@ -1,72 +1,28 @@
 extends layout
 
 block header
-  nav.s-bar.s-fixed
+  nav.s-box.s-fixed
     .s-wrapper
       ul
         li
-          a.s-bar-heading(href="#") 
+          a.s-box-heading(href="#") 
             span.fa.fa-book
-            |  Acme
-        li
-          
-          a(href="#") 
-            span.s-left.fa.fa-search
-            |  Item
-        li
-          a(href="#") Item
-
+            |  Start.css
         li.s-dropdown
-          a(href="#") Dropdown1
+          a(href="#") Menu
           ul
             li
               a(href="index.html") Sandbox
             li
-              a(href="index2.html") Realistic
-        li.s-dropdown
-          a(href="#") Dropdown2
-          ul
-            li
-              a(href="index.html") Sandbox
-            li
-              a(href="index2.html") Realistic
-      ul.s-right
-        li
-          a(href="#") Item
-        li
-          input(type="search" placeholder="Name")
-
+              a(href="index2.html") Docs
 block content
   .s-wrapper
     .s-row
       .s-sm-8.s-col
-        h1 Acme Industries
+        h1 Start.css
+        p These are the temporary docs for Start.css. Eventually there will be something much better-looking here.
       .s-sm-4.s-col
-        nav.s-bar.s-dark
-          ul
-            li
-              a(href="#") Get started today
-          ul.s-right
-            li
-              a.s-btn.s-green#modal(href="#") Go.
-    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-    .s-modal
-      header
-        h5 Get Started Today
-          small.s-close &times;
-      main
-        .s-row
-          .s-col.s-6
-            p Thanks for signing up!
-          .s-col.s-6
-            p 
-              label Email
-              input(type="email")
-      footer.s-bar
+        h5 Directory
         ul
           li
-            a.s-btn.s-clear(href="#") Cancel
-        ul.s-right
-          li
-            a.s-btn.s-blue(href="#") Yes.
+            a(href="#") One
