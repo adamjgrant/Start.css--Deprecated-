@@ -1,6 +1,7 @@
 extends layout
 
 block header
+  link(rel="stylesheet" href="css/docs.css")
   nav.s-box.s-fixed
     .s-wrapper
       ul
@@ -105,6 +106,98 @@ block content
           |   &lt;/ul&gt;
           | &lt;/nav&gt;
 
+        h2#grid Grid
+        p Start uses a 12 column grid. To create a gridded row, start with an 
+          code .s-row
+          |  container.
+
+        pre &lt;section class=&quot;s-row&quot;&gt;&lt;/section&gt;
+
+        p Columns are defined with the 
+          code .s-col
+          |  class and with 
+          code .s-x
+          |  measuring classes where "x" is a number between 1-12.
+        p Using 
+          code .s-col
+          |  without a measuring class will default to 
+          code .s-12
+
+        section.s-row
+          .s-col.s-4
+            .grid-example s-col s-4
+          .s-col.s-8
+            .grid-example s-col s-8
+        br
+
+        pre &lt;section class=&quot;s-row&quot;&gt;
+          |   &lt;div class=&quot;s-col s-4&quot;&gt;s-col s-4&lt;/div&gt;
+          |   &lt;div class=&quot;s-col s-8&quot;&gt;s-col s-8&lt;/div&gt;
+          | &lt;/section&gt;
+
+        h3 Other examples
+
+        section.s-row
+          .s-col
+            .grid-example s-col
+        br
+
+        section.s-row
+          .s-col.s-4
+            .grid-example s-col s-4
+          .s-col.s-4
+            .grid-example s-col s-4
+          .s-col.s-4
+            .grid-example s-col s-4
+        br
+
+        section.s-row
+          .s-col.s-3
+            .grid-example s-col s-3
+          .s-col.s-6
+            .grid-example s-col s-6
+          .s-col.s-3
+            .grid-example s-col s-3
+        br
+
+        h3 Responsive Grid
+        p The grid is designed to operate 
+          em mobile-first
+          | , so there is no class to target devices with widths less than 320px.
+        p To specify a column size for a larger screen, use the additional size prefixes 
+          code sm
+          | , 
+          code md
+          | , 
+          code lg
+          | , and 
+          code xl
+          | .
+
+        section.s-row
+          .s-col.s-md-4
+            .grid-example (s-col s-md-4) 4 columns in medium width
+          .s-col.s-md-8
+            .grid-example (s-col s-md-8) 8 columns in medium width
+        br
+
+        section.s-row
+          .s-col
+            .grid-example (s-col) Mobile devices tend to use one-column layouts more often.
+          .s-col
+            .grid-example (s-col) So why bother specifying every time?
+          .s-col.s-lg-6
+            .grid-example (s-col s-lg-6) Write only the classes needed for larger screens.
+          .s-col.s-lg-6
+            .grid-example (s-col s-lg-6) Keep your HTML tidy.
+        section.s-row
+          .s-col.s-lg-4
+            .grid-example (s-col s-lg-4) Responsive design
+          .s-col.s-lg-4
+            .grid-example (s-col s-lg-4) is
+          .s-col.s-lg-4
+            .grid-example (s-col s-lg-4) easy.
+
         h2#growls Growls
         p Growls are unobtrusive pop up messages called via JavaScript. A basic call might look like this:
         pre $.sGrowl({
@@ -184,5 +277,7 @@ block content
               p Directory
             li
               a(href="#growls") Boxes
+            li
+              a(href="#grid") Grid
             li
               a(href="#growls") Growls

@@ -5,6 +5,7 @@
   </head>
   <body style="padding-top: 40px">
     <header>
+      <link rel="stylesheet" href="css/docs.css">
       <nav class="s-box s-fixed">
         <div class="s-wrapper">
           <ul>
@@ -90,6 +91,87 @@
     &lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;</pre>
+            <h2 id="grid">Grid</h2>
+            <p>Start uses a 12 column grid. To create a gridded row, start with an <code>.s-row</code> container.</p>
+            <pre>&lt;section class=&quot;s-row&quot;&gt;&lt;/section&gt;</pre>
+            <p>Columns are defined with the <code>.s-col</code> class and with <code>.s-x</code> measuring classes where "x" is a number between 1-12.</p>
+            <p>Using <code>.s-col</code> without a measuring class will default to <code>.s-12</code></p>
+            <section class="s-row">
+              <div class="s-col s-4">
+                <div class="grid-example">s-col s-4</div>
+              </div>
+              <div class="s-col s-8">
+                <div class="grid-example">s-col s-8</div>
+              </div>
+            </section><br>
+            <pre>&lt;section class=&quot;s-row&quot;&gt;
+  &lt;div class=&quot;s-col s-4&quot;&gt;s-col s-4&lt;/div&gt;
+  &lt;div class=&quot;s-col s-8&quot;&gt;s-col s-8&lt;/div&gt;
+&lt;/section&gt;</pre>
+            <h3>Other examples</h3>
+            <section class="s-row">
+              <div class="s-col">
+                <div class="grid-example">s-col</div>
+              </div>
+            </section><br>
+            <section class="s-row">
+              <div class="s-col s-4">
+                <div class="grid-example">s-col s-4</div>
+              </div>
+              <div class="s-col s-4">
+                <div class="grid-example">s-col s-4</div>
+              </div>
+              <div class="s-col s-4">
+                <div class="grid-example">s-col s-4</div>
+              </div>
+            </section><br>
+            <section class="s-row">
+              <div class="s-col s-3">
+                <div class="grid-example">s-col s-3</div>
+              </div>
+              <div class="s-col s-6">
+                <div class="grid-example">s-col s-6</div>
+              </div>
+              <div class="s-col s-3">
+                <div class="grid-example">s-col s-3</div>
+              </div>
+            </section><br>
+            <h3>Responsive Grid</h3>
+            <p>The grid is designed to operate <em>mobile-first</em>, so there is no class to target devices with widths less than 320px.</p>
+            <p>To specify a column size for a larger screen, use the additional size prefixes <code>sm</code>, <code>md</code>, <code>lg</code>, and <code>xl</code>.</p>
+            <section class="s-row">
+              <div class="s-col s-md-4">
+                <div class="grid-example">(s-col s-md-4) 4 columns in medium width</div>
+              </div>
+              <div class="s-col s-md-8">
+                <div class="grid-example">(s-col s-md-8) 8 columns in medium width</div>
+              </div>
+            </section><br>
+            <section class="s-row">
+              <div class="s-col">
+                <div class="grid-example">(s-col) Mobile devices tend to use one-column layouts more often.</div>
+              </div>
+              <div class="s-col">
+                <div class="grid-example">(s-col) So why bother specifying every time?</div>
+              </div>
+              <div class="s-col s-lg-6">
+                <div class="grid-example">(s-col s-lg-6) Write only the classes needed for larger screens.</div>
+              </div>
+              <div class="s-col s-lg-6">
+                <div class="grid-example">(s-col s-lg-6) Keep your HTML tidy.</div>
+              </div>
+            </section>
+            <section class="s-row">
+              <div class="s-col s-lg-4">
+                <div class="grid-example">(s-col s-lg-4) Responsive design</div>
+              </div>
+              <div class="s-col s-lg-4">
+                <div class="grid-example">(s-col s-lg-4) is</div>
+              </div>
+              <div class="s-col s-lg-4">
+                <div class="grid-example">(s-col s-lg-4) easy.</div>
+              </div>
+            </section>
             <h2 id="growls">Growls</h2>
             <p>Growls are unobtrusive pop up messages called via JavaScript. A basic call might look like this:</p>
             <pre>$.sGrowl({
@@ -171,6 +253,7 @@
                   <p>Directory</p>
                 </li>
                 <li><a href="#growls">Boxes</a></li>
+                <li><a href="#grid">Grid</a></li>
                 <li><a href="#growls">Growls</a></li>
               </ul>
             </div>
