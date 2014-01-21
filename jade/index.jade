@@ -1,291 +1,453 @@
 extends layout
 
 block header
+  link(rel="stylesheet" href="css/docs.css")
   nav.s-box.s-fixed.s-grey
     .s-wrapper
       ul
         li
-          a.s-box-heading(href="#") Website
-        li
-          
-          a(href="#") 
-            span.s-left.fa.fa-search
-            |  Item
-        li
-          a(href="#") Item
-        li
-          input(type="search" placeholder="Name")
+          a.s-box-heading(href="#") 
+            span.fa.fa-book
+            |  Start.css
         li.s-dropdown
-          a(href="#") Directory
+          a(href="#") Menu
           ul
             li
-              a(href="index.html") Sandbox
+              a(href="sandbox.html") Sandbox
             li
-              a(href="docs.html") Docs
-      ul.s-right
-        li
-          a(href="#") Item
-  .s-wrapper
-    h1 Start.css Test Page
-    hr
-
+              a(href="index.html") Docs
 block content
   .s-wrapper
-    .s-col.s-md-6
-      .s-box
-        img.s-box-caption_left(src="https://pbs.twimg.com/profile_images/411758450700349440/fldsxTBx.jpeg")
-        .s-box-caption_right
-          h3 Title
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    .s-col.s-md-6
-      .s-box
-        .s-box-caption_left
-          h3 Title
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        img.s-box-caption_right(src="https://pbs.twimg.com/profile_images/411758450700349440/fldsxTBx.jpeg")
-    .s-col
-      p To learn more, 
-        a(href="#abc") Read this.
-    .s-break
-    nav.s-box.s-grey
-      ul
-        li
-          
-          a(href="#") 
-            span.s-left.fa.fa-search
-            |  Item
-        li
-          a(href="#") Item
-        li
-          input(type="search" placeholder="Name")
-        li.s-dropdown
-          a(href="#") Dropdown
-          ul
-            li
-              a(href="#") Dropdown Item
-            li
-              a(href="#") Dropdown Item
-      ul.s-right
-        li
-          a(href="#") Item
-    nav.s-box.s-grey
-      ul
-        li
-          a.s-btn#modal(href="#") Item
-        li
-          a.s-btn.s-red(href="#") Item
-        li
-          a.s-btn.s-orange(href="#") Item
-        li
-          a.s-btn.s-yellow(href="#") Item
-        li
-          a.s-btn.s-green(href="#") Item
-        li
-          a.s-btn.s-blue(href="#") Item
-        li
-          a.s-btn.s-violet(href="#") Item
-      ul.s-right
-        li.s-dropdown
-          button.s-btn.s-violet Dropdown
-          ul
-            li
-              a(href="#") Dropdown Item
-            li
-              a(href="#") Dropdown Item
-        li
-          a.s-btn(href="#") Item
-    nav.s-box.s-grey
-      ul
-        li
-          a(href="#") Item
-        li
-          a.s-btn(href="#") Item
-        li
-          a(href="#") Item
-      ul.s-right
-        li
-          a(href="#") Item
-        li
-          a.s-btn(href="#") Item
-        li
-          a(href="#") Item
-    nav.s-box.s-grey
-      ul
-        li
-          a.s-box-heading(href="#") Website
-        li
-          a(href="#") Item
-        li Item that is not a link.
-        li
-          a.s-btn(href="#") Item
-        li
-          a(href="#") Item
-      ul.s-right
-        li
-          a(href="#") Item
-        li
-          a.s-btn(href="#") Item
-        li
-          a(href="#") Item
-    article.s-row
-      .s-col.s-4
+    .s-row
+      .s-sm-8.s-lg-9.s-col
+        h1 Start.css
+        p These are the temporary docs for Start.css. Eventually there will be something much better-looking here.
+
+        hr
+
+        h2#boxes Boxes
+        p Boxes are the most versatile component of the Start library. These can function as navigation menus, toolboxes, or any generic container.
+
+        h3 Navigation Boxes
+        p Boxes for horizontal navigation should be filled with unordered lists (``ul``)
+
         nav.s-box.s-grey
           ul
             li
-              a.s-box-heading(href="#") Website
-            li
-              a(href="#") Item
-            li Item that is not a link.
-            li
-              a.s-btn(href="#") Item
-            li
-              a(href="#") Item
-          ul.s-right
-            li
               a(href="#") Item
             li
               a.s-btn(href="#") Item
-            li
-              a(href="#") Item
-      .s-col.s-4
+
+        pre &lt;nav class=&quot;s-box s-grey&quot;&gt;
+          |   &lt;ul&gt;
+          |     &lt;li&gt;
+          |       &lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;
+          |     &lt;/li&gt;
+          |     &lt;li&gt;
+          |       &lt;a class=&quot;s-btn&quot; href=&quot;#&quot;&gt;Item&lt;/a&gt;
+          |     &lt;/li&gt;
+          |   &lt;/ul&gt;
+          | &lt;/nav&gt;
+
+        h4 Right-aligned
+        p Use 
+          code .s-right
+          |  on the child ul to align right. 
+          code li.s-box-heading
+          |  will give you a formatted title.
+
         nav.s-box.s-grey
           ul
             li
-              a.s-btn(href="#") Item
-            li 
-              a.s-btn(href="#") Item
-            li
-              a.s-btn(href="#") Item
+              a(href="#") Item
             li
               a.s-btn(href="#") Item
           ul.s-right
             li
               a.s-btn(href="#") Item
-            li
-              a.s-btn(href="#") Item
-            li
-              a(href="#") Item
-      .s-col.s-4
-        nav.s-box.s-grey
+
+        pre &lt;nav class=&quot;s-box s-grey&quot;&gt;
+          |   &lt;ul&gt;
+          |     &lt;li&gt;
+          |       &lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;
+          |     &lt;/li&gt;
+          |     &lt;li&gt;
+          |       &lt;a class=&quot;s-btn&quot; href=&quot;#&quot;&gt;Item&lt;/a&gt;
+          |     &lt;/li&gt;
+          |   &lt;/ul&gt;
+          |   &lt;ul class=&quot;s-right&quot;&gt;
+          |     &lt;li&gt;
+          |       &lt;a class=&quot;s-btn&quot; href=&quot;#&quot;&gt;Item&lt;/a&gt;
+          |     &lt;/li&gt;
+          |   &lt;/ul&gt;
+          | &lt;/nav&gt;
+
+        h4 Vertical
+
+        p Add 
+          code .s-box_vertical
+          |  to align contents vertically.
+
+        nav.s-box.s-box_vertical.s-grey
           ul
             li
-              a.s-btn(href="#") Item
-            li Item that is not a link.
-            li
-              a.s-btn(href="#") Item
+              a(href="#") Item
             li
               a(href="#") Item
-          ul.s-right
-            li
-              a.s-btn(href="#") Item
-            li
-              a.s-btn(href="#") Item
-            li
-              a(href="#") Item
-    article.s-row
-      .s-col.s-4
-        nav.s-box.s-grey
+
+        pre &lt;nav class=&quot;s-box s-box_vertical s-grey&quot;&gt;
+          |   &lt;ul&gt;
+          |     &lt;li&gt;
+          |       &lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;
+          |     &lt;/li&gt;
+          |     &lt;li&gt;
+          |       &lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;
+          |     &lt;/li&gt;
+          |   &lt;/ul&gt;
+          | &lt;/nav&gt;
+
+        h2#browsers Browser Support 
+
+        p Which browsers does start.css support? Latest.
+        p IE11+, Chrome, Firefox 16+, and Safari (sort of) are all auto updating browsers. Because of this shift in the browser support ecosystem, we state the current latest browsers on the day of a Start.css stable release are the browsers that version supports. 
+        p For older browser support, download an earlier version of Start.css.
+
+        h2#colors Colors
+
+        p Specially-applied colors are defined as .s-x where x is red, orange, yellow, green, blue, violet.
+
+        button.s-btn Submit
+        button.s-btn.s-red Submit
+        button.s-btn.s-orange Submit
+        button.s-btn.s-yellow Submit
+        button.s-btn.s-green Submit
+        button.s-btn.s-blue Submit
+        button.s-btn.s-violet Submit
+
+        p Submit
+        p.s-red Submit
+        p.s-orange Submit
+        p.s-yellow Submit
+        p.s-green Submit
+        p.s-blue Submit
+        p.s-violet Submit
+
+        pre &lt;button class=&quot;s-btn&quot;&gt;Submit&lt;/button&gt;
+          | &lt;button class=&quot;s-btn s-red&quot;&gt;Submit&lt;/button&gt;
+          | &lt;button class=&quot;s-btn s-orange&quot;&gt;Submit&lt;/button&gt;
+          | &lt;button class=&quot;s-btn s-yellow&quot;&gt;Submit&lt;/button&gt;
+          | &lt;button class=&quot;s-btn s-green&quot;&gt;Submit&lt;/button&gt;
+          | &lt;button class=&quot;s-btn s-blue&quot;&gt;Submit&lt;/button&gt;
+          | &lt;button class=&quot;s-btn s-violet&quot;&gt;Submit&lt;/button&gt;
+          | 
+          | &lt;p&gt;Submit&lt;/p&gt;
+          | &lt;p class=&quot;s-red&quot;&gt;Submit&lt;/p&gt;
+          | &lt;p class=&quot;s-orange&quot;&gt;Submit&lt;/p&gt;
+          | &lt;p class=&quot;s-yellow&quot;&gt;Submit&lt;/p&gt;
+          | &lt;p class=&quot;s-green&quot;&gt;Submit&lt;/p&gt;
+          | &lt;p class=&quot;s-blue&quot;&gt;Submit&lt;/p&gt;
+          | &lt;p class=&quot;s-violet&quot;&gt;Submit&lt;/p&gt;
+
+        p By itself, this class will do nothing, but other elements will recognize these and apply their own respective theming.  
+        p For example, .s-green on a button will make a green background with white text, but .s-green on a p or span will make the color green, but not the background.
+
+        h2#grid Grid
+        p Start uses a 12 column grid. To create a gridded row, start with an 
+          code .s-row
+          |  container.
+
+        pre &lt;section class=&quot;s-row&quot;&gt;&lt;/section&gt;
+
+        p Columns are defined with the 
+          code .s-col
+          |  class and with 
+          code .s-x
+          |  measuring classes where "x" is a number between 1-12.
+        p Using 
+          code .s-col
+          |  without a measuring class will default to 
+          code .s-12
+
+        section.s-row
+          .s-col.s-4
+            .grid-example.s-box s-col s-4
+          .s-col.s-8
+            .grid-example.s-box s-col s-8
+        br
+
+        pre &lt;section class=&quot;s-row&quot;&gt;
+          |   &lt;div class=&quot;s-col s-4&quot;&gt;s-col s-4&lt;/div&gt;
+          |   &lt;div class=&quot;s-col s-8&quot;&gt;s-col s-8&lt;/div&gt;
+          | &lt;/section&gt;
+
+        h3 Other examples
+
+        section.s-row
+          .s-col
+            .grid-example.s-box s-col
+        br
+
+        section.s-row
+          .s-col.s-4
+            .grid-example.s-box s-col s-4
+          .s-col.s-4
+            .grid-example.s-box s-col s-4
+          .s-col.s-4
+            .grid-example.s-box s-col s-4
+        br
+
+        section.s-row
+          .s-col.s-3
+            .grid-example.s-box s-col s-3
+          .s-col.s-6
+            .grid-example.s-box s-col s-6
+          .s-col.s-3
+            .grid-example.s-box s-col s-3
+        br
+
+        h3 Responsive Grid
+        p The grid is designed to operate 
+          em mobile-first
+          | , so there is no class to target devices with widths less than 320px.
+        p To specify a column size for a larger screen, use the additional size prefixes 
+          code sm
+          | , 
+          code md
+          | , 
+          code lg
+          | , and 
+          code xl
+          | .
+
+        section.s-row
+          .s-col.s-md-4
+            .grid-example.s-box (s-col s-md-4) 4 columns in medium width
+          .s-col.s-md-8
+            .grid-example.s-box (s-col s-md-8) 8 columns in medium width
+        br
+
+        section.s-row
+          .s-col
+            .grid-example.s-box (s-col) Mobile devices tend to use one-column layouts more often.
+          .s-col
+            .grid-example.s-box (s-col) So why bother specifying every time?
+          .s-col.s-lg-6
+            .grid-example.s-box (s-col s-lg-6) Write only the classes needed for larger screens.
+          .s-col.s-lg-6
+            .grid-example.s-box (s-col s-lg-6) Keep your HTML tidy.
+        section.s-row
+          .s-col.s-lg-4
+            .grid-example.s-box (s-col s-lg-4) Responsive design
+          .s-col.s-lg-4
+            .grid-example.s-box (s-col s-lg-4) is
+          .s-col.s-lg-4
+            .grid-example.s-box (s-col s-lg-4) easy.
+
+        h2#growls Growls
+        p Growls are unobtrusive pop up messages called via JavaScript. A basic call might look like this:
+        pre $.sGrowl({
+          |    icon: 'save',
+          |    title: 'Saved',
+          |    text: 'Your document has been saved'  
+          |  })
+        p
+          button.s-btn.s-blue(onclick="$.sGrowl({icon: 'save',title: 'Saved',text: 'Your document has been saved'})") Try it
+
+        h3 Parameters
+        table.s-table
+          thead
+            tr
+              th Parameter
+              th Default
+              th Description
+          tbody
+            tr
+              td
+                code icon
+              td &mdash;
+              td Icon to appear before the heading. Choose from the 
+                a(href="http://fontawesome.io/") Font Awesome 4 library
+                |  without the preceding "fa-"
+            tr
+              td
+                code title
+              td &mdash;
+              td Bold-faced title to appear on the first line.
+            tr
+              td
+                code text
+              td &mdash;
+              td Main text under the title. HTML allowed.
+            tr
+              td
+                code delay
+              td (Infinite)
+              td Delay in miliseconds before dismissing growl. Ignore this parameter to keep growl permanent.
+            tr
+              td
+                code container
+              td 
+                code #s-growls
+              td HTML element where growl should be sent. Write in CSS notation.
+            tr
+              td
+                code color
+              td
+                code green
+              td Color of growl (red/orange/yellow/green/blue/violet).
+            tr
+              td
+                code class
+              td &mdash;
+              td Additional classes to apply to growl. Separate multiple classes with a space.
+
+        h3 Advanced
+        p Here is a growl that will appear in red in the container below and disappear after 3 seconds.
+        .s-box.s-yellow#example-container 
+          p Growl will appear above.
+        pre $.sGrowl({
+          |   color: 'red', 
+          |   icon: 'book',
+          |   title: 'Test',
+          |   text: 'Testing...1, 2, 3', 
+          |   delay: 3000, 
+          |   container: '#example-container'
+          | })
+        p
+          button.s-btn.s-blue(onclick="$.sGrowl({color: 'red', icon: 'book',title: 'Test',text: 'Testing...1, 2, 3', delay: 3000, container: '#example-container'})") Try it
+
+        h2#images Images
+
+        h3 Using images as thumbnails
+        p Using a new class element of the 
+          code .s-box
+          |  block, we can easily create nicely-spaced left- or right-aligned thumbnail images.
+
+        .s-box
+          img.s-box-caption_left(src="img/flower.jpg" style="width: 64px")
+          .s-box-caption_right
+            h5 Flowers
+            p Flowers are now on sale. Get your beautiful gift of flowers today. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        pre &lt;div class=&quot;s-box&quot;&gt;
+          |   &lt;img class=&quot;s-box-caption_left&quot; src=&quot;img/flowers.jpg&quot; /&gt;
+          |   &lt;div class=&quot;s-box-caption_right&quot;&gt;
+          |     &lt;h5&gt;Flowers&lt;/h5&gt;
+          |     &lt;p&gt;Flowers are now on sale. Get your beautiful gift of flowers today. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+          |   &lt;/div&gt;
+          | &lt;/div&gt;
+
+        .s-box
+          img.s-box-caption_right(src="img/flower.jpg" style="width: 64px")
+          .s-box-caption_left
+            h5 Flowers
+            p Flowers are now on sale. Get your beautiful gift of flowers today. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        pre &lt;div class=&quot;s-box&quot;&gt;
+          |   &lt;img class=&quot;s-box-caption_right&quot; src=&quot;img/flowers.jpg&quot; /&gt;
+          |   &lt;div class=&quot;s-box-caption_left&quot;&gt;
+          |     &lt;h5&gt;Flowers&lt;/h5&gt;
+          |     &lt;p&gt;Flowers are now on sale. Get your beautiful gift of flowers today. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+          |   &lt;/div&gt;
+          | &lt;/div&gt;
+
+        h2#modals Modals
+        p Modals require only one element, making it easy to control with simple jQuery.
+
+        .s-row
+          .s-col.s-lg-6
+            h5 The modal window
+            pre &lt;div class=&quot;s-modal&quot; id=&quot;modal1&quot;&gt;
+              |   I'm a modal
+              | &lt;/div&gt;
+          .s-col.s-lg-6
+            h5 The button
+            pre &lt;button class=&quot;s-btn s-blue&quot; id=&quot;launch-modal1&quot;&gt;
+              |   Launch Modal
+              | &lt;/button&gt;
+          .s-col
+            h5 The jQuery
+            pre $('#launch-modal1').click(function() {
+              |   $('#modal1').fadeIn('fast')
+              | })
+
+        p Remember to use 
+          code .fadeIn()
+          | or 
+          code .fadeOut()
+
+        p
+          button#launch-modal1.s-btn.s-blue Try it
+
+        .s-modal#modal1 I'm a modal
+
+        p For styling, use semantic HTML5
+
+        pre &lt;div class=&quot;s-modal&quot;&gt;
+          |   &lt;header&gt;
+          |     &lt;h5&gt;
+          |       Modal Title
+          |       &lt;small&gt;&amp;times;&lt;/small&gt;
+          |     &lt;/h5&gt;
+          |   &lt;/header&gt;
+          |   &lt;main&gt;
+          |     &lt;p&gt;Modal Body&lt;/p&gt;
+          |   &lt;/main&gt;
+          |   &lt;footer class=&quot;s-box&quot;&gt;
+          |     &lt;ul class=&quot;s-right&quot;&gt;
+          |       &lt;li&gt;
+          |         &lt;button class=&quot;s-btn s-blue&quot;&gt;Submit&lt;/button&gt;
+          |       &lt;/li&gt;
+          |     &lt;/ul&gt;
+          |   &lt;/footer&gt;
+          | &lt;/div&gt;
+
+        p
+          button#launch-modal2.s-btn.s-blue Try it
+
+        .s-modal#modal2
+          header
+            h5 I'm a modal
+              small.s-close &times;
+          main
+            p This is the body
+          footer.s-box
+            ul.s-right
+              li
+                button.s-btn.s-blue Submit
+
+        h2#typography Typography
+        p Typography relies mostly on standard HTML5 elements.
+        p Use hx (where x = 1-5) for headings and p, etc for basic text formatting.
+
+
+
+      .s-sm-4.s-lg-3.s-col
+        .s-box.s-box_vertical
           ul
+            li.s-box-heading
+              p Directory
             li
-              a.s-btn(href="#") Item
+              a(href="#boxes") Boxes
             li
-              a.s-btn.s-blue(href="#") Item
+              a(href="#browsers") Browser Support
             li
-              a(href="#") Item
-      .s-col.s-4
-        nav.s-box.s-dark
-          ul
+              a(href="#colors") Colors
             li
-              a.s-btn(href="#") Item
+              a(href="#grid") Grid
             li
-              a.s-btn.s-blue(href="#") Item
+              a(href="#growls") Growls
             li
-              a(href="#") Item
-      .s-col.s-4
-        nav.s-box
-          ul
+              a(href="#images") Images
             li
-              a.s-btn(href="#") Item
+              a(href="#modals") Modals
             li
-              a.s-btn.s-blue(href="#") Item
-            li
-              a(href="#") Item
-    article.s-row
-      .s-col.s-sm-6.s-md-4.s-lg-3 
-        h5 Heading
-        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      .s-col.s-sm-6.s-md-4.s-lg-3 
-        h5 Heading
-        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        nav.s-box.s-dark
-          ul
-            li
-              a(href="#") Toolbar 
-          ul.s-right
-            li
-              a.s-btn.s-blue(href="#") Save
-        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      .s-col.s-sm-6.s-md-4.s-lg-3 
-        h5 Heading
-        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      .s-col.s-sm-6.s-md-4.s-lg-3 
-        h5 Heading
-        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-    hr
-
-    h1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    h2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    h3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    h4 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    h5 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-    hr
-
-    h1 Heading 1
-    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    h2 Heading 2
-    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    h3 Heading 3
-    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    h4 Heading 4
-    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    h5 Heading 5
-    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-    hr
-
-    article.s-row
-      .s-col.s-sm-3
-        h1 3 Columns
-      .s-col.s-sm-9
-        h1 9 Columns
-
-    .s-modal
-      header
-        h5 Modal Title
-          small.s-close &times;
-      main
-        p Modal content
-      footer.s-box
-        ul
-          li
-            a.s-btn.s-clear(href="#") Cancel
-        ul.s-right
-          li
-            a.s-btn.s-blue(href="#") Yes.
-
-    hr
-
-    h1 Heading 1
-    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    blockquote Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    h2 Heading 2
-    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    h3 Heading 3
-    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    h4 Heading 4
-    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    h5 Heading 5
-    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              a(href="#typography") Typography
+  block docready
+    script.
+      $('#launch-modal1').click(function() {
+        $('#modal1').fadeIn('fast')
+      })
+      $('#launch-modal2').click(function() {
+        $('#modal2').fadeIn('fast')
+      })

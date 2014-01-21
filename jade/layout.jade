@@ -13,7 +13,8 @@ html(lang="en")
   script(src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js")
   script.
     $('p, span').s_endconcat()
-    $('#modal').click(function() {
-      $('.s-modal').fadeIn('fast')
+    $('#launch-modal').click(function() {
+      $('#modal').fadeIn('fast')
     }) 
   link(href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet")
+  block docready

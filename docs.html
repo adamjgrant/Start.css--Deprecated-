@@ -12,8 +12,8 @@
             <li><a href="#" class="s-box-heading"> <span class="fa fa-book"></span> Start.css</a></li>
             <li class="s-dropdown"><a href="#">Menu</a>
               <ul>
-                <li><a href="index.html">Sandbox</a></li>
-                <li><a href="docs.html">Docs</a></li>
+                <li><a href="sandbox.html">Sandbox</a></li>
+                <li><a href="index.html">Docs</a></li>
               </ul>
             </li>
           </ul>
@@ -311,6 +311,70 @@
     &lt;p&gt;Flowers are now on sale. Get your beautiful gift of flowers today. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;</pre>
+            <h2 id="modals">Modals</h2>
+            <p>Modals require only one element, making it easy to control with simple jQuery.</p>
+            <div class="s-row">
+              <div class="s-col s-lg-6">
+                <h5>The modal window</h5>
+                <pre>&lt;div class=&quot;s-modal&quot; id=&quot;modal1&quot;&gt;
+  I'm a modal
+&lt;/div&gt;</pre>
+              </div>
+              <div class="s-col s-lg-6">
+                <h5>The button</h5>
+                <pre>&lt;button class=&quot;s-btn s-blue&quot; id=&quot;launch-modal1&quot;&gt;
+  Launch Modal
+&lt;/button&gt;</pre>
+              </div>
+              <div class="s-col">
+                <h5>The jQuery</h5>
+                <pre>$('#launch-modal1').click(function() {
+  $('#modal1').fadeIn('fast')
+})</pre>
+              </div>
+            </div>
+            <p>Remember to use <code>.fadeIn()</code>or <code>.fadeOut()</code></p>
+            <p>
+              <button id="launch-modal1" class="s-btn s-blue">Try it</button>
+            </p>
+            <div id="modal1" class="s-modal">I'm a modal</div>
+            <p>For styling, use semantic HTML5</p>
+            <pre>&lt;div class=&quot;s-modal&quot;&gt;
+  &lt;header&gt;
+    &lt;h5&gt;
+      Modal Title
+      &lt;small&gt;&amp;times;&lt;/small&gt;
+    &lt;/h5&gt;
+  &lt;/header&gt;
+  &lt;main&gt;
+    &lt;p&gt;Modal Body&lt;/p&gt;
+  &lt;/main&gt;
+  &lt;footer class=&quot;s-box&quot;&gt;
+    &lt;ul class=&quot;s-right&quot;&gt;
+      &lt;li&gt;
+        &lt;button class=&quot;s-btn s-blue&quot;&gt;Submit&lt;/button&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/footer&gt;
+&lt;/div&gt;</pre>
+            <p>
+              <button id="launch-modal2" class="s-btn s-blue">Try it</button>
+            </p>
+            <div id="modal2" class="s-modal">
+              <header>
+                <h5>I'm a modal<small class="s-close">&times;</small></h5>
+              </header>
+              <main>
+                <p>This is the body</p>
+              </main>
+              <footer class="s-box">
+                <ul class="s-right">
+                  <li>
+                    <button class="s-btn s-blue">Submit</button>
+                  </li>
+                </ul>
+              </footer>
+            </div>
             <h2 id="typography">Typography</h2>
             <p>Typography relies mostly on standard HTML5 elements.</p>
             <p>Use hx (where x = 1-5) for headings and p, etc for basic text formatting.</p>
@@ -327,12 +391,21 @@
                 <li><a href="#grid">Grid</a></li>
                 <li><a href="#growls">Growls</a></li>
                 <li><a href="#images">Images</a></li>
+                <li><a href="#modals">Modals</a></li>
                 <li><a href="#typography">Typography</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
+      <script>
+        $('#launch-modal1').click(function() {
+          $('#modal1').fadeIn('fast')
+        })
+        $('#launch-modal2').click(function() {
+          $('#modal2').fadeIn('fast')
+        })
+      </script>
     </main>
     <footer></footer>
   </body>
@@ -341,9 +414,17 @@
   <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
   <script>
     $('p, span').s_endconcat()
-    $('#modal').click(function() {
-      $('.s-modal').fadeIn('fast')
+    $('#launch-modal').click(function() {
+      $('#modal').fadeIn('fast')
     }) 
   </script>
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <script>
+    $('#launch-modal1').click(function() {
+      $('#modal1').fadeIn('fast')
+    })
+    $('#launch-modal2').click(function() {
+      $('#modal2').fadeIn('fast')
+    })
+  </script>
 </html>
