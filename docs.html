@@ -28,6 +28,68 @@
             <hr>
             <h2 id="boxes">Boxes</h2>
             <p>Boxes are the most versatile component of the Start library. These can function as navigation menus, toolboxes, or any generic container.</p>
+            <h3>Navigation Boxes</h3>
+            <p>Boxes for horizontal navigation should be filled with unordered lists (``ul``)</p>
+            <nav class="s-box">
+              <ul>
+                <li><a href="#">Item</a></li>
+                <li><a href="#" class="s-btn">Item</a></li>
+              </ul>
+            </nav>
+            <pre>&lt;nav class=&quot;s-box&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a class=&quot;s-btn&quot; href=&quot;#&quot;&gt;Item&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;</pre>
+            <h4>Right-aligned</h4>
+            <p>Use <code>.s-right</code> on the child ul to align right. <code>li.s-box-heading</code> will give you a formatted title.</p>
+            <nav class="s-box">
+              <ul>
+                <li><a href="#">Item</a></li>
+                <li><a href="#" class="s-btn">Item</a></li>
+              </ul>
+              <ul class="s-right">
+                <li><a href="#" class="s-btn">Item</a></li>
+              </ul>
+            </nav>
+            <pre>&lt;nav class=&quot;s-box&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a class=&quot;s-btn&quot; href=&quot;#&quot;&gt;Item&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;ul class=&quot;s-right&quot;&gt;
+    &lt;li&gt;
+      &lt;a class=&quot;s-btn&quot; href=&quot;#&quot;&gt;Item&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;</pre>
+            <h4>Vertical</h4>
+            <p>Add <code>.s-box_vertical</code> to align contents vertically.</p>
+            <nav class="s-box s-box_vertical">
+              <ul>
+                <li><a href="#">Item</a></li>
+                <li><a href="#">Item</a></li>
+              </ul>
+            </nav>
+            <pre>&lt;nav class=&quot;s-box s-box_vertical&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;</pre>
             <h2 id="growls">Growls</h2>
             <p>Growls are unobtrusive pop up messages called via JavaScript. A basic call might look like this:</p>
             <pre>$.sGrowl({
@@ -77,6 +139,11 @@
                   <td><code>color</code></td>
                   <td><code>green</code></td>
                   <td>Color of growl (red/orange/yellow/green/blue/violet).</td>
+                </tr>
+                <tr>
+                  <td><code>class</code></td>
+                  <td>&mdash;</td>
+                  <td>Additional classes to apply to growl. Separate multiple classes with a space.</td>
                 </tr>
               </tbody>
             </table>

@@ -27,6 +27,84 @@ block content
         h2#boxes Boxes
         p Boxes are the most versatile component of the Start library. These can function as navigation menus, toolboxes, or any generic container.
 
+        h3 Navigation Boxes
+        p Boxes for horizontal navigation should be filled with unordered lists (``ul``)
+
+        nav.s-box
+          ul
+            li
+              a(href="#") Item
+            li
+              a.s-btn(href="#") Item
+
+        pre &lt;nav class=&quot;s-box&quot;&gt;
+          |   &lt;ul&gt;
+          |     &lt;li&gt;
+          |       &lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;
+          |     &lt;/li&gt;
+          |     &lt;li&gt;
+          |       &lt;a class=&quot;s-btn&quot; href=&quot;#&quot;&gt;Item&lt;/a&gt;
+          |     &lt;/li&gt;
+          |   &lt;/ul&gt;
+          | &lt;/nav&gt;
+
+        h4 Right-aligned
+        p Use 
+          code .s-right
+          |  on the child ul to align right. 
+          code li.s-box-heading
+          |  will give you a formatted title.
+
+        nav.s-box
+          ul
+            li
+              a(href="#") Item
+            li
+              a.s-btn(href="#") Item
+          ul.s-right
+            li
+              a.s-btn(href="#") Item
+
+        pre &lt;nav class=&quot;s-box&quot;&gt;
+          |   &lt;ul&gt;
+          |     &lt;li&gt;
+          |       &lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;
+          |     &lt;/li&gt;
+          |     &lt;li&gt;
+          |       &lt;a class=&quot;s-btn&quot; href=&quot;#&quot;&gt;Item&lt;/a&gt;
+          |     &lt;/li&gt;
+          |   &lt;/ul&gt;
+          |   &lt;ul class=&quot;s-right&quot;&gt;
+          |     &lt;li&gt;
+          |       &lt;a class=&quot;s-btn&quot; href=&quot;#&quot;&gt;Item&lt;/a&gt;
+          |     &lt;/li&gt;
+          |   &lt;/ul&gt;
+          | &lt;/nav&gt;
+
+        h4 Vertical
+
+        p Add 
+          code .s-box_vertical
+          |  to align contents vertically.
+
+        nav.s-box.s-box_vertical
+          ul
+            li
+              a(href="#") Item
+            li
+              a(href="#") Item
+
+        pre &lt;nav class=&quot;s-box s-box_vertical&quot;&gt;
+          |   &lt;ul&gt;
+          |     &lt;li&gt;
+          |       &lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;
+          |     &lt;/li&gt;
+          |     &lt;li&gt;
+          |       &lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;
+          |     &lt;/li&gt;
+          |   &lt;/ul&gt;
+          | &lt;/nav&gt;
+
         h2#growls Growls
         p Growls are unobtrusive pop up messages called via JavaScript. A basic call might look like this:
         pre $.sGrowl({
@@ -79,6 +157,11 @@ block content
               td
                 code green
               td Color of growl (red/orange/yellow/green/blue/violet).
+            tr
+              td
+                code class
+              td &mdash;
+              td Additional classes to apply to growl. Separate multiple classes with a space.
 
         h3 Advanced
         p Here is a growl that will appear in red in the container below and disappear after 3 seconds.
