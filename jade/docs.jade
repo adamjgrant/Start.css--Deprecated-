@@ -106,6 +106,51 @@ block content
           |   &lt;/ul&gt;
           | &lt;/nav&gt;
 
+        h2#browsers Browser Support 
+
+        p Which browsers does start.css support? Latest.
+        p IE11+, Chrome, Firefox 16+, and Safari (sort of) are all auto updating browsers. Because of this shift in the browser support ecosystem, we state the current latest browsers on the day of a Start.css stable release are the browsers that version supports. 
+        p For older browser support, download an earlier version of Start.css.
+
+        h2#colors Colors
+
+        p Specially-applied colors are defined as .s-x where x is red, orange, yellow, green, blue, violet.
+
+        button.s-btn Submit
+        button.s-btn.s-red Submit
+        button.s-btn.s-orange Submit
+        button.s-btn.s-yellow Submit
+        button.s-btn.s-green Submit
+        button.s-btn.s-blue Submit
+        button.s-btn.s-violet Submit
+
+        p Submit
+        p.s-red Submit
+        p.s-orange Submit
+        p.s-yellow Submit
+        p.s-green Submit
+        p.s-blue Submit
+        p.s-violet Submit
+
+        pre &lt;button class=&quot;s-btn&quot;&gt;Submit&lt;/button&gt;
+          | &lt;button class=&quot;s-btn s-red&quot;&gt;Submit&lt;/button&gt;
+          | &lt;button class=&quot;s-btn s-orange&quot;&gt;Submit&lt;/button&gt;
+          | &lt;button class=&quot;s-btn s-yellow&quot;&gt;Submit&lt;/button&gt;
+          | &lt;button class=&quot;s-btn s-green&quot;&gt;Submit&lt;/button&gt;
+          | &lt;button class=&quot;s-btn s-blue&quot;&gt;Submit&lt;/button&gt;
+          | &lt;button class=&quot;s-btn s-violet&quot;&gt;Submit&lt;/button&gt;
+          | 
+          | &lt;p&gt;Submit&lt;/p&gt;
+          | &lt;p class=&quot;s-red&quot;&gt;Submit&lt;/p&gt;
+          | &lt;p class=&quot;s-orange&quot;&gt;Submit&lt;/p&gt;
+          | &lt;p class=&quot;s-yellow&quot;&gt;Submit&lt;/p&gt;
+          | &lt;p class=&quot;s-green&quot;&gt;Submit&lt;/p&gt;
+          | &lt;p class=&quot;s-blue&quot;&gt;Submit&lt;/p&gt;
+          | &lt;p class=&quot;s-violet&quot;&gt;Submit&lt;/p&gt;
+
+        p By itself, this class will do nothing, but other elements will recognize these and apply their own respective theming.  
+        p For example, .s-green on a button will make a green background with white text, but .s-green on a p or span will make the color green, but not the background.
+
         h2#grid Grid
         p Start uses a 12 column grid. To create a gridded row, start with an 
           code .s-row
@@ -270,6 +315,13 @@ block content
           | })
         p
           button.s-btn.s-blue(onclick="$.sGrowl({color: 'red', icon: 'book',title: 'Test',text: 'Testing...1, 2, 3', delay: 3000, container: '#example-container'})") Try it
+
+        h2#typography Typography
+        p Typography relies mostly on standard HTML5 elements.
+        p Use hx (where x = 1-5) for headings and p, etc for basic text formatting.
+
+
+
       .s-sm-4.s-lg-3.s-col
         .s-box.s-box_vertical
           ul
@@ -278,6 +330,12 @@ block content
             li
               a(href="#growls") Boxes
             li
+              a(href="#browsers") Browser Support
+            li
+              a(href="#colors") Colors
+            li
               a(href="#grid") Grid
             li
               a(href="#growls") Growls
+            li
+              a(href="#typography") Typography
