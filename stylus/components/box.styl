@@ -1,6 +1,12 @@
 .s-
   &box
-    background-color: $lightGrey
+    &-caption
+      &_left:not(img)
+        overflow: hidden
+        display: block
+      &_right:not(img)
+        overflow: hidden
+        display: block
     margin-bottom: $space
     border-radius(5px)
     p:last-child
@@ -66,6 +72,8 @@
       background-color: $black
       a:not(.s-btn)
         color: white
+    &.s-grey
+      background-color: $lightGrey
     input
       &[type="text"],
       &[type="email"],
@@ -88,3 +96,12 @@
           padding-bottom: 0
         &:last-child
           padding-bottom: $buttonSpacingV
+
+img.s-
+  &box-caption_
+    &left
+      margin-right: ($space/2)
+      float: left
+    &right
+      margin-left: ($space/2)
+      float: right

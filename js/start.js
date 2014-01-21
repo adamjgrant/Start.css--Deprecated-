@@ -2,6 +2,8 @@
 (function() {
   var growls;
 
+  $('pre').addClass('prettyprint');
+
   $(':not(.s-modal)').not('.s-modal *').click(function() {
     return $('.s-modal[style="display: block;"]').fadeOut('fast');
   }).children().click(function(e) {

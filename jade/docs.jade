@@ -2,7 +2,7 @@ extends layout
 
 block header
   link(rel="stylesheet" href="css/docs.css")
-  nav.s-box.s-fixed
+  nav.s-box.s-fixed.s-grey
     .s-wrapper
       ul
         li
@@ -31,14 +31,14 @@ block content
         h3 Navigation Boxes
         p Boxes for horizontal navigation should be filled with unordered lists (``ul``)
 
-        nav.s-box
+        nav.s-box.s-grey
           ul
             li
               a(href="#") Item
             li
               a.s-btn(href="#") Item
 
-        pre &lt;nav class=&quot;s-box&quot;&gt;
+        pre &lt;nav class=&quot;s-box s-grey&quot;&gt;
           |   &lt;ul&gt;
           |     &lt;li&gt;
           |       &lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;
@@ -56,7 +56,7 @@ block content
           code li.s-box-heading
           |  will give you a formatted title.
 
-        nav.s-box
+        nav.s-box.s-grey
           ul
             li
               a(href="#") Item
@@ -66,7 +66,7 @@ block content
             li
               a.s-btn(href="#") Item
 
-        pre &lt;nav class=&quot;s-box&quot;&gt;
+        pre &lt;nav class=&quot;s-box s-grey&quot;&gt;
           |   &lt;ul&gt;
           |     &lt;li&gt;
           |       &lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;
@@ -88,14 +88,14 @@ block content
           code .s-box_vertical
           |  to align contents vertically.
 
-        nav.s-box.s-box_vertical
+        nav.s-box.s-box_vertical.s-grey
           ul
             li
               a(href="#") Item
             li
               a(href="#") Item
 
-        pre &lt;nav class=&quot;s-box s-box_vertical&quot;&gt;
+        pre &lt;nav class=&quot;s-box s-box_vertical s-grey&quot;&gt;
           |   &lt;ul&gt;
           |     &lt;li&gt;
           |       &lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;
@@ -170,9 +170,9 @@ block content
 
         section.s-row
           .s-col.s-4
-            .grid-example s-col s-4
+            .grid-example.s-box s-col s-4
           .s-col.s-8
-            .grid-example s-col s-8
+            .grid-example.s-box s-col s-8
         br
 
         pre &lt;section class=&quot;s-row&quot;&gt;
@@ -184,25 +184,25 @@ block content
 
         section.s-row
           .s-col
-            .grid-example s-col
+            .grid-example.s-box s-col
         br
 
         section.s-row
           .s-col.s-4
-            .grid-example s-col s-4
+            .grid-example.s-box s-col s-4
           .s-col.s-4
-            .grid-example s-col s-4
+            .grid-example.s-box s-col s-4
           .s-col.s-4
-            .grid-example s-col s-4
+            .grid-example.s-box s-col s-4
         br
 
         section.s-row
           .s-col.s-3
-            .grid-example s-col s-3
+            .grid-example.s-box s-col s-3
           .s-col.s-6
-            .grid-example s-col s-6
+            .grid-example.s-box s-col s-6
           .s-col.s-3
-            .grid-example s-col s-3
+            .grid-example.s-box s-col s-3
         br
 
         h3 Responsive Grid
@@ -221,27 +221,27 @@ block content
 
         section.s-row
           .s-col.s-md-4
-            .grid-example (s-col s-md-4) 4 columns in medium width
+            .grid-example.s-box (s-col s-md-4) 4 columns in medium width
           .s-col.s-md-8
-            .grid-example (s-col s-md-8) 8 columns in medium width
+            .grid-example.s-box (s-col s-md-8) 8 columns in medium width
         br
 
         section.s-row
           .s-col
-            .grid-example (s-col) Mobile devices tend to use one-column layouts more often.
+            .grid-example.s-box (s-col) Mobile devices tend to use one-column layouts more often.
           .s-col
-            .grid-example (s-col) So why bother specifying every time?
+            .grid-example.s-box (s-col) So why bother specifying every time?
           .s-col.s-lg-6
-            .grid-example (s-col s-lg-6) Write only the classes needed for larger screens.
+            .grid-example.s-box (s-col s-lg-6) Write only the classes needed for larger screens.
           .s-col.s-lg-6
-            .grid-example (s-col s-lg-6) Keep your HTML tidy.
+            .grid-example.s-box (s-col s-lg-6) Keep your HTML tidy.
         section.s-row
           .s-col.s-lg-4
-            .grid-example (s-col s-lg-4) Responsive design
+            .grid-example.s-box (s-col s-lg-4) Responsive design
           .s-col.s-lg-4
-            .grid-example (s-col s-lg-4) is
+            .grid-example.s-box (s-col s-lg-4) is
           .s-col.s-lg-4
-            .grid-example (s-col s-lg-4) easy.
+            .grid-example.s-box (s-col s-lg-4) easy.
 
         h2#growls Growls
         p Growls are unobtrusive pop up messages called via JavaScript. A basic call might look like this:
@@ -316,6 +316,41 @@ block content
         p
           button.s-btn.s-blue(onclick="$.sGrowl({color: 'red', icon: 'book',title: 'Test',text: 'Testing...1, 2, 3', delay: 3000, container: '#example-container'})") Try it
 
+        h2#images Images
+
+        h3 Using images as thumbnails
+        p Using a new class element of the 
+          code .s-box
+          |  block, we can easily create nicely-spaced left- or right-aligned thumbnail images.
+
+        .s-box
+          img.s-box-caption_left(src="img/flower.jpg" style="width: 64px")
+          .s-box-caption_right
+            h5 Flowers
+            p Flowers are now on sale. Get your beautiful gift of flowers today. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        pre &lt;div class=&quot;s-box&quot;&gt;
+          |   &lt;img class=&quot;s-box-caption_left&quot; src=&quot;img/flowers.jpg&quot; /&gt;
+          |   &lt;div class=&quot;s-box-caption_right&quot;&gt;
+          |     &lt;h5&gt;Flowers&lt;/h5&gt;
+          |     &lt;p&gt;Flowers are now on sale. Get your beautiful gift of flowers today. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+          |   &lt;/div&gt;
+          | &lt;/div&gt;
+
+        .s-box
+          img.s-box-caption_right(src="img/flower.jpg" style="width: 64px")
+          .s-box-caption_left
+            h5 Flowers
+            p Flowers are now on sale. Get your beautiful gift of flowers today. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        pre &lt;div class=&quot;s-box&quot;&gt;
+          |   &lt;img class=&quot;s-box-caption_right&quot; src=&quot;img/flowers.jpg&quot; /&gt;
+          |   &lt;div class=&quot;s-box-caption_left&quot;&gt;
+          |     &lt;h5&gt;Flowers&lt;/h5&gt;
+          |     &lt;p&gt;Flowers are now on sale. Get your beautiful gift of flowers today. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+          |   &lt;/div&gt;
+          | &lt;/div&gt;
+
         h2#typography Typography
         p Typography relies mostly on standard HTML5 elements.
         p Use hx (where x = 1-5) for headings and p, etc for basic text formatting.
@@ -328,7 +363,7 @@ block content
             li.s-box-heading
               p Directory
             li
-              a(href="#growls") Boxes
+              a(href="#boxes") Boxes
             li
               a(href="#browsers") Browser Support
             li
@@ -337,5 +372,7 @@ block content
               a(href="#grid") Grid
             li
               a(href="#growls") Growls
+            li
+              a(href="#images") Images
             li
               a(href="#typography") Typography

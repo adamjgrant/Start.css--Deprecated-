@@ -197,7 +197,12 @@ ul.s-red,
 ol.s-red,
 li.s-red,
 blockquote.s-red,
-a.s-red {
+a.s-red,
+h1.s-red,
+h2.s-red,
+h3.s-red,
+h4.s-red,
+h5.s-red {
   color: #ca3518;
 }
 p.s-orange,
@@ -209,7 +214,12 @@ ul.s-orange,
 ol.s-orange,
 li.s-orange,
 blockquote.s-orange,
-a.s-orange {
+a.s-orange,
+h1.s-orange,
+h2.s-orange,
+h3.s-orange,
+h4.s-orange,
+h5.s-orange {
   color: #ff8c00;
 }
 p.s-yellow,
@@ -221,7 +231,12 @@ ul.s-yellow,
 ol.s-yellow,
 li.s-yellow,
 blockquote.s-yellow,
-a.s-yellow {
+a.s-yellow,
+h1.s-yellow,
+h2.s-yellow,
+h3.s-yellow,
+h4.s-yellow,
+h5.s-yellow {
   color: #ffd700;
 }
 p.s-green,
@@ -233,7 +248,12 @@ ul.s-green,
 ol.s-green,
 li.s-green,
 blockquote.s-green,
-a.s-green {
+a.s-green,
+h1.s-green,
+h2.s-green,
+h3.s-green,
+h4.s-green,
+h5.s-green {
   color: #58aa00;
 }
 p.s-blue,
@@ -245,7 +265,12 @@ ul.s-blue,
 ol.s-blue,
 li.s-blue,
 blockquote.s-blue,
-a.s-blue {
+a.s-blue,
+h1.s-blue,
+h2.s-blue,
+h3.s-blue,
+h4.s-blue,
+h5.s-blue {
   color: #6495ed;
 }
 p.s-violet,
@@ -257,8 +282,30 @@ ul.s-violet,
 ol.s-violet,
 li.s-violet,
 blockquote.s-violet,
-a.s-violet {
+a.s-violet,
+h1.s-violet,
+h2.s-violet,
+h3.s-violet,
+h4.s-violet,
+h5.s-violet {
   color: #8b008b;
+}
+p.s-white,
+em.s-white,
+strong.s-white,
+i.s-white,
+b.s-white,
+ul.s-white,
+ol.s-white,
+li.s-white,
+blockquote.s-white,
+a.s-white,
+h1.s-white,
+h2.s-white,
+h3.s-white,
+h4.s-white,
+h5.s-white {
+  color: #fff;
 }
 strong {
   font-weight: 500;
@@ -271,6 +318,8 @@ pre {
   border-radius: 3px;
   padding: 8.333333333333334px 16.666666666666668px;
   font-family: monospace;
+  word-break: break-all;
+  word-wrap: break-word;
 }
 code {
   margin-bottom: 0px;
@@ -725,10 +774,17 @@ hr {
   text-decoration: none;
 }
 .s-box {
-  background-color: #eee;
   margin-bottom: 25px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+}
+.s-box-caption_left:not(img) {
+  overflow: hidden;
+  display: block;
+}
+.s-box-caption_right:not(img) {
+  overflow: hidden;
+  display: block;
 }
 .s-box p:last-child {
   margin-bottom: 0;
@@ -854,6 +910,9 @@ hr {
 .s-box.s-dark a:not(.s-btn) {
   color: #fff;
 }
+.s-box.s-grey {
+  background-color: #eee;
+}
 .s-box input[type="text"],
 .s-box input[type="email"],
 .s-box input[type="search"],
@@ -877,6 +936,14 @@ hr {
 }
 .s-box.s-box_vertical > ul > li:last-child {
   padding-bottom: 8.333333333333334px;
+}
+img.s-box-caption_left {
+  margin-right: 12.5px;
+  float: left;
+}
+img.s-box-caption_right {
+  margin-left: 12.5px;
+  float: right;
 }
 .s-growls-growl {
   width: 250px;

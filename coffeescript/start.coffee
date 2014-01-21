@@ -1,3 +1,7 @@
+# Typography
+
+$('pre').addClass('prettyprint')
+
 # Modal
 
 $(':not(.s-modal)').not('.s-modal *').click( ->

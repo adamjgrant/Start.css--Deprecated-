@@ -75,7 +75,12 @@ ul,
 ol, 
 li,
 blockquote,
-a
+a,
+h1,
+h2,
+h3,
+h4,
+h5
   &.s-
     &red
       color: $red
@@ -89,6 +94,8 @@ a
       color: $blue
     &violet
       color: $violet
+    &white
+      color: white
 strong
   font-weight: 500
 
@@ -98,6 +105,8 @@ code, pre
   border-radius($buttonBorderRadius)
   padding: $buttonSpacing
   font-family: monospace
+  word-break: break-all
+  word-wrap: break-word
 code
   margin-bottom: 0px
   padding: 0 ($buttonSpacingH/3)
