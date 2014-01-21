@@ -140,6 +140,7 @@ body {
 }
 a {
   color: #6495ed;
+  text-decoration: underline;
 }
 a:hover:not(.s-btn) {
   color: #1a62e2;
@@ -882,6 +883,7 @@ hr {
   -webkit-box-shadow: 0px -3px 0px 0px rgba(0,0,0,0);
   box-shadow: 0px -3px 0px 0px rgba(0,0,0,0);
   color: #6495ed;
+  text-decoration: underline;
 }
 .s-btn.s-clear:hover:not(.s-btn) {
   color: #1a62e2;
@@ -963,7 +965,9 @@ input[type="week"]:focus {
   background-color: #fff;
   border-color: #555;
 }
-.s-dropdown > a:after {
+.s-dropdown > a:after,
+.s-dropdown > button:after,
+.s-dropdown > input:after {
   content: "\f0d7";
   font-family: 'FontAwesome';
   margin-left: 5px;
@@ -971,20 +975,20 @@ input[type="week"]:focus {
 .s-dropdown > ul {
   display: none;
 }
-.s-dropdown.s-dropdown_clicked {
+.dropdown_open .s-dropdown:hover {
   background-color: #555;
   -webkit-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
 }
-.s-dropdown.s-dropdown_clicked > a {
+.dropdown_open .s-dropdown:hover > a {
   color: #fff;
   -webkit-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
 }
-.s-dropdown.s-dropdown_clicked > a:hover {
+.dropdown_open .s-dropdown:hover > a:hover {
   background-color: #333;
 }
-.s-dropdown.s-dropdown_clicked > ul {
+.dropdown_open .s-dropdown:hover > ul {
   display: block !important;
   margin-left: -1px;
   position: absolute;
@@ -995,19 +999,19 @@ input[type="week"]:focus {
   -webkit-border-radius: 0 5px 5px 5px;
   border-radius: 0 5px 5px 5px;
 }
-.s-dropdown.s-dropdown_clicked > ul > li {
+.dropdown_open .s-dropdown:hover > ul > li {
   margin: 0;
 }
-.s-dropdown.s-dropdown_clicked > ul > li > a {
+.dropdown_open .s-dropdown:hover > ul > li > a {
   padding: 8.333333333333334px 16.666666666666668px;
   -webkit-border-radius: 0 5px 5px 5px;
   border-radius: 0 5px 5px 5px;
   display: block;
   color: #fff;
 }
-.s-dropdown.s-dropdown_clicked > ul > li > a:hover {
+.dropdown_open .s-dropdown:hover > ul > li > a:hover {
   background-color: #333;
 }
-.s-dropdown.s-dropdown_clicked > ul > li > a:active {
+.dropdown_open .s-dropdown:hover > ul > li > a:active {
   background-color: #000;
 }

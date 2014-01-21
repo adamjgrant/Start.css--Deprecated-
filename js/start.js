@@ -26,17 +26,81 @@
 
   $('.s-endconcat').s_endconcat();
 
-  $('.s-dropdown a').click(function() {
-    return $(this).parent().toggleClass('s-dropdown_clicked');
+  $('.s-dropdown').click(function() {
+    return $(this).parent().toggleClass('dropdown_open');
   });
 
-  $(':not(.s-dropdown a)').not('.s-dropdown *').click(function() {
-    $('.s-dropdown_clicked').toggleClass('s-dropdown_clicked');
-    return $(this).children().click(function(e) {
-      if ($('.s-dropdown_clicked > ul').length > 0) {
-        return false;
+  window.clickMenu = function(id, $) {
+    var _;
+    _ = this;
+    if (typeof $ !== 'function') {
+      $ = window.$;
+    }
+    this.menu = {
+      menu: $('nav.mainHeader#' + id),
+      menu_item: $('#' + id + ' .mainHeader-menu-item > a'),
+      menu_item_menu_item: $('#' + id + ' .mainHeader-menu-item-menu-item > a'),
+      open: false,
+      targeted: false,
+      closeMenu: function() {
+        $(_.menu.menu).removeClass('clicked');
+        _.menu.clearHovers();
+        return this.open = false;
+      },
+      openMenu: function() {
+        $(_.menu.menu).addClass('clicked');
+        return this.open = true;
+      },
+      clearHovers: function() {
+        $(_.menu.menu_item).removeClass('hover').find('.mainHeader-menu-item-menu').hide();
+      },
+      init: function() {
+        $(_.menu.menu_item_menu_item).mouseover(function() {
+          return $(this).focus().click(function() {
+            return location.href = $(this).attr('href');
+          });
+        });
+        $(_.menu.menu_item).click(function() {
+          if (_.menu.open && _.menu.targeted) {
+            return _.menu.closeMenu();
+          } else {
+            if (_.menu.targeted) {
+              $(this).addClass('hover');
+            }
+            return _.menu.openMenu();
+          }
+        }).hover(function() {
+          return _.menu.targeted = true;
+        }, function() {
+          _.menu.targeted = false;
+          if (!_.menu.open) {
+            return _.menu.clearHovers();
+          }
+        }).mouseover(function() {
+          _.menu.clearHovers();
+          $(_.menu.menu_item).blur();
+          $(this).addClass('hover');
+          return false;
+        });
+        $('html').click(function() {
+          if (!_.menu.targeted && _.menu.open) {
+            return _.menu.closeMenu();
+          }
+        });
+        $(window).blur(function() {
+          return _.menu.closeMenu();
+        });
+        if ($('iframe').length > 0) {
+          $('iframe').contents().keydown(function() {
+            return _.menu.closeMenu();
+          });
+          return $($('iframe').get(0).contentWindow.document).click(function() {
+            return _.menu.closeMenu();
+          });
+        }
       }
-    });
-  });
+    };
+    return _.menu.init();
+  };
 
 }).call(this);

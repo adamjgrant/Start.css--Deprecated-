@@ -2,21 +2,21 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/tags\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/tags\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/download\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/download\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/tags\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/tags\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -29,21 +29,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/laptop\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/laptop\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/adjust\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/adjust\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/laptop\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/laptop\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -96,14 +96,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/indent-left\/index.html" : {
+    "\/node_modules\/font-awesome\/node_modules\/less\/test\/browser\/jasmine.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/indent-left\/index.html",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/browser\/jasmine.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/lazy-eval.less" : {
       "ieCompatibility" : 1,
@@ -122,14 +122,14 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/test\/browser\/jasmine.css" : {
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/indent-left\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/browser\/jasmine.css",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/indent-left\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/mixins-args.css" : {
       "ignoreWasSetByUser" : 0,
@@ -213,6 +213,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/node_modules\/font-awesome\/src\/_includes\/examples\/custom.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/examples\/custom.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/node_modules\/font-awesome\/scss\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -224,15 +233,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/css\/_variables.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/node_modules\/font-awesome\/src\/_includes\/examples\/custom.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/examples\/custom.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/data\/page.html" : {
       "ignoreWasSetByUser" : 0,
@@ -452,6 +452,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/home\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/home\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/form-data\/node_modules\/combined-stream\/test\/integration\/test-callback-streams.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -462,15 +471,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/form-data\/node_modules\/combined-stream\/test\/integration\/test-callback-streams.min.js",
       "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/home\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/home\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/lessc_helper.js" : {
       "ignoreWasSetByUser" : 0,
@@ -515,6 +515,17 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/perm_sync.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/perm_sync.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/perm_sync.min.js",
+      "fileType" : 64
+    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/microphone\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -532,17 +543,6 @@
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/ok-circle\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/perm_sync.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/perm_sync.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/perm_sync.min.js",
-      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/frown\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -588,21 +588,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/whats-new\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/whats-new\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/comment\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/comment\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/whats-new\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/whats-new\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -614,26 +614,6 @@
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/bitbucket\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/linkedin\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/linkedin\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/message.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/message.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/message.min.js",
-      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/bad-variable-declaration1.less" : {
       "ieCompatibility" : 1,
@@ -651,6 +631,26 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/message.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/message.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/message.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/linkedin\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/linkedin\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/mixins-guards.less" : {
       "ieCompatibility" : 1,
@@ -834,14 +834,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/save\/index.html" : {
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/examples\/get-products.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/save\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/examples\/get-products.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/examples\/get-products.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/assets\/font-awesome\/less\/bordered-pulled.less" : {
       "ieCompatibility" : 1,
@@ -860,16 +862,14 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/examples\/get-products.js" : {
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/save\/index.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/examples\/get-products.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/examples\/get-products.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/save\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/utf8-split.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1216,17 +1216,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/import.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/import.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/import.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/font-awesome\/less\/bordered-pulled.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/less\/bordered-pulled.less",
@@ -1243,6 +1232,17 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/import.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/import.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/import.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/responsive-767px-max.less" : {
       "ieCompatibility" : 1,
@@ -1410,23 +1410,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/aws-sign2\/index.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/alerts.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/alerts.less",
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/css\/alerts.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 1,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/carousel.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/carousel.less",
@@ -1443,6 +1426,15 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/trash\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/trash\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/negative.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1466,14 +1458,22 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.4.1.min.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/trash\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/alerts.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/alerts.less",
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/css\/alerts.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/trash\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 1,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.4.0-beta.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1554,21 +1554,21 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/bell-alt\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/bell-alt\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/star-half-empty\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/star-half-empty\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/bell-alt\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/bell-alt\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1640,15 +1640,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/sntp\/examples\/offset.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/dashboard\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/dashboard\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/src\/assets\/less\/site\/responsive\/screen-xs.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/site\/responsive\/screen-xs.less",
@@ -1665,6 +1656,15 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/dashboard\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/dashboard\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/close.less" : {
       "ieCompatibility" : 1,
@@ -1848,6 +1848,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/fast-backward\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/fast-backward\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/self-closing-tag.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1878,15 +1887,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/trailing-attribute-no-value.min.js",
       "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/fast-backward\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/fast-backward\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/js\/ZeroClipboard-1.1.7.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1981,17 +1981,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/import.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/import.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/import.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-unbound-element.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2001,6 +1990,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/xmlns-unbound-element.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/import.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/import.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/import.min.js",
       "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/forms.less" : {
@@ -2250,17 +2250,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/crypto.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/assets\/js\/site.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/js\/site.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/js\/site.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/progress-bars.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/progress-bars.less",
@@ -2277,6 +2266,17 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/src\/assets\/js\/site.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/js\/site.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/js\/site.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/nib\/node_modules\/stylus\/lib\/units.js" : {
       "ignoreWasSetByUser" : 0,
@@ -2297,6 +2297,26 @@
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/star\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/chevron-down\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/chevron-down\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSMediaRule.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSMediaRule.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSMediaRule.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/request.js" : {
       "ignoreWasSetByUser" : 0,
@@ -2320,15 +2340,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/middleware.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/user\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/user\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/add-mixed-units2.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/add-mixed-units2.less",
@@ -2346,32 +2357,12 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/chevron-down\/index.html" : {
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/user\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/chevron-down\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSMediaRule.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSMediaRule.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSMediaRule.min.js",
-      "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/external-link\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/external-link\/index.html",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/user\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2410,6 +2401,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/external-link\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/external-link\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/expand-alt\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2430,16 +2430,14 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/test\/modules\/test1.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/unclosed-root.js" : {
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-nonbase64-singlequotes.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/unclosed-root.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/unclosed-root.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-nonbase64-singlequotes.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/operations.css" : {
       "ignoreWasSetByUser" : 0,
@@ -2461,14 +2459,16 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/uri.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-nonbase64-singlequotes.css" : {
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/unclosed-root.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-nonbase64-singlequotes.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/unclosed-root.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/unclosed-root.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/_includes\/community\/project-milestones.html" : {
       "ignoreWasSetByUser" : 0,
@@ -2776,6 +2776,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/cheatsheet\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/cheatsheet\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/return.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2786,15 +2795,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/return.min.js",
       "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/cheatsheet\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/cheatsheet\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/pinterest-sign\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -2869,21 +2869,21 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/circle-arrow-up\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/circle-arrow-up\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/maxcdn\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/maxcdn\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/circle-arrow-up\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/circle-arrow-up\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2970,6 +2970,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/node_modules\/font-awesome\/src\/_includes\/community\/requesting-new-icons.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/community\/requesting-new-icons.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/node_modules\/font-awesome\/src\/assets\/less\/site\/footer.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/site\/footer.less",
@@ -2986,15 +2995,6 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/node_modules\/font-awesome\/src\/_includes\/community\/requesting-new-icons.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/community\/requesting-new-icons.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/less\/path.less" : {
       "ieCompatibility" : 1,
@@ -3024,17 +3024,6 @@
       "outputAbbreviatedPath" : "\/js\/start.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/colors.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/colors.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/colors.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/print.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/print.less",
@@ -3051,6 +3040,17 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/colors.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/colors.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/colors.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/extend-exact.css" : {
       "ignoreWasSetByUser" : 0,
@@ -3379,6 +3379,15 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.4.min.js",
       "fileType" : 64
     },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-nonbase64-noquotes.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-nonbase64-noquotes.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/mixins.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/mixins.less",
@@ -3396,14 +3405,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-nonbase64-noquotes.css" : {
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSStyleSheet.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-nonbase64-noquotes.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSStyleSheet.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSStyleSheet.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/index.js" : {
       "ignoreWasSetByUser" : 0,
@@ -3414,17 +3425,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/index.min.js",
-      "fileType" : 64
-    },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSStyleSheet.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSStyleSheet.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSStyleSheet.min.js",
       "fileType" : 64
     },
     "\/stylus\/components\/index.styl" : {
@@ -3448,26 +3448,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-base64-noquotes.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-base64-noquotes.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/test\/compare_v1.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/test\/compare_v1.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/test\/compare_v1.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/normalize.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/normalize.less",
@@ -3484,6 +3464,26 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/test\/compare_v1.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/test\/compare_v1.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/test\/compare_v1.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-base64-noquotes.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-base64-noquotes.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/lib\/crypto.js" : {
       "ignoreWasSetByUser" : 0,
@@ -3564,6 +3564,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/html5\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/html5\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/sntp\/examples\/time.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3574,15 +3583,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/sntp\/examples\/time.min.js",
       "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/html5\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/html5\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/glass\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -3869,14 +3869,14 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/less\/mixins.less" : {
+    "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/parens-error-2.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/less\/mixins.less",
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/css\/mixins.css",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/parens-error-2.less",
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/css\/parens-error-2.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -3886,14 +3886,14 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/parens-error-2.less" : {
+    "\/node_modules\/font-awesome\/less\/mixins.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/parens-error-2.less",
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/css\/parens-error-2.css",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/less\/mixins.less",
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/css\/mixins.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -3930,6 +3930,24 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/google-plus-sign\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/google-plus-sign\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-dbquote-font.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-dbquote-font.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/js\/backbone.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3940,15 +3958,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/js\/backbone.min.min.js",
       "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/google-plus-sign\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/google-plus-sign\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/variables.less" : {
       "ieCompatibility" : 1,
@@ -3966,15 +3975,6 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-dbquote-font.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-dbquote-font.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/extend-clearfix.less" : {
       "ieCompatibility" : 1,
@@ -4491,6 +4491,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/node_modules\/font-awesome\/src\/_includes\/tests\/rotated-flipped-inside-btn.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/tests\/rotated-flipped-inside-btn.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/test\/root.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4501,15 +4510,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/test\/root.min.js",
       "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/src\/_includes\/tests\/rotated-flipped-inside-btn.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/tests\/rotated-flipped-inside-btn.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/imports\/import-subfolder1.less" : {
       "ieCompatibility" : 1,
@@ -4577,15 +4577,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/selectors.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/selectors.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/form-data\/node_modules\/combined-stream\/node_modules\/delayed-stream\/test\/integration\/test-delayed-stream-auto-pause.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4596,6 +4587,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/form-data\/node_modules\/combined-stream\/node_modules\/delayed-stream\/test\/integration\/test-delayed-stream-auto-pause.min.js",
       "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/selectors.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/selectors.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.5.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -4620,17 +4620,6 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/test\/test.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/test\/test.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/test\/test.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/font-awesome\/scss\/font-awesome-ie7.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4642,6 +4631,17 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/font-awesome\/css\/font-awesome-ie7.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/test\/test.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/test\/test.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/test\/test.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/end_empty_stream.js" : {
       "ignoreWasSetByUser" : 0,
@@ -4882,12 +4882,12 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/form-data\/node_modules\/combined-stream\/node_modules\/delayed-stream\/lib\/delayed_stream.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort\/index.html" : {
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/step-forward\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort\/index.html",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/step-forward\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4920,12 +4920,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/step-forward\/index.html" : {
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/step-forward\/index.html",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5017,15 +5017,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/http-signature\/node_modules\/assert-plus\/assert.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-by-alphabet\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-by-alphabet\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/http-signature\/node_modules\/ctype\/tst\/ctf\/tst.fail.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -5043,6 +5034,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/bell\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-by-alphabet\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-by-alphabet\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5491,6 +5491,15 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/form-data\/node_modules\/combined-stream\/test\/integration\/test-unpaused-streams.min.js",
       "fileType" : 64
     },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/font-face.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/font-face.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/issue-23.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -5501,15 +5510,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/issue-23.min.js",
       "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/font-face.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/font-face.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/step-backward\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -5751,14 +5751,16 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/parser.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/_includes\/navbar.html" : {
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/test\/modules\/test2.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/navbar.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/test\/modules\/test2.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/test\/modules\/test2.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/certificate\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -5780,16 +5782,14 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/self-closing-child.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/test\/modules\/test2.js" : {
+    "\/node_modules\/font-awesome\/src\/_includes\/navbar.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/test\/modules\/test2.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/test\/modules\/test2.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/navbar.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/oauth-sign\/test.js" : {
       "ignoreWasSetByUser" : 0,
@@ -5828,22 +5828,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/colors.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/colors.less",
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/colors.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 0,
-      "strictImports" : 0,
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/spinner\/index.html" : {
       "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
+      "ignore" : 0,
       "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 1,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/spinner\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/nib\/lib\/nib\/size.styl" : {
       "ignoreWasSetByUser" : 0,
@@ -5868,14 +5860,22 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/readme.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/spinner\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/colors.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/colors.less",
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/colors.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/spinner\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 0,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 1,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/benchmark\/benchmark.js" : {
       "ignoreWasSetByUser" : 0,
@@ -6148,24 +6148,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/file-text-alt\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/file-text-alt\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/charset-media.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/charset-media.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/node_modules\/font-awesome\/src\/assets\/less\/site\/social-buttons.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/site\/social-buttons.less",
@@ -6182,6 +6164,24 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/charset-media.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/charset-media.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/file-text-alt\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/file-text-alt\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/youtube-sign\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -6209,17 +6209,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/tough-cookie\/lib\/store.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/tough-cookie\/lib\/store.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/tough-cookie\/lib\/store.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/font-awesome\/scss\/font-awesome.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6231,6 +6220,17 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/font-awesome\/css\/font-awesome.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/tough-cookie\/lib\/store.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/tough-cookie\/lib\/store.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/tough-cookie\/lib\/store.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/pagination.less" : {
       "ieCompatibility" : 1,
@@ -6505,15 +6505,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/lib\/visitor\/evaluator.js" : {
+    "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/selector.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/visitor\/evaluator.js",
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/selector.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/visitor\/evaluator.min.js",
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/selector.min.js",
       "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/code.less" : {
@@ -6533,6 +6533,17 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/node_modules\/nib\/node_modules\/stylus\/lib\/visitor\/evaluator.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/visitor\/evaluator.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/visitor\/evaluator.min.js",
+      "fileType" : 64
+    },
     "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/javascript.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6542,17 +6553,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/javascript.min.js",
-      "fileType" : 64
-    },
-    "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/selector.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/selector.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/selector.min.js",
       "fileType" : 64
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/tough-cookie\/node_modules\/punycode\/punycode.js" : {
@@ -7211,6 +7211,57 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/keyword.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/keyword.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/keyword.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.2.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.2.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.2.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/github-alt\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/github-alt\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/color.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/color.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/json-stringify-safe\/stringify.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/json-stringify-safe\/stringify.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/json-stringify-safe\/stringify.min.js",
+      "fileType" : 64
+    },
     "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/thumbnails.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/thumbnails.less",
@@ -7228,46 +7279,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/github-alt\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/github-alt\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/keyword.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/keyword.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/keyword.min.js",
-      "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/color.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/color.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.2.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.2.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.2.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/extend-visitor.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -7277,17 +7288,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/extend-visitor.min.js",
-      "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/json-stringify-safe\/stringify.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/json-stringify-safe\/stringify.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/json-stringify-safe\/stringify.min.js",
       "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sun\/index.html" : {
@@ -7308,24 +7308,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/gittip\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/gittip\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/remove\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/remove\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/debug\/debug.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -7337,12 +7319,39 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/debug\/debug.min.js",
       "fileType" : 64
     },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/remove\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/remove\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/gittip\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/gittip\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/LICENSE-W3C.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/LICENSE-W3C.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/location-arrow\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/location-arrow\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -7356,15 +7365,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/ident.min.js",
       "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/location-arrow\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/location-arrow\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/extend-selector.css" : {
       "ignoreWasSetByUser" : 0,
@@ -7718,15 +7718,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/http-signature\/node_modules\/asn1\/tst\/ber\/reader.test.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/hdd\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/hdd\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cdata.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -7737,6 +7728,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cdata.min.js",
       "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/hdd\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/hdd\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/sntp\/lib\/index.js" : {
       "ignoreWasSetByUser" : 0,
@@ -7833,6 +7833,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/variable.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/variable.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/variable.min.js",
+      "fileType" : 64
+    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/font-awesome\/less\/font-awesome-ie7.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/font-awesome\/less\/font-awesome-ie7.less",
@@ -7849,17 +7860,6 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/variable.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/variable.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/variable.min.js",
-      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/browser\/runner-errors.js" : {
       "ignoreWasSetByUser" : 0,
@@ -7959,25 +7959,16 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/js\/jquery-1.10.2.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/test\/browser\/runner-production.js" : {
+    "\/node_modules\/font-awesome\/src\/assets\/js\/jquery-1.7.1.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/browser\/runner-production.js",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/js\/jquery-1.7.1.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/browser\/runner-production.min.js",
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/js\/jquery-1.7.1.min.min.js",
       "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/get-started\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/get-started\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/browser.js" : {
       "ignoreWasSetByUser" : 0,
@@ -7989,6 +7980,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/browser.min.js",
       "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/text-width\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/text-width\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/_includes\/examples\/rotated-flipped.html" : {
       "ignoreWasSetByUser" : 0,
@@ -8008,24 +8008,24 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/text-width\/index.html" : {
+    "\/node_modules\/font-awesome\/src\/3.2.1\/get-started\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/text-width\/index.html",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/get-started\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/src\/assets\/js\/jquery-1.7.1.min.js" : {
+    "\/node_modules\/font-awesome\/node_modules\/less\/test\/browser\/runner-production.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/js\/jquery-1.7.1.min.js",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/browser\/runner-production.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/js\/jquery-1.7.1.min.min.js",
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/browser\/runner-production.min.js",
       "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/assets\/font-awesome\/less\/rotated-flipped.less" : {
@@ -8104,17 +8104,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/mixin.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/images\/logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/images\/logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/images\/logo.png",
-      "initialSize" : 71732,
-      "fileType" : 8192
-    },
     "\/node_modules\/nib\/node_modules\/stylus\/lib\/visitor\/normalizer.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -8125,6 +8114,17 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/visitor\/normalizer.min.js",
       "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/images\/logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/images\/logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/images\/logo.png",
+      "initialSize" : 71732,
+      "fileType" : 8192
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/extend-chaining.css" : {
       "ignoreWasSetByUser" : 0,
@@ -8347,21 +8347,21 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/http-signature\/node_modules\/ctype\/tst\/ctio\/int\/tst.rint.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/_includes\/ads\/carbon-light-vertical.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/ads\/carbon-light-vertical.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/pencil\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/pencil\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/node_modules\/font-awesome\/src\/_includes\/ads\/carbon-light-vertical.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/ads\/carbon-light-vertical.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -8501,17 +8501,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/src\/assets\/js\/prettify.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/js\/prettify.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/js\/prettify.min.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/unicode-descriptor.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -8521,6 +8510,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/unicode-descriptor.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/src\/assets\/js\/prettify.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/js\/prettify.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/js\/prettify.min.min.js",
       "fileType" : 64
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/expression.js" : {
@@ -8534,6 +8534,15 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/expression.min.js",
       "fileType" : 64
     },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/folder-close\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/folder-close\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/http-signature\/lib\/index.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -8543,17 +8552,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/http-signature\/lib\/index.min.js",
-      "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/lib\/utils.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/lib\/utils.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/lib\/utils.min.js",
       "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/microphone-off\/index.html" : {
@@ -8576,14 +8574,16 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/issue-47.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/folder-close\/index.html" : {
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/lib\/utils.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/folder-close\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/lib\/utils.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/lib\/utils.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/cryptiles\/index.js" : {
       "ignoreWasSetByUser" : 0,
@@ -8746,17 +8746,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/js\/ZeroClipboard-1.1.7.min.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/lib\/functions\/url.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/functions\/url.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/functions\/url.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/ie-filters.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -8765,23 +8754,6 @@
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/ie-filters.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/css.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/css.less",
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/css.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 0,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 1,
-      "fileType" : 1,
-      "debugStyle" : 0
     },
     "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/tooltip.less" : {
       "ieCompatibility" : 1,
@@ -8800,10 +8772,10 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/import-missing.less" : {
+    "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/css.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/import-missing.less",
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/css\/import-missing.css",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/css.less",
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/css.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -8828,6 +8800,45 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/browser\/jasmine.min.js",
       "fileType" : 64
     },
+    "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/import-missing.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/import-missing.less",
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/css\/import-missing.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 0,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 1,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/node_modules\/nib\/node_modules\/stylus\/lib\/functions\/url.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/functions\/url.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/functions\/url.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/trailing-non-whitespace.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/trailing-non-whitespace.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/trailing-non-whitespace.min.js",
+      "fileType" : 64
+    },
     "\/node_modules\/font-awesome\/less\/core.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/less\/core.less",
@@ -8844,17 +8855,6 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/trailing-non-whitespace.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/trailing-non-whitespace.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/trailing-non-whitespace.min.js",
-      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/code-fork\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -8972,6 +8972,15 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/browser.min.js",
       "fileType" : 64
     },
+    "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/css-3.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/css-3.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/responsive.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/responsive.less",
@@ -8988,15 +8997,6 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/css-3.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/css-3.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/fighter-jet\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -9172,12 +9172,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-down\/index.html" : {
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/double-angle-right\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-down\/index.html",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/double-angle-right\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -9199,15 +9199,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/double-angle-right\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/double-angle-right\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/extend-media.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/extend-media.less",
@@ -9224,6 +9215,15 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-down\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-down\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/angle-up\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -9274,6 +9274,15 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/media.min.js",
       "fileType" : 64
     },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/bug2527991.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/bug2527991.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/property-ie5-hack.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/property-ie5-hack.less",
@@ -9290,15 +9299,6 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/bug2527991.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/bug2527991.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/form-data\/node_modules\/combined-stream\/lib\/combined_stream.js" : {
       "ignoreWasSetByUser" : 0,
@@ -9341,12 +9341,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/circle-arrow-down\/index.html" : {
+    "\/node_modules\/font-awesome\/src\/3.2.1\/design.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/circle-arrow-down\/index.html",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/design.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -9359,18 +9359,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/css\/_icons.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/node_modules\/font-awesome\/src\/assets\/font-awesome\/scss\/_list.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/font-awesome\/scss\/_list.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/font-awesome\/css\/_list.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -9390,6 +9378,15 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/circle-arrow-down\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/circle-arrow-down\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/nib\/node_modules\/stylus\/lib\/visitor\/index.js" : {
       "ignoreWasSetByUser" : 0,
@@ -9422,14 +9419,17 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/join-selector-visitor.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/design.html" : {
+    "\/node_modules\/font-awesome\/src\/assets\/font-awesome\/scss\/_list.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/design.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/font-awesome\/scss\/_list.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/font-awesome\/css\/_list.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/parse-error-with-import.less" : {
       "ieCompatibility" : 1,
@@ -9564,17 +9564,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/test\/race.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/ternary.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/ternary.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/ternary.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/test\/modules\/test3.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -9584,6 +9573,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/test\/modules\/test3.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/ternary.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/ternary.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/ternary.min.js",
       "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/examples\/index.html" : {
@@ -9607,16 +9607,14 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.1.js" : {
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/bar-chart\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.1.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.1.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/bar-chart\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/http-signature\/node_modules\/asn1\/lib\/ber\/errors.js" : {
       "ignoreWasSetByUser" : 0,
@@ -9629,14 +9627,16 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/http-signature\/node_modules\/asn1\/lib\/ber\/errors.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/bar-chart\/index.html" : {
+    "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.1.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/bar-chart\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.1.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.1.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/chevron-up\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -9644,6 +9644,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/chevron-up\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-by-order\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-by-order\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -9663,15 +9672,6 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-by-order\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-by-order\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.3.0.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -9726,30 +9726,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/vk\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/vk\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/box-model-hack.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/box-model-hack.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/bug2528034.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/bug2528034.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -9763,6 +9745,24 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/browser\/runner-relative-urls.min.js",
       "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/bug2528034.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/bug2528034.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/vk\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/vk\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/rhino.js" : {
       "ignoreWasSetByUser" : 0,
@@ -9784,16 +9784,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cyrillic.js" : {
+    "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/import-once.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cyrillic.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cyrillic.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/import-once.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/params.js" : {
       "ignoreWasSetByUser" : 0,
@@ -9806,14 +9804,16 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/params.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/import-once.css" : {
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cyrillic.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 0,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/import-once.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cyrillic.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cyrillic.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/mixed-mixin-definition-args-1.less" : {
       "ieCompatibility" : 1,
@@ -9914,6 +9914,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/arrow-up\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/arrow-up\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/node_modules\/nib\/node_modules\/stylus\/index.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -9924,15 +9933,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/index.min.js",
       "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/arrow-up\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/arrow-up\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/example\/usage.js" : {
       "ignoreWasSetByUser" : 0,
@@ -10023,15 +10023,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/alpha.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/hand-down\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/hand-down\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/static-urls\/urls.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -10057,6 +10048,15 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/hand-down\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/hand-down\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/gbp\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -10146,15 +10146,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/dribbble\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/dribbble\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/http-signature\/node_modules\/ctype\/tst\/ctio\/float\/tst.rfloat.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -10165,6 +10156,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/http-signature\/node_modules\/ctype\/tst\/ctio\/float\/tst.rfloat.min.js",
       "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/dribbble\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/dribbble\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/exclamation\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -10236,12 +10236,12 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/parser-position.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/arrow-right\/index.html" : {
+    "\/node_modules\/font-awesome\/src\/_includes\/tell-me-thanks.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/arrow-right\/index.html",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/tell-me-thanks.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -10254,15 +10254,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/node_modules\/font-awesome\/src\/_includes\/tell-me-thanks.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/tell-me-thanks.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/test\/return.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -10273,6 +10264,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/test\/return.min.js",
       "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/arrow-right\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/arrow-right\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/form-data\/node_modules\/combined-stream\/node_modules\/delayed-stream\/test\/integration\/test-proxy-readable.js" : {
       "ignoreWasSetByUser" : 0,
@@ -10477,6 +10477,17 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/tough-cookie\/generate-pubsuffix.min.js",
       "fileType" : 64
     },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/test\/index.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/test\/index.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/test\/index.min.js",
+      "fileType" : 64
+    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/collapse-alt\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -10494,17 +10505,6 @@
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/retweet\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/test\/index.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/test\/index.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/test\/index.min.js",
-      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/img\/glyphicons-halflings-white.png" : {
       "ignoreWasSetByUser" : 0,
@@ -10543,36 +10543,10 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/align-center\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/align-center\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/scope.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/scope.less",
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/scope.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 0,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 1,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/media.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/media.less",
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/media.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -10594,6 +10568,32 @@
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/level-down\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/align-center\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/align-center\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/media.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/media.less",
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/css\/media.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 0,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 1,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/oauth-sign\/index.js" : {
       "ignoreWasSetByUser" : 0,
@@ -10705,16 +10705,22 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.3.1.min.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/server.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/responsive-utilities.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/responsive-utilities.less",
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/css\/responsive-utilities.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/server.js",
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/server.min.js",
-      "fileType" : 64
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/compression\/compression.less" : {
       "ieCompatibility" : 1,
@@ -10733,15 +10739,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/test\/umask.js" : {
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/cryptiles\/lib\/index.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/test\/umask.js",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/cryptiles\/lib\/index.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/test\/umask.min.js",
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/cryptiles\/lib\/index.min.js",
       "fileType" : 64
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-rhino-1.4.0.js" : {
@@ -10755,15 +10761,26 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-rhino-1.4.0.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/cryptiles\/lib\/index.js" : {
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/server.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/cryptiles\/lib\/index.js",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/server.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/cryptiles\/lib\/index.min.js",
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/test\/server.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/test\/umask.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/test\/umask.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/test\/umask.min.js",
       "fileType" : 64
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/lib\/debug.js" : {
@@ -10776,23 +10793,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/lib\/debug.min.js",
       "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/responsive-utilities.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/responsive-utilities.less",
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/css\/responsive-utilities.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 1,
-      "fileType" : 1,
-      "debugStyle" : 0
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/http-signature\/node_modules\/ctype\/ctype.js" : {
       "ignoreWasSetByUser" : 0,
@@ -10823,16 +10823,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/comment.js" : {
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-base64-doublequotes.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/comment.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/comment.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-base64-doublequotes.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/import-subfolder1.less" : {
       "ieCompatibility" : 1,
@@ -10851,6 +10849,26 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/comment.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/comment.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/comment.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-by-alphabet-alt\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-by-alphabet-alt\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/imports\/subfolder\/parse-error-curly-bracket.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/imports\/subfolder\/parse-error-curly-bracket.less",
@@ -10868,15 +10886,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-by-alphabet-alt\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-by-alphabet-alt\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/question\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -10885,15 +10894,6 @@
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/question\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-base64-doublequotes.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/dataurl-base64-doublequotes.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/screenshot\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -11122,6 +11122,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/share-alt\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/share-alt\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/node_modules\/nib\/lib\/nib\/positions.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -11133,15 +11142,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/css\/positions.css",
       "fileType" : 8,
       "debugStyle" : 0
-    },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/share-alt\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/share-alt\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/media.less" : {
       "ieCompatibility" : 1,
@@ -11192,17 +11192,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/uuid.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/uuid.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/uuid.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/font-awesome\/src\/assets\/font-awesome\/less\/font-awesome.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/font-awesome\/less\/font-awesome.less",
@@ -11219,6 +11208,17 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/uuid.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/uuid.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/node-uuid\/uuid.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/media-multi.css" : {
       "ignoreWasSetByUser" : 0,
@@ -11424,17 +11424,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/chmod.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/chmod.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/chmod.min.js",
-      "fileType" : 64
-    },
     "\/stylus\/components\/modal.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -11446,6 +11435,17 @@
       "outputAbbreviatedPath" : "\/stylus\/css\/modal.css",
       "fileType" : 8,
       "debugStyle" : 0
+    },
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/chmod.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/chmod.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/mkdirp\/test\/chmod.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/assets\/less\/site\/carbonad.less" : {
       "ieCompatibility" : 1,
@@ -11528,17 +11528,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.0.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.0.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.0.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/extend-not-at-end.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/errors\/extend-not-at-end.less",
@@ -11555,6 +11544,17 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.0.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.0.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.1.0.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/assignment.js" : {
       "ignoreWasSetByUser" : 0,
@@ -11892,14 +11892,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/src\/assets\/less\/site\/bootstrap\/type.less" : {
+    "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/glyphicons.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/site\/bootstrap\/type.less",
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/site\/css\/type.css",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/glyphicons.less",
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/css\/glyphicons.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -11909,14 +11909,14 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/glyphicons.less" : {
+    "\/node_modules\/font-awesome\/src\/assets\/less\/site\/bootstrap\/type.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/glyphicons.less",
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/css\/glyphicons.css",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/site\/bootstrap\/type.less",
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/site\/css\/type.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -12108,15 +12108,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/http-signature\/node_modules\/ctype\/tst\/ctype\/tst.writeStruct.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/_includes\/thanks-to.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/thanks-to.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/list-group.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/list-group.less",
@@ -12133,6 +12124,15 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/src\/_includes\/thanks-to.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/thanks-to.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/smile\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -12309,28 +12309,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/dist\/less-1.3.2.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/cryptiles\/test\/index.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/cryptiles\/test\/index.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/cryptiles\/test\/index.min.js",
-      "fileType" : 64
-    },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cdata-multiple.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cdata-multiple.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cdata-multiple.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/alerts.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/alerts.less",
@@ -12347,6 +12325,28 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cdata-multiple.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cdata-multiple.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/cdata-multiple.min.js",
+      "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/cryptiles\/test\/index.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/cryptiles\/test\/index.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/cryptiles\/test\/index.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/unaryop.js" : {
       "ignoreWasSetByUser" : 0,
@@ -12674,15 +12674,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/attribute-no-space.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/comment.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/comment.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/wells.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/assets\/less\/bootstrap-2.3.2\/wells.less",
@@ -12699,6 +12690,15 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/comment.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/comment.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/node_modules\/font-awesome\/src\/assets\/font-awesome\/scss\/_rotated-flipped.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -12778,14 +12778,16 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/test\/clobber.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/community.html" : {
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSRule.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/community.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSRule.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSRule.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/scss\/_stacked.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -12799,16 +12801,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSRule.js" : {
+    "\/node_modules\/font-awesome\/src\/community.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSRule.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/cssom\/lib\/CSSRule.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/community.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/browser\/less\/relative-urls\/urls.less" : {
       "ieCompatibility" : 1,
@@ -12902,6 +12902,17 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/form-data\/node_modules\/async\/lib\/async.min.js",
       "fileType" : 64
     },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/lib\/index.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/lib\/index.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/lib\/index.min.js",
+      "fileType" : 64
+    },
     "\/node_modules\/nib\/lib\/nib\/text\/replace-text.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -12913,17 +12924,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/lib\/nib\/css\/replace-text.css",
       "fileType" : 8,
       "debugStyle" : 0
-    },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/lib\/index.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/lib\/index.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/lib\/index.min.js",
-      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/whats-new.html" : {
       "ignoreWasSetByUser" : 0,
@@ -13305,6 +13305,15 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/benchmark\/less-benchmark.min.js",
       "fileType" : 64
     },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/beer\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/beer\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/lib\/escape.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -13315,15 +13324,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/hoek\/lib\/escape.min.js",
       "fileType" : 64
-    },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/beer\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/beer\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/stylus\/components\/hr.styl" : {
       "ignoreWasSetByUser" : 0,
@@ -13421,15 +13421,6 @@
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/stack\/scope.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/plane\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/plane\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/extend-exact.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/test\/less\/extend-exact.less",
@@ -13446,6 +13437,15 @@
       "outputStyle" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/plane\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/plane\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/assets\/less\/site\/layout.less" : {
       "ieCompatibility" : 1,
@@ -13541,15 +13541,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/cogs\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/cogs\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/root.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -13560,6 +13551,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/lib\/nodes\/root.min.js",
       "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/cogs\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/cogs\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/magic\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -13739,14 +13739,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/src\/_includes\/icons\/directional.html" : {
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/index.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/icons\/directional.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/index.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/index.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/_includes\/tests\/stacked-inside-anchor.html" : {
       "ignoreWasSetByUser" : 0,
@@ -13766,16 +13768,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/index.js" : {
+    "\/node_modules\/font-awesome\/src\/_includes\/icons\/directional.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/index.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/mkdirp\/index.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/_includes\/icons\/directional.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/assets\/less\/bootstrap-3.0.0\/button-groups.less" : {
       "ieCompatibility" : 1,
@@ -13805,16 +13805,14 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/sntp\/index.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/paren.js" : {
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/anchor\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/paren.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/paren.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/anchor\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/phone-sign\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -13825,14 +13823,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/anchor\/index.html" : {
+    "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/paren.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/anchor\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/paren.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/lib\/less\/tree\/paren.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/sort-up\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -14018,15 +14018,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/font\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/font\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/node_modules\/font-awesome\/src\/assets\/font-awesome\/scss\/font-awesome.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -14059,6 +14050,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/boom\/index.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/boom\/index.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/boom\/index.min.js",
+      "fileType" : 64
+    },
     "\/node_modules\/nib\/lib\/nib\/text\/hide-text.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -14071,17 +14073,6 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/boom\/index.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/boom\/index.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/request\/node_modules\/hawk\/node_modules\/boom\/index.min.js",
-      "fileType" : 64
-    },
     "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/script-close-better.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -14092,6 +14083,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/script-close-better.min.js",
       "fileType" : 64
+    },
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/font\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/font\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/facetime-video\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -14322,16 +14322,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/script.js" : {
+    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/desktop\/index.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/script.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/script.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/desktop\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/node_modules\/font-awesome\/src\/assets\/js\/respond.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -14344,14 +14342,14 @@
       "outputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/assets\/js\/respond.min.min.js",
       "fileType" : 64
     },
-    "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/desktop\/index.html" : {
+    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/pseudo.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/desktop\/index.html",
+      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/pseudo.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/tag\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -14362,14 +14360,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/pseudo.css" : {
+    "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/script.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/node_modules\/font-awesome\/node_modules\/less\/node_modules\/ycssmin\/tests\/files\/pseudo.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/script.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/node_modules\/nib\/node_modules\/stylus\/node_modules\/sax\/test\/script.min.js",
+      "fileType" : 64
     },
     "\/node_modules\/font-awesome\/src\/3.2.1\/icon\/ellipsis-horizontal\/index.html" : {
       "ignoreWasSetByUser" : 0,

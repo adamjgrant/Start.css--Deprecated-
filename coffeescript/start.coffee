@@ -17,10 +17,54 @@ $('.s-endconcat').s_endconcat()
 
 # Dropdowns
 
-$('.s-dropdown a').click ->  $(this).parent().toggleClass('s-dropdown_clicked')
+$('.s-dropdown').click ->  $(this).parent().toggleClass('dropdown_open')
 
-$(':not(.s-dropdown a)').not('.s-dropdown *').click( ->
-  $('.s-dropdown_clicked').toggleClass 's-dropdown_clicked'
-  $(this).children().click (e) ->
-    false if $('.s-dropdown_clicked > ul').length > 0
-) 
+# Dropdowns - alt
+
+window.clickMenu = (id, $) ->
+  _ = @
+  $ = window.$ if typeof $ != 'function'
+  @menu =
+    menu:             $ 'nav.mainHeader#' + id
+    menu_item:        $ '#' + id + ' .mainHeader-menu-item > a'
+    menu_item_menu_item:        $ '#' + id + ' .mainHeader-menu-item-menu-item > a'
+    open:             false
+    targeted:         false
+    closeMenu:        -> $(_.menu.menu).removeClass 'clicked'; _.menu.clearHovers(); @open = false
+    openMenu:         -> $(_.menu.menu).addClass 'clicked'; @open = true
+    clearHovers:      -> $(_.menu.menu_item).removeClass('hover').find('.mainHeader-menu-item-menu').hide();return
+    init:             ->
+      $(_.menu.menu_item_menu_item)
+        .mouseover -> $(@).focus()
+        .click ->
+          location.href = ($(@).attr 'href')
+      $(_.menu.menu_item)
+        .click ->
+          if _.menu.open && _.menu.targeted 
+            _.menu.closeMenu() 
+          else 
+            if _.menu.targeted
+              $(@).addClass('hover')
+            _.menu.openMenu()
+        .hover(
+          -> 
+            _.menu.targeted = true
+          -> 
+            _.menu.targeted = false
+            _.menu.clearHovers() if !_.menu.open
+        )
+        .mouseover ->
+          _.menu.clearHovers()
+          $(_.menu.menu_item).blur()
+          $(@).addClass 'hover'
+          false
+
+      $('html').click -> _.menu.closeMenu() if (!_.menu.targeted && _.menu.open )
+
+      $(window).blur -> _.menu.closeMenu()
+      ( 
+        $('iframe').contents().keydown -> _.menu.closeMenu()
+        $($('iframe').get(0).contentWindow.document).click -> _.menu.closeMenu()
+      ) if $('iframe').length > 0  
+
+  _.menu.init()
