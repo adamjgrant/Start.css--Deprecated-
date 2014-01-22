@@ -112,6 +112,19 @@ block content
         p IE11+, Chrome, Firefox 16+, and Safari (sort of) are all auto updating browsers. Because of this shift in the browser support ecosystem, we state the current latest browsers on the day of a Start.css stable release are the browsers that version supports. 
         p For older browser support, download an earlier version of Start.css.
 
+        h2#buttons Buttons
+
+        p Buttons should be either links, submit inputs, or html buttons.
+
+        p
+          a.s-btn(href="#") Button
+          button.s-btn Button
+          input(type="submit" value="Button" class="s-btn")
+
+        pre &lt;a class=&quot;s-btn&quot; href=&quot;#&quot;&gt;Button&lt;/a&gt;
+          | &lt;button class=&quot;s-btn&quot;&gt;Button&lt;/button&gt;
+          | &lt;input class=&quot;s-btn&quot; type=&quot;submit&quot; value="button"/&gt;
+
         h2#colors Colors
 
         p Specially-applied colors are defined as .s-x where x is red, orange, yellow, green, blue, violet.
@@ -150,6 +163,30 @@ block content
 
         p By itself, this class will do nothing, but other elements will recognize these and apply their own respective theming.  
         p For example, .s-green on a button will make a green background with white text, but .s-green on a p or span will make the color green, but not the background.
+
+        h2#endconcat End Concatenation
+
+        p This is a small trick to prevent the last line of a paragraph from containing only one word.
+
+        p So instead of:
+
+        pre lorem ipsum dolor sit
+          | amet
+
+        p End concatenation produces:
+
+        pre lorem ipsum dolor
+          | sit amet
+
+        p To use, simply add the class 
+          code .s-endconcat
+          |  or use the jQuery plugin
+
+        pre $(element).s_endconcat()
+
+        p Where 
+          code element
+          |  is the element to have enconcatenation applied
 
         h2#grid Grid
         p Start uses a 12 column grid. To create a gridded row, start with an 
@@ -242,6 +279,27 @@ block content
             .grid-example.s-box (s-col s-lg-4) is
           .s-col.s-lg-4
             .grid-example.s-box (s-col s-lg-4) easy.
+        br
+
+        h3 Offsets
+
+        section.s-row
+          .s-col.s-md-4.s-md-8-offset
+            .s-box.grid-example .s-col.s-md-4.s-md-8-offset
+        section.s-row
+          .s-col.s-md-4
+            .s-box.grid-example .s-col.s-md-4
+          .s-col.s-md-3.s-md-5-offset
+            .s-box.grid-example .s-col.s-md-3.s-md-5-offset
+        section.s-row
+          .s-col.s-md-11.s-md-1-offset
+            .s-box.grid-example .s-col.s-md-11.s-md-1-offset
+
+        h3 Container
+
+        p To contain the page in a nice, centered wrapper, use 
+          code .s-wrapper
+        p This will have no effect for pages under 1200px. Screens larger than this will keep your site in a 1200px wrapper with equal spacing on the left and right.
 
         h2#growls Growls
         p Growls are unobtrusive pop up messages called via JavaScript. A basic call might look like this:
@@ -351,74 +409,21 @@ block content
           |   &lt;/div&gt;
           | &lt;/div&gt;
 
-        h2#modals Modals
-        p Modals require only one element, making it easy to control with simple jQuery.
-
-        .s-row
-          .s-col.s-lg-6
-            h5 The modal window
-            pre &lt;div class=&quot;s-modal&quot; id=&quot;modal1&quot;&gt;
-              |   I'm a modal
-              | &lt;/div&gt;
-          .s-col.s-lg-6
-            h5 The button
-            pre &lt;button class=&quot;s-btn s-blue&quot; id=&quot;launch-modal1&quot;&gt;
-              |   Launch Modal
-              | &lt;/button&gt;
-          .s-col
-            h5 The jQuery
-            pre $('#launch-modal1').click(function() {
-              |   $('#modal1').fadeIn('fast')
-              | })
-
-        p Remember to use 
-          code .fadeIn()
-          | or 
-          code .fadeOut()
-
-        p
-          button#launch-modal1.s-btn.s-blue Try it
-
-        .s-modal#modal1 I'm a modal
-
-        p For styling, use semantic HTML5
-
-        pre &lt;div class=&quot;s-modal&quot;&gt;
-          |   &lt;header&gt;
-          |     &lt;h5&gt;
-          |       Modal Title
-          |       &lt;small&gt;&amp;times;&lt;/small&gt;
-          |     &lt;/h5&gt;
-          |   &lt;/header&gt;
-          |   &lt;main&gt;
-          |     &lt;p&gt;Modal Body&lt;/p&gt;
-          |   &lt;/main&gt;
-          |   &lt;footer class=&quot;s-box&quot;&gt;
-          |     &lt;ul class=&quot;s-right&quot;&gt;
-          |       &lt;li&gt;
-          |         &lt;button class=&quot;s-btn s-blue&quot;&gt;Submit&lt;/button&gt;
-          |       &lt;/li&gt;
-          |     &lt;/ul&gt;
-          |   &lt;/footer&gt;
-          | &lt;/div&gt;
-
-        p
-          button#launch-modal2.s-btn.s-blue Try it
-
-        .s-modal#modal2
-          header
-            h5 I'm a modal
-              small.s-close &times;
-          main
-            p This is the body
-          footer.s-box
-            ul.s-right
-              li
-                button.s-btn.s-blue Submit
-
         h2#typography Typography
         p Typography relies mostly on standard HTML5 elements.
         p Use hx (where x = 1-5) for headings and p, etc for basic text formatting.
+        h1 Heading1
+        h2 Heading2
+        h3 Heading3
+        h4 Heading4
+        h5 Heading5
+        p 
+          strong Strong 
+          | and 
+          em emphatic 
+          | paragraph with 
+          a(href="#") Link
+          | .
 
 
 
@@ -432,7 +437,11 @@ block content
             li
               a(href="#browsers") Browser Support
             li
+              a(href="#buttons") Buttons
+            li
               a(href="#colors") Colors
+            li
+              a(href="#endconcat") End Concatenation
             li
               a(href="#grid") Grid
             li
@@ -440,14 +449,4 @@ block content
             li
               a(href="#images") Images
             li
-              a(href="#modals") Modals
-            li
               a(href="#typography") Typography
-  block docready
-    script.
-      $('#launch-modal1').click(function() {
-        $('#modal1').fadeIn('fast')
-      })
-      $('#launch-modal2').click(function() {
-        $('#modal2').fadeIn('fast')
-      })
