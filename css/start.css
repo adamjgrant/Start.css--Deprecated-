@@ -899,6 +899,8 @@ hr {
   text-decoration: none;
 }
 .s-box {
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
   margin-bottom: 25px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -968,13 +970,15 @@ hr {
 .s-box > .s-wrapper > ul > li strong,
 .s-box > ul > li em,
 .s-box > .s-wrapper > ul > li em {
-  padding: 13.333333333333334px 16.666666666666668px;
+  padding: 8.333333333333334px 16.666666666666668px;
+  margin-top: -8.333333333333334px;
+  margin-bottom: -8.333333333333334px;
 }
 .s-box > ul > li > .s-btn,
 .s-box > .s-wrapper > ul > li > .s-btn,
 .s-box > ul > li input,
 .s-box > .s-wrapper > ul > li input {
-  margin: 5px 0;
+  margin-bottom: 0;
 }
 .s-box > ul > li > .s-btn + .s-btn,
 .s-box > .s-wrapper > ul > li > .s-btn + .s-btn,

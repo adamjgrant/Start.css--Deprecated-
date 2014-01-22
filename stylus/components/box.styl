@@ -1,5 +1,9 @@
 .s-
   &box
+    padding-top: ($space/2)
+    padding-bottom: ($space/2)
+    margin-bottom: $space
+    border-radius(5px)
     &-caption
       &_left:not(img)
         overflow: hidden
@@ -7,8 +11,6 @@
       &_right:not(img)
         overflow: hidden
         display: block
-    margin-bottom: $space
-    border-radius(5px)
     p:last-child
       margin-bottom: 0
     &:after, &:before
@@ -35,9 +37,11 @@
         > a:not(.s-btn)
           margin 0
         > a:not(.s-btn), h1, h2, h3, h4, h5, p, strong, em
-          padding: ($buttonSpacingV + ($space/5)) $buttonSpacingH
+          padding: $buttonSpacingV $buttonSpacingH
+          margin-top: (-1 * ($buttonSpacingV))
+          margin-bottom: (-1 * ($buttonSpacingV))
         > .s-btn, input
-          margin: ($space/5) 0
+          margin-bottom: 0
           + .s-btn, input
             margin-left: ($space/5)
         > .fa
