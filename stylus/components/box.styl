@@ -4,7 +4,7 @@
     padding-bottom: ($space/5)
     margin-bottom: $space
     border-radius(5px)
-    min-height: 50px
+    min-height: 49px
     > *
       vertical-align: middle
       display: inline-block
@@ -12,6 +12,10 @@
     > .s-wrapper
       display: block
     > ul, > .s-wrapper > ul
+      &:before
+        display: inline-block
+        vertical-align: middle
+        height: 40px
       margin-left: $buttonSpacingH
       > li
         display: inline-block
@@ -30,7 +34,7 @@
         display: block
     p:last-child
       margin-bottom: 0
-    &:after
+    &:after, &:before
       content: ' '
       display: table
     &:after

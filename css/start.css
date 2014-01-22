@@ -96,6 +96,9 @@ a img {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+button {
+  margin: 0;
+}
 h1,
 h2,
 h3,
@@ -904,7 +907,7 @@ hr {
   margin-bottom: 25px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  min-height: 50px;
+  min-height: 49px;
 }
 .s-box > * {
   vertical-align: middle;
@@ -917,6 +920,12 @@ hr {
 .s-box > ul,
 .s-box > .s-wrapper > ul {
   margin-left: 16.666666666666668px;
+}
+.s-box > ul:before,
+.s-box > .s-wrapper > ul:before {
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
 }
 .s-box > ul > li,
 .s-box > .s-wrapper > ul > li {
@@ -943,7 +952,8 @@ hr {
 .s-box p:last-child {
   margin-bottom: 0;
 }
-.s-box:after {
+.s-box:after,
+.s-box:before {
   content: ' ';
   display: table;
 }
@@ -1055,6 +1065,7 @@ img.s-box-caption_right {
 }
 .s-btn {
   padding: 8.333333333333334px 16.666666666666668px;
+  display: inline-block;
   background-color: #d3d3d3;
   color: inherit;
   border: 0px;
