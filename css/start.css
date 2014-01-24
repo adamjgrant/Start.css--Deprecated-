@@ -331,10 +331,22 @@ p.lead {
   line-height: 32px;
 }
 .s-wrapper {
-  padding: 12.5px;
-  max-width: 1200px;
+  padding: 0 12.5px;
+  max-width: 1700px;
   display: block;
   margin: 0px auto;
+}
+.s-wrapper.s-xs {
+  max-width: 320px;
+}
+.s-wrapper.s-sm {
+  max-width: 768px;
+}
+.s-wrapper.s-md {
+  max-width: 1024px;
+}
+.s-wrapper.s-lg {
+  max-width: 1200px;
 }
 .s-break {
   clear: both;
@@ -1326,4 +1338,58 @@ input[type="week"]:focus {
 }
 .s-table tbody tr:nth-child(2n) {
   background-color: #f7f7f7;
+}
+progress {
+  width: 100%;
+}
+progress.s-box::-webkit-progress-bar {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+}
+progress.s-box::-webkit-progress-bar {
+  background-color: #eee;
+}
+progress.s-box::-webkit-progress-value {
+  background-color: #333;
+}
+progress.s-box.s-red::-webkit-progress-bar {
+  background-color: #eee;
+}
+progress.s-box.s-red::-webkit-progress-value {
+  background-color: #ca3518;
+}
+progress.s-box.s-orange::-webkit-progress-bar {
+  background-color: #eee;
+}
+progress.s-box.s-orange::-webkit-progress-value {
+  background-color: #ff8c00;
+}
+progress.s-box.s-yellow::-webkit-progress-bar {
+  background-color: #eee;
+}
+progress.s-box.s-yellow::-webkit-progress-value {
+  background-color: #ffd700;
+}
+progress.s-box.s-green::-webkit-progress-bar {
+  background-color: #eee;
+}
+progress.s-box.s-green::-webkit-progress-value {
+  background-color: #58aa00;
+}
+progress.s-box.s-blue::-webkit-progress-bar {
+  background-color: #eee;
+}
+progress.s-box.s-blue::-webkit-progress-value {
+  background-color: #6495ed;
+}
+progress.s-box.s-violet::-webkit-progress-bar {
+  background-color: #eee;
+}
+progress.s-box.s-violet::-webkit-progress-value {
+  background-color: #8b008b;
 }

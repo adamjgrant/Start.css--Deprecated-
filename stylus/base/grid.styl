@@ -1,3 +1,18 @@
+.s-
+  &wrapper
+    padding: 0 ($space/2)
+    max-width: $screen-xl
+    display: block
+    margin: 0px auto
+    &.s-xs
+      max-width: $screen-xs
+    &.s-sm
+      max-width: $screen-sm
+    &.s-md
+      max-width: $screen-md
+    &.s-lg
+      max-width: $screen-lg
+
 cols-and-offsets(cols)
   width: (100% * (cols/$columns))
   &-offset
