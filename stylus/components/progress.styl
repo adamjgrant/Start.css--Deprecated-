@@ -3,9 +3,12 @@ progress
   &.s-box
     &::-webkit-progress-bar
       border-radius($buttonBorderRadius)
+      min-height: $space
       -webkit-appearance: none
       appearance: none
       -moz-appearance: none
+    &::-webkit-progress-value
+      border-radius($buttonBorderRadius 0 0 $buttonBorderRadius)
     progress-style($black)
     &.s-red
       progress-style($red)
@@ -19,5 +22,10 @@ progress
       progress-style($blue)
     &.s-violet
       progress-style($violet)
+    &.s-white
+      progress-style(white)
+    &.s-clear
+      &::-webkit-progress-bar
+        background-color: transparent
 
    

@@ -1345,11 +1345,16 @@ progress {
 progress.s-box::-webkit-progress-bar {
   -webkit-border-radius: 3px;
   border-radius: 3px;
+  min-height: 25px;
   -webkit-appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   -moz-appearance: none;
+}
+progress.s-box::-webkit-progress-value {
+  -webkit-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
 }
 progress.s-box::-webkit-progress-bar {
   background-color: #eee;
@@ -1357,11 +1362,17 @@ progress.s-box::-webkit-progress-bar {
 progress.s-box::-webkit-progress-value {
   background-color: #333;
 }
+progress.s-box.s-bordered::-webkit-progress-bar {
+  border: 1px solid #333;
+}
 progress.s-box.s-red::-webkit-progress-bar {
   background-color: #eee;
 }
 progress.s-box.s-red::-webkit-progress-value {
   background-color: #ca3518;
+}
+progress.s-box.s-red.s-bordered::-webkit-progress-bar {
+  border: 1px solid #ca3518;
 }
 progress.s-box.s-orange::-webkit-progress-bar {
   background-color: #eee;
@@ -1369,11 +1380,17 @@ progress.s-box.s-orange::-webkit-progress-bar {
 progress.s-box.s-orange::-webkit-progress-value {
   background-color: #ff8c00;
 }
+progress.s-box.s-orange.s-bordered::-webkit-progress-bar {
+  border: 1px solid #ff8c00;
+}
 progress.s-box.s-yellow::-webkit-progress-bar {
   background-color: #eee;
 }
 progress.s-box.s-yellow::-webkit-progress-value {
   background-color: #ffd700;
+}
+progress.s-box.s-yellow.s-bordered::-webkit-progress-bar {
+  border: 1px solid #ffd700;
 }
 progress.s-box.s-green::-webkit-progress-bar {
   background-color: #eee;
@@ -1381,15 +1398,36 @@ progress.s-box.s-green::-webkit-progress-bar {
 progress.s-box.s-green::-webkit-progress-value {
   background-color: #58aa00;
 }
+progress.s-box.s-green.s-bordered::-webkit-progress-bar {
+  border: 1px solid #58aa00;
+}
 progress.s-box.s-blue::-webkit-progress-bar {
   background-color: #eee;
 }
 progress.s-box.s-blue::-webkit-progress-value {
   background-color: #6495ed;
 }
+progress.s-box.s-blue.s-bordered::-webkit-progress-bar {
+  border: 1px solid #6495ed;
+}
 progress.s-box.s-violet::-webkit-progress-bar {
   background-color: #eee;
 }
 progress.s-box.s-violet::-webkit-progress-value {
   background-color: #8b008b;
+}
+progress.s-box.s-violet.s-bordered::-webkit-progress-bar {
+  border: 1px solid #8b008b;
+}
+progress.s-box.s-white::-webkit-progress-bar {
+  background-color: #eee;
+}
+progress.s-box.s-white::-webkit-progress-value {
+  background-color: #fff;
+}
+progress.s-box.s-white.s-bordered::-webkit-progress-bar {
+  border: 1px solid #fff;
+}
+progress.s-box.s-clear::-webkit-progress-bar {
+  background-color: transparent;
 }
