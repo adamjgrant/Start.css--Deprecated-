@@ -30,3 +30,23 @@ Or:
       @include "s-col";
       @include "s-6";
     }
+
+## Small
+
+Start.css requires less markup than Bootstrap or Foundation. Look at how easy it is to make a modal:
+
+    <div class="s-modal"></div>
+    
+Use native HTML5 elements to write out components
+
+    <div class="s-modal">
+      <header>
+        <h1>Modal Title</h1>
+      </header>
+      <main>
+        <p>Modal Body</p>
+      </main>
+      <footer>
+        <button class="s-btn">Save</button>
+      </footer>
+    </div>
