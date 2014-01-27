@@ -50,3 +50,11 @@ Use native HTML5 elements to write out components
         <button class="s-btn">Save</button>
       </footer>
     </div>
+
+...and simple jQuery for operations
+
+    $('button').click(function() {
+      $('.s-modal').fadeIn();
+    })
+    
+[Demo](https://github.com/ajkochanowicz/Single-Element-Modal)
