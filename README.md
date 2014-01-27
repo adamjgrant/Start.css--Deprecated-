@@ -1,7 +1,8 @@
-Start.css
-=========
+# Start.css
 
-A UI Library that can work semantically and by class
+A semantic and small CSS UI Library for modern browsers
+
+## Semantic
 
 Either:
 
