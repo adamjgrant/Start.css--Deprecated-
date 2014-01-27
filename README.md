@@ -4,6 +4,8 @@ A semantic and small CSS UI Library for modern browsers
 
 ## Semantic
 
+Start.css can be used either with or without a preprocessor.
+
 Either:
 
     <link href="start.css" rel="stylesheet" />
