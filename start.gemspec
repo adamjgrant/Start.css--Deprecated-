@@ -7,11 +7,11 @@ require "start/version"
 Gem::Specification.new do |s|
   s.name        = "start"
   s.version     = Start::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Start."
-  s.description = "TODO: Description of Start."
+  s.authors     = ["Adam Kochanowicz"]
+  s.email       = ["adam@neo.com"]
+  s.homepage    = "http://adamux.com"
+  s.summary     = "A versatile, semantic, and modern CSS framework"
+  s.description = "Start.css is a starter CSS framework that can be used either as a CSS file or semantically via Rails/SASS preprocessing."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
