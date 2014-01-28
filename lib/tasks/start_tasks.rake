@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :startcss do
+# task :start do
 #   # Task goes here
 # end

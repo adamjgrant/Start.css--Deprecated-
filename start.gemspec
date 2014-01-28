@@ -1,17 +1,17 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "startcss/version"
+require "start/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "startcss"
-  s.version     = Startcss::VERSION
+  s.name        = "start"
+  s.version     = Start::VERSION
   s.authors     = ["TODO: Your name"]
   s.email       = ["TODO: Your email"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Startcss."
-  s.description = "TODO: Description of Startcss."
+  s.summary     = "TODO: Summary of Start."
+  s.description = "TODO: Description of Start."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
